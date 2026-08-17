@@ -275,3 +275,482 @@
 - **o Filho Único, que é Deus (μονογενὴς θεὸς - *monogenēs theos*):** A leitura textual mais antiga e fidedigna dos manuscritos papiros gregos (\(\mathfrak{P}^{66}\), \(\mathfrak{P}^{75}\), Códice Sinaítico e Vaticano) traz *monogenēs theos* ("Deus unigênito" ou "o Deus único"). Isso conclui o prólogo fechando uma inclusão perfeita com João 1:1c (*theos ēn ho logos*), afirmando inequivocamente a divindade plena do Filho.
 - **no seio do Pai (εἰς τὸν κόλπον τοῦ πατρὸς - *eis ton kolpon tou patros*):** Metáfora hebraico-oriental de carinho supremo, intimidade profunda e comunhão ininterrupta (como no banquete, reclinar-se no peito do anfitrião; cf. Jo 13:23).
 - **o revelou plenamente (ἐξηγήσατο - *exēgēsato*):** Aoristo indicativo do verbo *exēgeomai*, de onde provém a palavra moderna "exegese". O termo significa "narrar detalhadamente", "tornar conhecido", "explicar e desdobrar o sentido". Jesus Cristo é o intérprete e a exegese viva e definitiva de Deus para a humanidade.
+
+## João 1:19
+
+**Grego (SBLGNT / Nestle 1904):**
+> Καὶ αὕτη ἐστὶν ἡ μαρτυρία τοῦ Ἰωάννου, ὅτε ἀπέστειλαν πρὸς αὐτὸν οἱ Ἰουδαῖοι ἐξ Ἱεροσολύμων ἱερεῖς καὶ Λευίτας ἵνα ἐρωτήσωσιν αὐτόν· Σὺ τίς εἶ;
+
+**Tradução Literal de Apoio:**
+> E este é o testemunho do João, quando enviaram a ele os judeus de Jerusalém sacerdotes e levitas para que perguntassem a ele: Tu quem és?
+
+**Tradução Fluente Autoral:**
+> Este foi o testemunho público de João, quando as autoridades judaicas de Jerusalém enviaram sacerdotes e levitas para lhe perguntarem: "Quem é você?".
+
+**Notas Exegéticas e Culturais:**
+- **as autoridades judaicas (οἱ Ἰουδαῖοι - *hoi Ioudaioi*):** No Quarto Evangelho, o termo refere-se frequentemente não ao povo judeu em geral, mas à liderança religiosa, aristocrática e sacerdotal sediada em Jerusalém (o Sinédrio).
+- **sacerdotes e levitas (ἱερεῖς καὶ Λευίτας - *hiereis kai Leuitas*):** Funcionários encarregados do culto e da guarda do Templo. Sua delegação oficial demonstra a enorme comoção pública que o ministério de João Batista causava na Judeia.
+
+## João 1:20
+
+**Grego (SBLGNT / Nestle 1904):**
+> καὶ ὡμολόγησεν καὶ οὐκ ἠρνήσατο, καὶ ὡμολόγησεν ὅτι Ἐγὼ οὐκ εἰμὶ ὁ Χριστός.
+
+**Tradução Literal de Apoio:**
+> E confessou e não negou, e confessou que: Eu não sou o Cristo.
+
+**Tradução Fluente Autoral:**
+> Ele confessou abertamente, sem nada ocultar, declarando com franqueza: "Eu não sou o Cristo".
+
+**Notas Exegéticas e Culturais:**
+- **confessou e não negou (ὡμολόγησεν καὶ οὐκ ἠρνήσατο - *hōmologēsen kai ouk ērnēsato*):** Construção enfática hebraica por paralelismo antitético (afirmação positiva seguida de negação do oposto), sublinhando a total recusa de João em aceitar títulos messiânicos indevidos.
+- **Eu não sou o Cristo (Ἐγὼ οὐκ εἰμὶ ὁ Χριστός - *Egō ouk eimi ho Christos*):** O pronome *Egō* é colocado em posição de destaque na oração, preparando o contraste com o "Eu Sou" (*Egō eimi*) divino que Jesus proferirá ao longo do Evangelho.
+
+## João 1:21
+
+**Grego (SBLGNT / Nestle 1904):**
+> καὶ ἠρώτησαν αὐτόν· Τί οὖν; Σὺ Ἠλίας εἶ; καὶ λέγει· Οὐκ εἰμί. Ὁ προφήτης εἶ σύ; καὶ ἀπεκρίθη· Οὔ.
+
+**Tradução Literal de Apoio:**
+> E perguntaram a ele: O que então? Tu Elias és? E diz: Não sou. O profeta és tu? E respondeu: Não.
+
+**Tradução Fluente Autoral:**
+> Então lhe indagaram: "Quem é você, afinal? É Elias?". Ele respondeu: "Não sou". "É você o Profeta esperado?". E ele declarou: "Não".
+
+**Notas Exegéticas e Culturais:**
+- **É Elias? (Ἠλίας εἶ - *Ēlias ei*):** Baseado na profecia de Malaquias 4:5, os judeus esperavam o retorno literal do profeta Elias antes do "Dia do Senhor". Embora João ministrasse no espírito e poder de Elias (Lc 1:17; Mt 11:14), ele não era a reencarnação física literal de Elias.
+- **o Profeta (Ὁ προφήτης - *Ho prophētēs*):** Alusão ao "profeta semelhante a Moisés" prometido em Deuteronômio 18:15-18, uma figura escatológica proeminente nas expectativas messiânicas do Segundo Templo.
+
+## João 1:22
+
+**Grego (SBLGNT / Nestle 1904):**
+> εἶπαν οὖν αὐτῷ· Τίς εἶ; ἵνα ἀπόκρισιν δῶμεν τοῖς πέμψασιν ἡμᾶς· τί λέγεις περὶ σεαυτοῦ;
+
+**Tradução Literal de Apoio:**
+> Disseram então a ele: Quem és? Para que resposta demos aos que enviaram a nós; que dizes acerca de ti mesmo?
+
+**Tradução Fluente Autoral:**
+> Disseram-lhe então: "Diga-nos quem é você, para que possamos dar uma resposta àqueles que nos enviaram. O que você diz a respeito de si mesmo?".
+
+**Notas Exegéticas e Culturais:**
+- **resposta àqueles que nos enviaram (ἀπόκρισιν δῶμεν τοῖς πέμψασιν ἡμᾶς - *apokrisin dōmen tois pempsasin hēmas*):** Os emissários operavam sob mandato institucional rígido do Sinédrio de Jerusalém, exigindo uma autodefinição formal e pública.
+
+## João 1:23
+
+**Grego (SBLGNT / Nestle 1904):**
+> ἔφη· Ἐγὼ φωνὴ βοῶντος ἐν τῇ ἐρήμῳ· Εὐθύνατε τὴν ὁδὸν κυρίου, καθὼς εἶπεν Ἡσαΐας ὁ προφήτης.
+
+**Tradução Literal de Apoio:**
+> Disse: Eu voz de um clamando no deserto: Endireitai o caminho do Senhor, como disse Isaías o profeta.
+
+**Tradução Fluente Autoral:**
+> Ele respondeu com as palavras do profeta Isaías: "Eu sou a voz daquele que clama no deserto: 'Endireitem o caminho para o Senhor!'".
+
+**Notas Exegéticas e Culturais:**
+- **voz daquele que clama no deserto (φωνὴ βοῶντος ἐν τῇ ἐρήμῳ - *phōnē boōntos en tē erēmō*):** Citação direta de Isaías 40:3. João se recusa a reivindicar qualquer dignidade pessoal ou título; ele se define meramente como um instrumento sonoro (*phōnē*), o arauto que prepara a rota régia para a chegada iminente do Rei e Senhor (*Kyrios*).
+- **no deserto (ἐν τῇ ἐρήμῳ - *en tē erēmō*):** No imaginário judaico, o deserto era o lugar da aliança originária, do novo êxodo profético e da restauração messiânica.
+
+## João 1:24
+
+**Grego (SBLGNT / Nestle 1904):**
+> Καὶ ἀπεσταλμένοι ἦσαν ἐκ τῶν Φαρισαίων.
+
+**Tradução Literal de Apoio:**
+> E os enviados eram dentre os fariseus.
+
+**Tradução Fluente Autoral:**
+> Ora, os emissários haviam sido enviados pelo grupo dos fariseus.
+
+**Notas Exegéticas e Culturais:**
+- **fariseus (ἐκ τῶν Φαρισαίων - *ek tōn Pharisaiōn*):** Grupo rigorista dedicado à observância minuciosa da pureza ritual e das tradições orais (*Halakha*). Como guardiões das normas de purificação, a prática do batismo por João despertava profundo escrutínio teológico entre eles.
+
+## João 1:25
+
+**Grego (SBLGNT / Nestle 1904):**
+> καὶ ἠρώτησαν αὐτὸν καὶ εἶπαν αὐτῷ· Τί οὖν βαπτίζεις εἰ σὺ οὐκ εἶ ὁ Χριστὸς οὐδὲ Ἠλίας οὐδὲ ὁ προφήτης;
+
+**Tradução Literal de Apoio:**
+> E perguntaram a ele e disseram a ele: Por que então batizas se tu não és o Cristo nem Elias nem o profeta?
+
+**Tradução Fluente Autoral:**
+> Eles o interrogaram novamente: "Se você não é o Cristo, nem Elias, nem o Profeta, com que autoridade batiza?".
+
+**Notas Exegéticas e Culturais:**
+- **com que autoridade batiza? (Τί οὖν βαπτίζεις - *Ti oun baptizeis*):** Na tradição judaica, o batismo por imersão (*tevilah*) era comum para a conversão de gentios (prosélitos). O fato de João exigir batismo de arrependimento dos próprios judeus nascidos implicava que toda a nação necessitava de renovação espiritual radical diante da era messiânica.
+
+## João 1:26
+
+**Grego (SBLGNT / Nestle 1904):**
+> ἀπεκρίθη αὐτοῖς ὁ Ἰωάννης λέγων· Ἐγὼ βαπτίζω ἐν ὕδατι· μέσος ὑμῶν ἕστηκεν ὃν ὑμεῖς οὐκ οἴδατε,
+
+**Tradução Literal de Apoio:**
+> Respondeu a eles o João dizendo: Eu batizo em água; no meio de vós está em pé a quem vós não conheceis,
+
+**Tradução Fluente Autoral:**
+> João lhes respondeu: "Eu batizo com água; mas no meio de vocês está alguém a quem vocês não conhecem.
+
+**Notas Exegéticas e Culturais:**
+- **batizo com água (βαπτίζω ἐν ὕδατι - *baptizō en hydati*):** Estabelece o caráter preparatório e exterior do seu ministério, que aponta para o batismo no Espírito Santo a ser efetuado pelo Messias (cf. v. 33).
+- **no meio de vocês está em pé (μέσος ὑμῶν ἕστηκεν - *mesos hymōn hestēken*):** Perfeito indicativo *hestēken*, indicando que o Messias já se encontra fisicamente presente no seio da sociedade judaica, de forma anônima e despercebida pela liderança religiosa.
+
+## João 1:27
+
+**Grego (SBLGNT / Nestle 1904):**
+> ὁ ὀπίσω μου ἐρχόμενος, οὗ οὐκ εἰμὶ [ἐγὼ] ἄξιος ἵνα λύσω αὐτοῦ τὸν ἱμάντα τοῦ ὑποδήματος.
+
+**Tradução Literal de Apoio:**
+> o atrás de mim vindo, do qual não sou digno para que desate dele a correia da sandália.
+
+**Tradução Fluente Autoral:**
+> É aquele que vem depois de mim, do qual não sou digno sequer de desamarrar as correias das sandálias".
+
+**Notas Exegéticas e Culturais:**
+- **desamarrar as correias das sandálias (λύσω αὐτοῦ τὸν ἱμάντα τοῦ ὑποδήματος - *lysō autou ton himanta tou hypodēmatos*):** De acordo com a tradição rabínica (Talmude Babilônico, *Ketubot* 96a), um discípulo devia prestar todos os serviços ao seu mestre, exceto desatar suas sandálias, tarefa considerada excessivamente humilhante e reservada aos escravos gentios não-judeus. João declara que sua dignidade diante de Cristo é inferior à do mais humilde escravo.
+
+## João 1:28
+
+**Grego (SBLGNT / Nestle 1904):**
+> Ταῦτα ἐν Βηθανίᾳ ἐγένετο πέραν τοῦ Ἰορδάνου, ὅπου ἦν ὁ Ἰωάννης βαπτίζων.
+
+**Tradução Literal de Apoio:**
+> Estas coisas em Betânia aconteceram além do Jordão, onde estava o João batizando.
+
+**Tradução Fluente Autoral:**
+> Tudo isso aconteceu em Betânia, do outro lado do rio Jordão, onde João estava batizando.
+
+**Notas Exegéticas e Culturais:**
+- **Betânia além do Jordão (Βηθανίᾳ πέραν τοῦ Ἰορδάνου - *Bēthania peran tou Iordanou*):** Diferente da Betânia próxima a Jerusalém (lar de Lázaro, Marta e Maria), este local ficava na região da Pereia, no lado leste do Jordão, local seguro fora da jurisdição direta da Judeia.
+
+## João 1:29
+
+**Grego (SBLGNT / Nestle 1904):**
+> Τῇ ἐπαύριον βλέπει τὸν Ἰησοῦν ἐρχόμενον πρὸς αὐτόν, καὶ λέγει· Ἴδε ὁ ἀμνὸς τοῦ θεοῦ ὁ αἴρων τὴν ἁμαρτίαν τοῦ κόσμου.
+
+**Tradução Literal de Apoio:**
+> No dia seguinte vê o Jesus vindo para ele, e diz: Eis o cordeiro do Deus, o que tira o pecado do mundo.
+
+**Tradução Fluente Autoral:**
+> No dia seguinte, João viu Jesus aproximando-se dele e exclamou: "Eis o Cordeiro de Deus, que tira o pecado do mundo!
+
+**Notas Exegéticas e Culturais:**
+- **No dia seguinte (Τῇ ἐπαύριον - *Tē epaurion*):** João estrutura o capítulo 1 em uma sequência de dias consecutivos (vv. 19, 29, 35, 43 e 2:1), ecoando a semana inaugural da criação em Gênesis para inaugurar a Nova Criação em Cristo.
+- **o Cordeiro de Deus (ὁ ἀμνὸς τοῦ θεοῦ - *ho amnos tou theou*):** Síntese teológica profunda que evoca: 1) o Cordeiro Pascal (*Pesach* - Êx 12) cuja aspersão liberta da morte; 2) o Servo Sofredor conduzido como cordeiro ao matadouro pelos nossos pecados (Is 53:7); 3) o sacrifício diário contínuo do Templo (*Tamid*).
+- **que tira o pecado do mundo (ὁ αἴρων τὴν ἁμαρτίαν τοῦ κόσμου - *ho airōn tēn hamartian tou kosmou*):** O particípio presente *airōn* expressa uma ação contínua e eficaz de expiar, carregar sobre si e remover a culpa cósmica da humanidade (*kosmos*). O substantivo *hamartia* está no singular ("o pecado"), referindo-se ao princípio e à raiz de toda rebelião contra Deus.
+
+## João 1:30
+
+**Grego (SBLGNT / Nestle 1904):**
+> οὗτός ἐστιν ὑπὲρ οὗ ἐγὼ εἶπον· Ὀπίσω μου ἔρχεται ἀνὴρ ὃς ἔμπροσθέν μου γέγονεν, ὅτι πρῶτός μου ἦν.
+
+**Tradução Literal de Apoio:**
+> Este é em favor de quem eu disse: Atrás de mim vem um varão que adiante de mim passou a ser, porque primeiro de mim era.
+
+**Tradução Fluente Autoral:**
+> É a respeito deste que eu disse: 'Depois de mim vem um homem que tem precedência sobre mim, porque já existia antes de mim'.
+
+**Notas Exegéticas e Culturais:**
+- **um homem (ἀνὴρ - *anēr*):** Diferente de *anthrōpos* (ser humano genérico), *anēr* designa especificamente um homem adulto e distinto, enfatizando a plena humanidade e identidade histórica de Jesus.
+
+## João 1:31
+
+**Grego (SBLGNT / Nestle 1904):**
+> κἀγὼ οὐκ ᾔδειν αὐτόν, ἀλλ’ ἵνα φανερωθῇ τῷ Ἰσραὴλ διὰ τοῦτο ἦλθον ἐγὼ ἐν ὕδατι βαπτίζων.
+
+**Tradução Literal de Apoio:**
+> E eu não o conhecia, mas para que fosse manifestado ao Israel por isso vim eu em água batizando.
+
+**Tradução Fluente Autoral:**
+> Eu mesmo não o conhecia em sua identidade messiânica; contudo, a razão pela qual vim batizando com água foi para que ele fosse plenamente revelado a Israel".
+
+**Notas Exegéticas e Culturais:**
+- **não o conhecia (οὐκ ᾔδειν αὐτόν - *ouk ēdein auton*):** João e Jesus eram parentes biológicos (Lc 1:36), mas João não compreendia de antemão a plenitude do chamado messiânico e divino de Jesus até a confirmação sobrenatural do sinal celestial (v. 33).
+- **revelado a Israel (φανερωθῇ τῷ Ἰσραὴλ - *phanerōthē tō Israēl*):** O propósito primordial do ministério de João Batista era servir de palco público para a epifania de Cristo diante do povo da aliança.
+
+## João 1:32
+
+**Grego (SBLGNT / Nestle 1904):**
+> Καὶ ἐμαρτύρησεν Ἰωάννης λέγων ὅτι Τεθέαμαι τὸ πνεῦμα καταβαῖνον ὡς περιστερὰν ἐξ οὐρανοῦ, καὶ ἔμεινεν ἐπ’ αὐτόν.
+
+**Tradução Literal de Apoio:**
+> E testemunhou João dizendo que: Tenho contemplado o Espírito descendo como pomba do céu, e permaneceu sobre ele.
+
+**Tradução Fluente Autoral:**
+> E João deu este testemunho formal: "Vi o Espírito descer do céu na forma de uma pomba e pousar permanentemente sobre ele.
+
+**Notas Exegéticas e Culturais:**
+- **Vi (Τεθέαμαι - *Tetheamai*):** Verbo *theaomai* no perfeito do indicativo, indicando uma visão consciente, marcante e cujos efeitos continuam vivos e permanentes na memória da testemunha ocular.
+- **como pomba (ὡς περιστερὰν - *hōs peristeran*):** Símbolo da ternura, pureza e da nova criação (ecoando o Espírito de Deus pairando sobre as águas em Gn 1:2 e a pomba de Noé trazendo o renovo da vida em Gn 8:11).
+- **permaneceu sobre ele (ἔμεινεν ἐπ’ αὐτόν - *emeinen ep’ auton*):** O verbo *menō* ("permanecer", "habitar") é um conceito teológico basilar no Evangelho de João. Diferente dos profetas do AT sobre os quais o Espírito vinha transitoriamente para uma tarefa específica, sobre Jesus o Espírito Santo repousa de modo pleno, ininterrupto e eterno (cf. Is 11:2).
+
+## João 1:33
+
+**Grego (SBLGNT / Nestle 1904):**
+> κἀγὼ οὐκ ᾔδειν αὐτόν, ἀλλ’ ὁ πέμψας με βαπτίζειν ἐν ὕδατι ἐκεῖνός μοι εἶπεν· Ἐφ’ ὃν ἂν ἴδῃς τὸ πνεῦμα καταβαῖνον καὶ μένον ἐπ’ αὐτόν, οὗτός ἐστιν ὁ βαπτίζων ἐν πνεύματι ἁγίῳ.
+
+**Tradução Literal de Apoio:**
+> E eu não o conhecia, mas o que me enviou a batizar em água aquele a mim disse: Sobre quem vires o Espírito descendo e permanecendo sobre ele, este é o que batiza em Espírito Santo.
+
+**Tradução Fluente Autoral:**
+> Eu não o teria reconhecido, mas Aquele que me enviou a batizar com água me disse: 'Aquele sobre quem você vir o Espírito descer e permanecer, esse é o que batiza no Espírito Santo'.
+
+**Notas Exegéticas e Culturais:**
+- **o que batiza no Espírito Santo (ὁ βαπτίζων ἐν πνεύματι ἁγίῳ - *ho baptizōn en pneumati hagiō*):** Cumprimento das grandes promessas escatológicas dos profetas de que Deus derramaria o Seu próprio Espírito sobre toda a carne nos dias do Messias (cf. Ez 36:26-27; Jl 2:28). Jesus não apenas possui o Espírito, Ele é o doador soberano do Espírito.
+
+## João 1:34
+
+**Grego (SBLGNT / Nestle 1904):**
+> κἀγὼ ἑώρακα, καὶ μεμαρτύρηκα ὅτι οὗτός ἐστιν ὁ υἱὸς τοῦ θεοῦ.
+
+**Tradução Literal de Apoio:**
+> E eu tenho visto, e tenho testemunhado que este é o Filho do Deus.
+
+**Tradução Fluente Autoral:**
+> Eu mesmo vi isso e dou testemunho solene de que ele é o Filho de Deus!".
+
+**Notas Exegéticas e Culturais:**
+- **Eu vi e dou testemunho (ἑώρακα καὶ μεμαρτύρηκα - *heōraka kai memartyrēka*):** Ambos os verbos estão no tempo perfeito grego (*perfectum*), destacando uma experiência ocular consumada no passado com validade e autoridade jurídica perpétua no presente.
+- **o Filho de Deus (ὁ υἱὸς τοῦ θεοῦ - *ho huios tou theou*):** O clímax do testemunho de João Batista, afirmando a filiação divina singular, messiânica e ontológica de Jesus.
+
+## João 1:35
+
+**Grego (SBLGNT / Nestle 1904):**
+> Τῇ ἐπαύριον πάλιν εἱστήκει ὁ Ἰωάννης καὶ ἐκ τῶν μαθητῶν αὐτοῦ δύο,
+
+**Tradução Literal de Apoio:**
+> No dia seguinte outra vez estava em pé o João e dentre os discípulos dele dois,
+
+**Tradução Fluente Autoral:**
+> No dia seguinte, João estava novamente no mesmo lugar com dois dos seus discípulos.
+
+**Notas Exegéticas e Culturais:**
+- **dois dos seus discípulos (ἐκ τῶν μαθητῶν αὐτοῦ δύο - *ek tōn mathētōn autou dyo*):** Um deles é explicitamente identificado no v. 40 como André, irmão de Pedro; o outro discípulo não nomeado é tradicionalmente entendido como o próprio apóstolo João, o autor do Evangelho.
+
+## João 1:36
+
+**Grego (SBLGNT / Nestle 1904):**
+> καὶ ἐμβλέψας τῷ Ἰησοῦ περιπατοῦντι λέγει· Ἴδε ὁ ἀμνὸς τοῦ θεοῦ.
+
+**Tradução Literal de Apoio:**
+> E fitando os olhos no Jesus caminhando diz: Eis o cordeiro do Deus.
+
+**Tradução Fluente Autoral:**
+> Fixando o olhar em Jesus, que ia passando, João declarou: "Vejam! Eis o Cordeiro de Deus!".
+
+**Notas Exegéticas e Culturais:**
+- **Fixando o olhar (ἐμβλέψας - *emblepsas*):** Particípio aoristo do verbo *emblepō*, que denota um olhar penetrante, focado, contemplativo e intencional.
+
+## João 1:37
+
+**Grego (SBLGNT / Nestle 1904):**
+> καὶ ἤκουσαν οἱ δύο μαθηταὶ αὐτοῦ λαλοῦντος καὶ ἠκολούθησαν τῷ Ἰησοῦ.
+
+**Tradução Literal de Apoio:**
+> E ouviram os dois discípulos a ele falando e seguiram o Jesus.
+
+**Tradução Fluente Autoral:**
+> Ao ouvirem essa declaração, os dois discípulos deixaram João e passaram a seguir Jesus.
+
+**Notas Exegéticas e Culturais:**
+- **passaram a seguir Jesus (ἠκολούθησαν τῷ Ἰησοῦ - *ēkolouthēsan tō Iēsou*):** O verbo *akoloutheō* ("seguir") tem peso de discipulado comprometido e dedicação de vida, e não mera locomoção física atrás de alguém. O objetivo máximo de João Batista é cumprido: transferir seus próprios discípulos para o Mestre Supremo.
+
+## João 1:38
+
+**Grego (SBLGNT / Nestle 1904):**
+> στραφεὶς δὲ ὁ Ἰησοῦς καὶ θεασάμενος αὐτοὺς ἀκολουθοῦντας λέγει αὐτοῖς· Τί ζητεῖτε; οἱ δὲ εἶπαν αὐτῷ· Ῥαββί (ὃ λέγεται μεθερμηνευόμενον Διδάσκαλε), ποῦ μένεις;
+
+**Tradução Literal de Apoio:**
+> Voltando-se porém o Jesus e contemplando eles seguindo diz a eles: Que buscais? Eles porém disseram a ele: Rabi (que é dito sendo traduzido Mestre), onde permaneces?
+
+**Tradução Fluente Autoral:**
+> Jesus voltou-se e, vendo que o seguiam, perguntou-lhes: "O que vocês estão procurando?". Eles responderam: "Rabi (que significa Mestre), onde o senhor está hospedado?".
+
+**Notas Exegéticas e Culturais:**
+- **O que vocês estão procurando? (Τί ζητεῖτε - *Ti zēteite*):** As primeiras palavras pronunciadas por Jesus no Evangelho de João constituem uma pergunta existencial profunda que desafia as motivações íntimas do coração de quem busca a Deus.
+- **Rabi... onde o senhor está hospedado? (Ῥαββί ... ποῦ μένεις - *Rhabbi ... pou meneis*):** *Rhabbi* (termo hebraico/aramaico de honra para mestres da Torá). A pergunta pelo "permanecer" (*menō*) vai além da curiosidade sobre endereço físico; revela o anseio de convívio contínuo e intimidade com o Mestre.
+
+## João 1:39
+
+**Grego (SBLGNT / Nestle 1904):**
+> λέγει αὐτοῖς· Ἔρχεσθε καὶ ὄψεσθε. ἦλθαν οὖν καὶ εἶδαν ποῦ μένει, καὶ παρ’ αὐτῷ ἔμειναν τὴν ἡμέραν ἐκείνην· ὥρα ἦν ὡς δεκάτη.
+
+**Tradução Literal de Apoio:**
+> Diz a eles: Vinde e vereis. Foram então e viram onde permanece, e junto dele permaneceram o dia aquele; hora era cerca de décima.
+
+**Tradução Fluente Autoral:**
+> Ele lhes disse: "Venham e vejam". Eles foram, viram onde ele estava hospedado e passaram aquele dia com ele. Eram por volta de quatro horas da tarde.
+
+**Notas Exegéticas e Culturais:**
+- **Venham e vejam (Ἔρχεσθε καὶ ὄψεσθε - *Erchesthe kai opsesthe*):** O convite essencial do cristianismo joanino não é uma adesão a um sistema filosófico abstrato, mas uma experiência direta e relacional com a pessoa de Cristo.
+- **hora décima (ὥρα ἦν ὡς δεκάτη - *hōra ēn hōs dekatē*):** Pelo cômputo judaico (que contava as 12 horas do dia a partir do nascer do sol, por volta das 6h da manhã), a hora décima correspondia às 16h (quatro da tarde). A precisão do detalhe temporal reforça a lembrança vívida do autor como testemunha ocular daquele encontro inesquecível.
+
+## João 1:40
+
+**Grego (SBLGNT / Nestle 1904):**
+> Ἦν Ἀνδρέας ὁ ἀδελφὸς Σίμωνος Πέτρου εἷς ἐκ τῶν δύο τῶν ἀκουσάντων παρὰ Ἰωάννου καὶ ἀκολουθησάντων αὐτῷ·
+
+**Tradução Literal de Apoio:**
+> Era André o irmão de Simão Pedro um dentre os dois dos que ouviram da parte de João e seguiram a ele;
+
+**Tradução Fluente Autoral:**
+> André, irmão de Simão Pedro, era um dos dois que tinham ouvido as palavras de João e seguido a Jesus.
+
+**Notas Exegéticas e Culturais:**
+- **André (Ἀνδρέας - *Andreas*):** Nome de origem grega (significando "varonil" ou "corajoso"), refletindo o ambiente cultural bilingue da Galileia gentílica. Em todas as suas aparições no Quarto Evangelho, André se destaca por conduzir outras pessoas a Jesus (cf. Jo 6:8-9; 12:20-22).
+
+## João 1:41
+
+**Grego (SBLGNT / Nestle 1904):**
+> εὑρίσκει οὗτος πρῶτον τὸν ἀδελφὸν τὸν ἴδιον Σίμωνα καὶ λέγει αὐτῷ· Εὑρήκαμεν τὸν Μεσσίαν (ὅ ἐστιν μεθερμηνευόμενον Χριστός)·
+
+**Tradução Literal de Apoio:**
+> Encontra este primeiro o irmão o próprio Simão e diz a ele: Encontramos o Messias (que é sendo traduzido Cristo);
+
+**Tradução Fluente Autoral:**
+> A primeira coisa que André fez foi procurar seu próprio irmão, Simão, e dizer-lhe: "Encontramos o Messias!" (que traduzido é o Cristo).
+
+**Notas Exegéticas e Culturais:**
+- **Encontramos o Messias (Εὑρήκαμεν τὸν Μεσσίαν - *Heurēkamen ton Messian*):** *Messias* é a transliteração grega direta do hebraico *Mashiach* ("o Ungido"), ocorrendo apenas aqui e em João 4:25 em todo o Novo Testamento. O narrador traduz para seus leitores de fala grega como *Christos*.
+
+## João 1:42
+
+**Grego (SBLGNT / Nestle 1904):**
+> ἤγαγεν αὐτὸν πρὸς τὸν Ἰησοῦν. ἐμβλέψας αὐτῷ ὁ Ἰησοῦς εἶπεν· Σὺ εἶ Σίμων ὁ υἱὸς Ἰωάννου, σὺ κληθήσῃ Κηφᾶς (ὃ ἑρμηνεύεται Πέτρος).
+
+**Tradução Literal de Apoio:**
+> Conduziu ele para o Jesus. Fitando os olhos nele o Jesus disse: Tu és Simão o filho de João, tu serás chamado Cefas (que é interpretado Pedro).
+
+**Tradução Fluente Autoral:**
+> E André o levou a Jesus. Jesus fixou o olhar nele e disse: "Você é Simão, filho de João; de agora em diante você será chamado Cefas" (nome que significa Pedro, ou Pedra).
+
+**Notas Exegéticas e Culturais:**
+- **Cefas... Pedro (Κηφᾶς ... Πέτρος - *Kēphas ... Petros*):** *Kêfâ* é o termo aramaico para "rocha" ou "pedra", traduzido para o grego como *Petros*. A mudança de nome na cultura semítica denota uma transformação de identidade, vocação e destino conferida soberanamente por Deus (como Abrão para Abraão, Jacó para Israel).
+
+## João 1:43
+
+**Grego (SBLGNT / Nestle 1904):**
+> Τῇ ἐπαύριον ἠθέλησεν ἐξελθεῖν εἰς τὴν Γαλιλαίαν, καὶ εὑρίσκει Φίλιππον. καὶ λέγει αὐτῷ ὁ Ἰησοῦς· Ἀκολούθει μοι.
+
+**Tradução Literal de Apoio:**
+> No dia seguinte quis sair para a Galileia, e encontra Filipe. E diz a ele o Jesus: Segue-me.
+
+**Tradução Fluente Autoral:**
+> No dia seguinte, Jesus decidiu partir para a Galileia. Encontrando Filipe, disse-lhe com autoridade: "Siga-me!".
+
+**Notas Exegéticas e Culturais:**
+- **Siga-me (Ἀκολούθει μοι - *Akolouthei moi*):** Imperativo presente ativo, demandando uma decisão contínua, ativa e incondicional de lealdade e caminhada em comunhão com o Mestre.
+
+## João 1:44
+
+**Grego (SBLGNT / Nestle 1904):**
+> ἦν δὲ ὁ Φίλιππος ἀπὸ Βηθσαϊδά, ἐκ τῆς πόλεως Ἀνδρέου καὶ Πέτρου.
+
+**Tradução Literal de Apoio:**
+> Era porém o Filipe de Betsaida, da cidade de André e Pedro.
+
+**Tradução Fluente Autoral:**
+> Filipe era natural de Betsaida, a mesma cidade costeira de André e de Pedro.
+
+**Notas Exegéticas e Culturais:**
+- **Betsaida (Βηθσαϊδά - *Bēthsaida*):** Do aramaico *Bet-Tsaida* ("Casa da Pesca"), vila de pescadores situada na margem norte do Mar da Galileia.
+
+## João 1:45
+
+**Grego (SBLGNT / Nestle 1904):**
+> εὑρίσκει Φίλιππος τὸν Ναθαναὴλ καὶ λέγει αὐτῷ· Ὃν ἔγραψεν Μωϋσῆς ἐν τῷ νόμῳ καὶ οἱ προφῆται εὑρήκαμεν, Ἰησοῦν υἱὸν τοῦ Ἰωσὴφ τὸν ἀπὸ Ναζαρέτ.
+
+**Tradução Literal de Apoio:**
+> Encontra Filipe o Natanael e diz a ele: Aquele de quem escreveu Moisés na lei e os profetas encontramos, Jesus filho do José o de Nazaré.
+
+**Tradução Fluente Autoral:**
+> Filipe foi procurar Natanael e anunciou-lhe: "Encontramos aquele sobre quem Moisés escreveu na Lei e a respeito de quem os profetas profetizaram: Jesus de Nazaré, filho de José!".
+
+**Notas Exegéticas e Culturais:**
+- **Natanael (Ναθαναὴλ - *Nathanaēl*):** Significa em hebraico "Presente de Deus" ou "Deus deu". Identificado comumente com o apóstolo Bartolomeu ("filho de Tolmai") nos evangelhos sinóticos.
+- **Moisés na Lei e os profetas (Μωϋσῆς ἐν τῷ νόμῳ καὶ οἱ προφῆται - *Mōusēs en tō nomō kai hoi prophētai*):** A designação judaica clássica das Escrituras Hebraicas (o *Tanakh*), enfatizando que Jesus é a consumação de todo o cânon sagrado.
+
+## João 1:46
+
+**Grego (SBLGNT / Nestle 1904):**
+> καὶ εἶπεν αὐτῷ Ναθαναήλ· Ἐκ Ναζαρὲτ δύναταί τι ἀγαθὸν εἶναι; λέγει αὐτῷ [ὁ] Φίλιππος· Ἔρχου καὶ ἴδε.
+
+**Tradução Literal de Apoio:**
+> E disse a ele Natanael: De Nazaré pode alguma coisa boa ser? Diz a ele o Filipe: Vem e vê.
+
+**Tradução Fluente Autoral:**
+> Natanael perguntou-lhe com ceticismo: "De Nazaré pode sair algo de bom?". Filipe lhe respondeu: "Venha e veja por si mesmo".
+
+**Notas Exegéticas e Culturais:**
+- **De Nazaré pode sair algo de bom? (Ἐκ Ναζαρὲτ δύναταί τι ἀγαθὸν εἶναι - *Ek Nazaret dynatai ti agathon einai*):** Nazaré era uma pequena e humilde aldeia galileia sem menção no Antigo Testamento nem no Talmude, e Natanael (sendo de Caná da Galileia, cf. Jo 21:2) expressava a rivalidade e o desdém regional comum da época.
+- **Venha e veja (Ἔρχου καὶ ἴδε - *Erchou kai ide*):** Filipe repete o método de Jesus (v. 39), demonstrando que o ceticismo intelectual é superado pelo encontro existencial com Cristo.
+
+## João 1:47
+
+**Grego (SBLGNT / Nestle 1904):**
+> εἶδεν ὁ Ἰησοῦς τὸν Ναθαναὴλ ἐρχόμενον πρὸς αὐτὸν καὶ λέγει περὶ αὐτοῦ· Ἴδε ἀληθῶς Ἰσραηλίτης ἐν ᾧ δόλος οὐκ ἔστιν.
+
+**Tradução Literal de Apoio:**
+> Viu o Jesus o Natanael vindo para ele e diz acerca dele: Eis verdadeiramente um israelita em quem engano não há.
+
+**Tradução Fluente Autoral:**
+> Quando Jesus viu Natanael aproximando-se, declarou a seu respeito: "Aí está um verdadeiro israelita, em quem não há falsidade nem engano!".
+
+**Notas Exegéticas e Culturais:**
+- **um verdadeiro israelita em quem não há engano (ἀληθῶς Ἰσραηλίτης ἐν ᾧ δόλος οὐκ ἔστιν - *alēthōs Israēlitēs en hō dolos ouk estin*):** Alusão ao patriarca Jacó (que deu origem a Israel), conhecido originalmente por sua astúcia e engano (*dolos*, ao enganar seu pai Isaque para obter a bênção em Gn 27:35). Jesus saúda Natanael como um homem íntegro e sincero que personifica o verdadeiro Israel sem duplicidade de espírito.
+
+## João 1:48
+
+**Grego (SBLGNT / Nestle 1904):**
+> λέγει αὐτῷ Ναθαναήλ· Πόθεν με γινώσκεις; ἀπεκρίθη Ἰησοῦς καὶ εἶπεν αὐτῷ· Πρὸ τοῦ σε Φίλιππον φωνῆσαι ὄντα ὑπὸ τὴν συκῆν εἶδόν σε.
+
+**Tradução Literal de Apoio:**
+> Diz a ele Natanael: De onde me conheces? Respondeu Jesus e disse a ele: Antes de o Filipe te chamar, estando sob a figueira, vi-te.
+
+**Tradução Fluente Autoral:**
+> Natanael perguntou-lhe surpreso: "De onde o senhor me conhece?". Jesus respondeu: "Antes que Filipe o chamasse, quando você ainda estava debaixo da figueira, eu já o via".
+
+**Notas Exegéticas e Culturais:**
+- **debaixo da figueira (ὑπὸ τὴν συκῆν - *hypo tēn sykēn*):** Na literatura rabínica, estar "debaixo da figueira" era uma expressão idiomática e prática devocional comum para o estudo e a meditação piedosa das Escrituras e da Lei (*Torá*), além de símbolo profético de paz e segurança messiânica (cf. Mq 4:4; Zc 3:10). A onisciência sobrenatural de Jesus penetrou o santuário secreto de oração de Natanael.
+
+## João 1:49
+
+**Grego (SBLGNT / Nestle 1904):**
+> ἀπεκρίθη αὐτῷ Ναθαναήλ· Ῥαββί, σὺ εἶ ὁ υἱὸς τοῦ θεοῦ, σὺ βασιλεὺς εἶ τοῦ Ἰσραήλ.
+
+**Tradução Literal de Apoio:**
+> Respondeu a ele Natanael: Rabi, tu és o Filho do Deus, tu Rei és do Israel.
+
+**Tradução Fluente Autoral:**
+> Então Natanael exclamou: "Mestre! O senhor é verdadeiramente o Filho de Deus! O senhor é o Rei de Israel!".
+
+**Notas Exegéticas e Culturais:**
+- **Filho de Deus... Rei de Israel (ὁ υἱὸς τοῦ θεοῦ ... βασιλεὺς τοῦ Ἰσραήλ - *ho huios tou theou ... basileus tou Israēl*):** Confissão messiânica pactual baseada no Salmo 2:6-7 ("Tu és meu Filho... ungir o meu Rei sobre Sião"). Natanael reconhece instantaneamente a dignidade régia e divina de Jesus.
+
+## João 1:50
+
+**Grego (SBLGNT / Nestle 1904):**
+> ἀπεκρίθη Ἰησοῦς καὶ εἶπεν αὐτῷ· Ὅτι εἶπόν σοι ὅτι εἶδόν σε ὑποκάτω τῆς συκῆς πιστεύεις; μείζω τούτων ὄψῃ.
+
+**Tradução Literal de Apoio:**
+> Respondeu Jesus e disse a ele: Porque te disse que te vi debaixo da figueira crês? Coisas maiores do que estas verás.
+
+**Tradução Fluente Autoral:**
+> Jesus lhe disse: "Você crê apenas porque eu lhe disse que o vi debaixo da figueira? Pois você verá coisas muito maiores do que estas!".
+
+**Notas Exegéticas e Culturais:**
+- **coisas maiores do que estas verás (μείζω τούτων ὄψῃ - *meizō toutōn opsē*):** Promessa que inaugura a progressão de revelações e milagres portentosos (*sēmeia*) que se desenrolarão ao longo do Evangelho.
+
+## João 1:51
+
+**Grego (SBLGNT / Nestle 1904):**
+> καὶ λέγει αὐτῷ· Ἀμὴν ἀμὴν λέγω ὑμῖν, ὄψεσθε τὸν οὐρανὸν ἀνεῳγότα καὶ τοὺς ἀγγέλους τοῦ θεοῦ ἀναβαίνοντας καὶ καταβαίνοντας ἐπὶ τὸν υἱὸν τοῦ ἀνθρώπου.
+
+**Tradução Literal de Apoio:**
+> E diz a ele: Em verdade em verdade vos digo, vereis o céu aberto e os anjos do Deus subindo e descendo sobre o Filho do homem.
+
+**Tradução Fluente Autoral:**
+> E acrescentou solenemente: "Em verdade, em verdade lhes digo: vocês verão o céu aberto e os anjos de Deus subindo e descendo sobre o Filho do Homem".
+
+**Notas Exegéticas e Culturais:**
+- **Em verdade, em verdade lhes digo (Ἀμὴν ἀμὴν λέγω ὑμῖν - *Amēn amēn legō hymin*):** A fórmula do duplo *Amém* é exclusiva de Jesus no Evangelho de João (ocorre 25 vezes), introduzindo revelações de máxima solenidade e autoridade divina inquestionável. Note que o pronome passa para o plural (*hymin* - "a todos vocês"), ampliando a promessa a todos os discípulos.
+- **os anjos de Deus subindo e descendo (τοὺς ἀγγέλους τοῦ θεοῦ ἀναβαίνοντας καὶ καταβαίνοντας - *tous angelous tou theou anabainontas kai katabainontas*):** Alusão direta à visão do patriarca Jacó em Betel (Gn 28:12 — a "Escada de Jacó"). Jesus declara que Ele próprio é a ponte viva e a escada cósmica que conecta definitivamente a Terra ao Céu, reconciliando a humanidade com Deus.
+- **o Filho do Homem (τὸν υἱὸν τοῦ ἀνθρώπου - *ton huion tou anthrōpou*):** O título predileto de Jesus para Si mesmo, derivado da visão messiânica celestial de Daniel 7:13-14, associando Sua identidade à figura gloriosa, celestial e investida de autoridade eterna sobre todas as nações.
