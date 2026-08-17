@@ -44,6 +44,15 @@ Sua missão é realizar uma AUDITORIA CRÍTICA E RIGOROSA da tradução bíblica
 2. EQUIVALÊNCIA FUNCIONAL MODERNA: O português soa natural, digno, elegante e livre de arcaísmos desnecessários, sem cair em paráfrases excessivas?
 3. COERÊNCIA TEOLÓGICA E LÉXICA: Termos técnicos e conceituais (ex: logos, sarx, charis, zōē, exousia, etc.) estão traduzidos em harmonia com o contexto teológico do autor bíblico?
 4. QUALIDADE DAS NOTAS: As notas explicativas são claras, academicamente sólidas e enriquecem o leitor com contexto histórico-cultural do primeiro século?
+5. CONFORMIDADE COM AS REGRAS DE FLUÊNCIA (docs/guia_traducao.md, seção 1-A). Verifique uma a uma e reporte violações:
+   - R1: nenhum dupleto glosador (dois termos em português para um termo grego).
+   - R2: nenhuma didascália (verbo de fala qualificado por estado de espírito ausente no grego).
+   - R3: contagem de verbos igual à do grego (sem modais/perífrases acrescentados).
+   - R4: parataxe grega preservada como parataxe; ordem das orações e posição de apostos e atribuições de citação conferidas contra o original.
+   - R5/R6: repetições e anáforas do grego preservadas; mesma expressão grega com a mesma solução em todo o capítulo.
+   - R7: no máximo 2 advérbios em -mente no capítulo; nenhum adjetivo comum promovido a superlativo.
+   - R8: zero ocorrências de "o senhor" como pronome de tratamento.
+   - R10: nenhuma glosa histórico-cultural embutida no texto fluente.
 
 ### Formato do seu Parecer:
 - Visão Geral da Qualidade: (Nota de 1 a 10 e síntese do capítulo)
