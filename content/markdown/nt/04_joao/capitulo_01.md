@@ -1,0 +1,277 @@
+# Evangelho segundo João - Capítulo 1
+
+## João 1:1
+
+**Grego (SBLGNT / Nestle 1904):**
+> Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος.
+
+**Tradução Literal de Apoio:**
+> No princípio era o Verbo/Palavra, e o Verbo/Palavra estava com o Deus, e Deus era o Verbo/Palavra.
+
+**Tradução Fluente Autoral:**
+> No princípio já existia a Palavra; a Palavra estava face a face com Deus, e a Palavra era Deus.
+
+**Notas Exegéticas e Culturais:**
+- **Palavra (ὁ λόγος - *ho logos*):** O termo *logos* carrega peso tanto no pensamento judaico (a *Memra* ou Palavra criadora de Yahweh no Antigo Testamento e Targuns) quanto no helênico (a razão ordenadora do cosmos). Em português, mantemos 'a Palavra' com inicial maiúscula para expressar a pessoalidade pré-encarnada do Filho.
+- **face a face com (πρὸς τὸν θεόν - *pros ton theon*):** A preposição *pros* com caso acusativo sugere relação íntima, comunhão pessoal e movimento contínuo em direção ao outro, e não mera localização espacial estática.
+- **era Deus (θεὸς ἦν ὁ λόγος - *theos ēn ho logos*):** *Theos* não possui o artigo definido neste ponto da oração, enquanto *logos* possui (*ho logos*). Gramaticalmente (seguindo a regra de Colwell e a análise de Philip Harner), *theos* funciona como predicativo pré-posto qualitativo, definindo a natureza e essência plenamente divina da Palavra sem confundi-la ontologicamente com a pessoa do Pai (*o Deus* citado na cláusula anterior).
+
+## João 1:2
+
+**Grego (SBLGNT / Nestle 1904):**
+> οὗτος ἦν ἐν ἀρχῇ πρὸς τὸν θεόν.
+
+**Tradução Literal de Apoio:**
+> Este estava no princípio com o Deus.
+
+**Tradução Fluente Autoral:**
+> Ele estava no princípio em íntima comunhão com Deus.
+
+**Notas Exegéticas e Culturais:**
+- **Ele (οὗτος - *houtos*):** Pronome demonstrativo enfático que resume e amarra as três afirmações do v. 1, reforçando a identidade contínua do Logos em Sua comunhão eterna com o Pai antes de qualquer ato da criação.
+- **no princípio (ἐν ἀρχῇ - *en archē*):** Eco deliberado de Gênesis 1:1 (*Bereshit*). Enquanto Gênesis marca o início temporal da matéria e do cosmos ("criou Deus"), o verbo imperfeito grego *ēn* ("era/já existia") em João indica existência atemporal e contínua que antecede o próprio início do tempo.
+
+## João 1:3
+
+**Grego (SBLGNT / Nestle 1904):**
+> πάντα δι’ αὐτοῦ ἐγένετο, καὶ χωρὶς αὐτοῦ ἐγένετο οὐδὲ ἕν. ὃ γέγονεν
+
+**Tradução Literal de Apoio:**
+> Todas as coisas por meio dele vieram a ser, e sem ele veio a ser nem uma só coisa que veio a ser.
+
+**Tradução Fluente Autoral:**
+> Por meio dele todas as coisas vieram a existir, e sem ele absolutamente nada do que existe teria sido criado.
+
+**Notas Exegéticas e Culturais:**
+- **Por meio dele (δι’ αὐτοῦ - *di’ autou*):** A preposição *dia* com genitivo denota o agente intermediário pelo qual a criação opera. Deus Pai cria tudo mediante o Filho (cf. Cl 1:16; Hb 1:2).
+- **vieram a existir (ἐγένετο - *egeneto*):** O verbo muda de *ēn* (imperfeito de ser/existir no v. 1-2) para *egeneto* (aoristo de vir a existir / ser criado). O Logos *é*; o universo *veio a ser*.
+- **absolutamente nada (οὐδὲ ἕν - *oude hen*):** Negação enfática ("nem sequer uma única coisa"), ressaltando a totalidade absoluta da soberania criadora do Logos contra concepções gnósticas de emanações intermediárias autônomas.
+
+## João 1:4
+
+**Grego (SBLGNT / Nestle 1904):**
+> ἐν αὐτῷ ζωὴ ἦν, καὶ ἡ ζωὴ ἦν τὸ φῶς τῶν ἀνθρώπων·
+
+**Tradução Literal de Apoio:**
+> Nele vida era, e a vida era a luz dos homens;
+
+**Tradução Fluente Autoral:**
+> Nele estava a vida, e essa vida era a luz que ilumina a humanidade.
+
+**Notas Exegéticas e Culturais:**
+- **vida (ζωή - *zōē*):** João não emprega *bios* (vida biológica/fisiológica transitória), mas *zōē*, referindo-se ao princípio divino e imperecível da vida incriada, a vida eterna que emana de Deus.
+- **luz dos homens (τὸ φῶς τῶν ἀνθρώπων - *to phōs tōn anthrōpōn*):** A vida no Logos não é passiva; ela se projeta como revelação, discernimento ético, espiritual e intelectual sobre toda a raça humana (*anthrōpoi*).
+
+## João 1:5
+
+**Grego (SBLGNT / Nestle 1904):**
+> καὶ τὸ φῶς ἐν τῇ σκοτίᾳ φαίνει, καὶ ἡ σκοτία αὐτὸ οὐ κατέλαβεν.
+
+**Tradução Literal de Apoio:**
+> E a luz na escuridão brilha, e a escuridão ela não apreendeu/compreendeu.
+
+**Tradução Fluente Autoral:**
+> A luz resplandece nas trevas, e as trevas não conseguiram extingui-la nem prevalecer contra ela.
+
+**Notas Exegéticas e Culturais:**
+- **resplandece (φαίνει - *phainei*):** Verbo no presente do indicativo, enfatizando ação contínua: a luz permanece brilhando ininterruptamente no mundo tenebroso.
+- **não conseguiram extingui-la (αὐτὸ οὐ κατέλαβεν - *auto ou katelaben*):** O verbo *katalambanō* tem um duplo sentido poético e teológico deliberado: significa tanto "compreender/apreender cognitivamente" quanto "subjugar/vencer/apagar". As trevas não apenas falharam em entender a luz, como foram incapazes de derrotá-la ou sufocá-la.
+
+## João 1:6
+
+**Grego (SBLGNT / Nestle 1904):**
+> Ἐγένετο ἄνθρωπος, ἀπεσταλμένος παρὰ θεοῦ, ὄνομα αὐτῷ Ἰωάννης·
+
+**Tradução Literal de Apoio:**
+> Veio a haver um homem, enviado da parte de Deus, nome para ele João;
+
+**Tradução Fluente Autoral:**
+> Surgiu um homem enviado por Deus, cujo nome era João.
+
+**Notas Exegéticas e Culturais:**
+- **Surgiu (Ἐγένετο - *Egeneto*):** Em marcante contraste com o Logos que "era" (*ēn*), João Batista "veio a ser / apareceu no cenário histórico" (*egeneto*), demonstrando sua condição finita de criatura.
+- **enviado por Deus (ἀπεσταλμένος παρὰ θεοῦ - *apestalmenos para theou*):** Particípio perfeito passivo do verbo *apostellō*, indicando uma comissão profética divina que confere a João a autoridade permanente de arauto legítimo da revelação.
+
+## João 1:7
+
+**Grego (SBLGNT / Nestle 1904):**
+> οὗτος ἦλθεν εἰς μαρτυρίαν ἵνα μαρτυρήσῃ περὶ τοῦ φωτός, ἵνα πάντες πιστεύσωσιν δι’ αὐτοῦ.
+
+**Tradução Literal de Apoio:**
+> Este veio para testemunho a fim de que testemunhasse acerca da luz, para que todos cressem por meio dele.
+
+**Tradução Fluente Autoral:**
+> Ele veio como testemunha, com a missão de testemunhar a respeito da luz, para que todos chegassem à fé por meio dele.
+
+**Notas Exegéticas e Culturais:**
+- **testemunho / testemunhar (μαρτυρίαν / μαρτυρήσῃ - *martyrian / martyrēsē*):** A família lexical do termo jurídico *martyria* é um dos temas fundamentais do Quarto Evangelho. O papel de João Batista não era ser a fonte da salvação, mas fornecer um depoimento histórico confiável e fidedigno perante o tribunal do mundo.
+- **para que todos cressem (ἵνα πάντες πιστεύσωσιν - *hina pantes pisteusōsin*):** Oração subordinada final com conjunção *hina* e verbo no subjuntivo aoristo (*pisteusōsin*), indicando o propósito evangelístico universal do testemunho profético: conduzir pessoas à decisão de fé no Messias.
+
+## João 1:8
+
+**Grego (SBLGNT / Nestle 1904):**
+> οὐκ ἦν ἐκεῖνος τὸ φῶς, ἀλλ’ ἵνα μαρτυρήσῃ περὶ τοῦ φωτός.
+
+**Tradução Literal de Apoio:**
+> Não era aquele a luz, mas para que testemunhasse acerca da luz.
+
+**Tradução Fluente Autoral:**
+> Ele próprio não era a luz, mas veio expressamente para dar testemunho da luz.
+
+**Notas Exegéticas e Culturais:**
+- **Ele próprio não era a luz (οὐκ ἦν ἐκεῖνος τὸ φῶς - *ouk ēn ekeinos to phōs*):** Esclarecimento de caráter polêmico e apologético contra seitas do primeiro e segundo séculos (como círculos mandeanos ou discípulos remanescentes de João Batista em Éfeso) que superestimavam a figura de João Batista em detrimento de Jesus (cf. At 19:1-7).
+
+## João 1:9
+
+**Grego (SBLGNT / Nestle 1904):**
+> Ἦν τὸ φῶς τὸ ἀληθινόν, ὃ φωτίζει πάντα ἄνθρωπον, ἐρχόμενον εἰς τὸν κόσμον.
+
+**Tradução Literal de Apoio:**
+> Era a luz a verdadeira, que ilumina todo homem, vindo ao mundo.
+
+**Tradução Fluente Autoral:**
+> A luz verdadeira, que ilumina toda a humanidade, estava chegando ao mundo.
+
+**Notas Exegéticas e Culturais:**
+- **a luz verdadeira (τὸ φῶς τὸ ἀληθινόν - *to phōs to alēthinon*):** O adjetivo *alēthinos* denota aquilo que é genuíno, real, autêntico e supremo em contraste com representações imperfeitas, tipológicas ou sombras do Antigo Testamento.
+- **estava chegando ao mundo (ἦν ... ἐρχόμενον εἰς τὸν κόσμον - *ēn ... erchomenon eis ton kosmon*):** Construção perífrástica com o particípio neutro *erchomenon* concordando com *to phōs*, descrevendo o processo histórico da Encarnação como a vinda da luz definitiva ao cosmos.
+
+## João 1:10
+
+**Grego (SBLGNT / Nestle 1904):**
+> ἐν τῷ κόσμῳ ἦν, καὶ ὁ κόσμος δι’ αὐτοῦ ἐγένετο, καὶ ὁ κόσμος αὐτὸν οὐκ ἔγνω.
+
+**Tradução Literal de Apoio:**
+> No mundo estava, e o mundo por meio dele veio a ser, e o mundo a ele não conheceu.
+
+**Tradução Fluente Autoral:**
+> Ele estava no mundo, e embora o mundo tenha sido criado por meio dele, o mundo não o reconheceu.
+
+**Notas Exegéticas e Culturais:**
+- **o mundo (ὁ κόσμος - *ho kosmos*):** No vocabulário joanino, *kosmos* tem triplo significado: a ordem criada (v. 10b), o teatro da humanidade (v. 9), e o sistema humano em rebelião hostil contra Deus (v. 10c).
+- **não o reconheceu (αὐτὸν οὐκ ἔγνω - *auton ouk egnō*):** O verbo *ginōskō* (no aoristo ativo) aponta para um conhecimento íntimo, relacional e de submissão pactual. A tragédia cósmica é que a criação rejeitou seu próprio Arquiteto e Sustentador.
+
+## João 1:11
+
+**Grego (SBLGNT / Nestle 1904):**
+> εἰς τὰ ἴδια ἦλθεν, καὶ οἱ ἴδιοι αὐτὸν οὐ παρέλαβον.
+
+**Tradução Literal de Apoio:**
+> Para as próprias coisas veio, e os próprios a ele não receberam.
+
+**Tradução Fluente Autoral:**
+> Veio para o que era seu, mas os seus próprios não o acolheram.
+
+**Notas Exegéticas e Culturais:**
+- **o que era seu (τὰ ἴδια - *ta idia*):** O neutro plural refere-se ao território, à terra da promessa, ao Templo e à herança de Israel.
+- **os seus próprios (οἱ ἴδιοι - *hoi idioi*):** O masculino plural aponta especificamente para o povo da aliança (o povo judeu), que, detendo as profecias e a Lei, falhou em receber e acolher (*parelabon*) o Messias enviado.
+
+## João 1:12
+
+**Grego (SBLGNT / Nestle 1904):**
+> ὅσοι δὲ ἔλαβον αὐτόν, ἔδωκεν αὐτοῖς ἐξουσίαν τέκνα θεοῦ γενέσθαι, τοῖς πιστεύουσιν εἰς τὸ ὄνομα αὐτοῦ,
+
+**Tradução Literal de Apoio:**
+> Quantos porém receberam a ele, deu a eles autoridade/direito filhos de Deus tornarem-se, aos que creem no nome dele,
+
+**Tradução Fluente Autoral:**
+> Contudo, a todos quantos o receberam e creram em seu nome, ele concedeu o direito e a autoridade de se tornarem filhos de Deus.
+
+**Notas Exegéticas e Culturais:**
+- **direito e autoridade (ἐξουσίαν - *exousian*):** *Exousia* abrange tanto a capacidade legal/direito outorgado quanto o poder e prerrogativa espiritual de ingressar na família de Deus.
+- **filhos de Deus (τέκνα θεοῦ - *tekna theou*):** João reserva rigorosamente a palavra *huios* (filho em sentido ontológico único) para Jesus Cristo, enquanto emprega *tekna* (filhos gerados por novo nascimento e afeto) para os crentes redimidos.
+- **creram em seu nome (τοῖς πιστεύουσιν εἰς τὸ ὄνομα αὐτοῦ - *tois pisteuousin eis to onoma autou*):** O particípio com a preposição *eis* denota um movimento de entrega total, confiança e união existencial com a pessoa e autoridade representadas pelo "Nome" de Cristo.
+
+## João 1:13
+
+**Grego (SBLGNT / Nestle 1904):**
+> οἳ οὐκ ἐξ αἱμάτων οὐδὲ ἐκ θελήματος σαρκὸς οὐδὲ ἐκ θελήματος ἀνδρὸς ἀλλ’ ἐκ θεοῦ ἐγεννήθησαν.
+
+**Tradução Literal de Apoio:**
+> os quais não de sangues nem da vontade da carne nem da vontade de varão/marido, mas de Deus foram gerados.
+
+**Tradução Fluente Autoral:**
+> Estes não nasceram da descendência do sangue, nem do impulso da carne, nem da deliberação da vontade humana, mas foram gerados diretamente por Deus.
+
+**Notas Exegéticas e Culturais:**
+- **não de sangues (οὐκ ἐξ αἱμάτων - *ouk ex haimatōn*):** O uso do plural *haimata* ('sangues') alude à linhagem genealógica e herança biológica aristocrática. O pertencimento à família de Deus não é transmitido por hereditariedade étnica.
+- **nem da vontade da carne... nem da vontade de varão (οὐδὲ ἐκ θελήματος σαρκὸς οὐδὲ ἐκ θελήματος ἀνδρὸς - *oude ek thelēmatos sarkos oude ek thelēmatos andros*):** Exclui qualquer iniciativa hormonal, sexual ou decisão patriarcal humana. O novo nascimento é uma obra monergística originada soberanamente em Deus (*ek theou egennēthēsan*).
+
+## João 1:14
+
+**Grego (SBLGNT / Nestle 1904):**
+> Καὶ ὁ λόγος σὰρξ ἐγένετο καὶ ἐσκήνωσεν ἐν ἡμῖν, καὶ ἐθεασάμεθα τὴν δόξαν αὐτοῦ, δόξαν ὡς μονογενοῦς παρὰ πατρός, πλήρης χάριτος καὶ ἀληθείας.
+
+**Tradução Literal de Apoio:**
+> E o Verbo carne veio a ser e tabernaculou entre nós, e contemplamos a glória dele, glória como de unigênito da parte do Pai, cheio de graça e verdade.
+
+**Tradução Fluente Autoral:**
+> E a Palavra se fez carne e habitou entre nós, armada de sua tenda em nosso meio. Contemplamos a sua glória, uma glória singular e incomparável como a do Filho Único vindo do Pai, transbordante de graça e de verdade.
+
+**Notas Exegéticas e Culturais:**
+- **se fez carne (σὰρξ ἐγένετο - *sarx egeneto*):** O clímax do prólogo. O Logos eterno e transcendente assumiu a fragilidade da natureza humana finita e concreta (*sarx*), sem deixar de ser Deus.
+- **habitou entre nós (ἐσκήνωσεν ἐν ἡμῖν - *eskēnōsen en hēmin*):** Do verbo *skēnoō*, que significa literalmente "armar tenda" ou "tabernacular". Alusão direta ao Tabernáculo no deserto, onde o Deus invisível habitava visivelmente no meio do Seu povo através da nuvem da *Shekinah*.
+- **contemplamos (ἐθεασάμεθα - *etheasametha*):** Do verbo *theaomai*, que significa observar com atenção cuidadosa, como testemunhas oculares de um acontecimento histórico factual.
+- **Filho Único (μονογενοῦς - *monogenous*):** Derivado de *monos* (único) e *genos* (espécie/categoria). O termo enfatiza a singularidade ímpar e a relação única do Filho com o Pai, e não um ato de procriação temporal.
+- **graça e verdade (χάριτος καὶ ἀληθείας - *charitos kai alētheias*):** Tradução grega direta do binômio hebraico fundamental da aliança de Deus em Êxodo 34:6 (*Hesed ve-Emet* - amor leal e fidelidade inabalável). Jesus é a personificação viva da aliança de Yahweh.
+
+## João 1:15
+
+**Grego (SBLGNT / Nestle 1904):**
+> Ἰωάννης μαρτυρεῖ περὶ αὐτοῦ καὶ κέκραγεν λέγων· Οὗτος ἦν ὃν εἶπον· Ὁ ὀπίσω μου ἐρχόμενος ἔμπροσθέν μου γέγονεν, ὅτι πρῶτός μου ἦν.
+
+**Tradução Literal de Apoio:**
+> João testemunha acerca dele e clamou dizendo: Este era de quem eu disse: O atrás de mim vindo adiante de mim passou a ser, porque primeiro de mim era.
+
+**Tradução Fluente Autoral:**
+> João deu testemunho público a respeito dele e exclamou: "Era deste que eu falava quando disse: 'Aquele que vem depois de mim assumiu posição superior à minha, porque já existia antes de mim!'".
+
+**Notas Exegéticas e Culturais:**
+- **exclamou (κέκραγεν - *kekragen*):** Perfeito grego com força de presente contínuo intensivo, denotando um clamor público vigoroso, solene e com autoridade profética indiscutível.
+- **assumiu posição superior... já existia antes (ἔμπροσθέν μου γέγονεν, ὅτι πρῶτός μου ἦν - *emprosthen mou gegonen, hoti prōtos mou ēn*):** Jogo de palavras cronológico e hierárquico. Historicamente, João Batista nasceu antes de Jesus de acordo com a carne (Lc 1:36); no entanto, na ordem de dignidade messiânica (*emprosthen*) e de preexistência eterna (*prōtos*), Cristo transcende infinitamente o precursor.
+
+## João 1:16
+
+**Grego (SBLGNT / Nestle 1904):**
+> ὅτι ἐκ τοῦ πληρώματος αὐτοῦ ἡμεῖς πάντες ἐλάβομεν, καὶ χάριν ἀντὶ χάριτος·
+
+**Tradução Literal de Apoio:**
+> Porque da plenitude dele nós todos recebemos, e graça em lugar de graça.
+
+**Tradução Fluente Autoral:**
+> Pois de sua plenitude todos nós recebemos graça sobre graça, uma bênção acumulada sobre a outra.
+
+**Notas Exegéticas e Culturais:**
+- **plenitude (πληρώματος - *plērōmatos*):** A totalidade inexaurível dos atributos divinos, virtudes e recursos redentivos que habitam corporalmente em Cristo (cf. Cl 2:9).
+- **graça sobre graça (χάριν ἀντὶ χάριτος - *charin anti charitos*):** A preposição *anti* aqui indica substituição cumulativa e sucessão ininterrupta ("uma graça que sucede e amplia outra graça"), apontando para as ondas infindáveis do favor divino concedidas àqueles que estão em Cristo.
+
+## João 1:17
+
+**Grego (SBLGNT / Nestle 1904):**
+> ὅτι ὁ νόμος διὰ Μωϋσέως ἐδόθη, ἡ χάρις καὶ ἡ ἀλήθεια διὰ Ἰησοῦ Χριστοῦ ἐγένετο.
+
+**Tradução Literal de Apoio:**
+> Porque a lei por meio de Moisés foi dada, a graça e a verdade por meio de Jesus Cristo vieram a ser.
+
+**Tradução Fluente Autoral:**
+> Porque a Lei foi transmitida por intermédio de Moisés; a graça e a verdade, no entanto, vieram em sua plenitude por meio de Jesus Cristo.
+
+**Notas Exegéticas e Culturais:**
+- **a Lei foi dada... a graça e a verdade vieram (ὁ νόμος ἐδόθη ... ἡ χάρις καὶ ἡ ἀλήθεια ἐγένετο - *ho nomos edothē ... hē charis kai hē alētheia egeneto*):** Contraste teológico entre a promulgação externa da Torá mediante um mediador humano (*edothē dia Mōuseōs*) e a manifestação encarnada e viva do amor pactual de Deus personificado na história (*egeneto dia Iēsou Christou*).
+- **Jesus Cristo (Ἰησοῦ Χριστοῦ - *Iēsou Christou*):** Primeira menção expressa do nome histórico e do título messiânico no Evangelho de João, identificando formalmente a 'Palavra' dos vv. 1-14 com Jesus de Nazaré, o Ungido de Deus.
+
+## João 1:18
+
+**Grego (SBLGNT / Nestle 1904):**
+> θεὸν οὐδεὶς ἑώρακεν πώποτε· μονογενὴς θεὸς ὁ ὢν εἰς τὸν κόλπον τοῦ πατρὸς ἐκεῖνος ἐξηγήσατο.
+
+**Tradução Literal de Apoio:**
+> A Deus ninguém viu jamais; o Deus unigênito, aquele que está no seio do Pai, aquele o revelou/explicou.
+
+**Tradução Fluente Autoral:**
+> Ninguém jamais contemplou a Deus face a face; mas o Filho Único, que é Deus em si mesmo e está no seio amoroso do Pai, foi quem o revelou plenamente.
+
+**Notas Exegéticas e Culturais:**
+- **o Filho Único, que é Deus (μονογενὴς θεὸς - *monogenēs theos*):** A leitura textual mais antiga e fidedigna dos manuscritos papiros gregos (\(\mathfrak{P}^{66}\), \(\mathfrak{P}^{75}\), Códice Sinaítico e Vaticano) traz *monogenēs theos* ("Deus unigênito" ou "o Deus único"). Isso conclui o prólogo fechando uma inclusão perfeita com João 1:1c (*theos ēn ho logos*), afirmando inequivocamente a divindade plena do Filho.
+- **no seio do Pai (εἰς τὸν κόλπον τοῦ πατρὸς - *eis ton kolpon tou patros*):** Metáfora hebraico-oriental de carinho supremo, intimidade profunda e comunhão ininterrupta (como no banquete, reclinar-se no peito do anfitrião; cf. Jo 13:23).
+- **o revelou plenamente (ἐξηγήσατο - *exēgēsato*):** Aoristo indicativo do verbo *exēgeomai*, de onde provém a palavra moderna "exegese". O termo significa "narrar detalhadamente", "tornar conhecido", "explicar e desdobrar o sentido". Jesus Cristo é o intérprete e a exegese viva e definitiva de Deus para a humanidade.

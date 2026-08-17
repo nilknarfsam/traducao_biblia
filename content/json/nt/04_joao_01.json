@@ -1,0 +1,418 @@
+{
+  "book_id": "JHN",
+  "book_name": "João",
+  "testament": "NT",
+  "order_index": 43,
+  "chapter": 1,
+  "chapter_id": "JHN.1",
+  "verses": [
+    {
+      "verse_id": "JHN.1.1",
+      "book_id": "JHN",
+      "chapter": 1,
+      "verse": 1,
+      "greek_text": "Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος.",
+      "literal_text": "No princípio era o Verbo/Palavra, e o Verbo/Palavra estava com o Deus, e Deus era o Verbo/Palavra.",
+      "translation_text": "No princípio já existia a Palavra; a Palavra estava face a face com Deus, e a Palavra era Deus.",
+      "notes": [
+        {
+          "term": "Palavra",
+          "greek_lemma": "ὁ λόγος - *ho logos*",
+          "explanation": "O termo *logos* carrega peso tanto no pensamento judaico (a *Memra* ou Palavra criadora de Yahweh no Antigo Testamento e Targuns) quanto no helênico (a razão ordenadora do cosmos). Em português, mantemos 'a Palavra' com inicial maiúscula para expressar a pessoalidade pré-encarnada do Filho."
+        },
+        {
+          "term": "face a face com",
+          "greek_lemma": "πρὸς τὸν θεόν - *pros ton theon*",
+          "explanation": "A preposição *pros* com caso acusativo sugere relação íntima, comunhão pessoal e movimento contínuo em direção ao outro, e não mera localização espacial estática."
+        },
+        {
+          "term": "era Deus",
+          "greek_lemma": "θεὸς ἦν ὁ λόγος - *theos ēn ho logos*",
+          "explanation": "*Theos* não possui o artigo definido neste ponto da oração, enquanto *logos* possui (*ho logos*). Gramaticalmente (seguindo a regra de Colwell e a análise de Philip Harner), *theos* funciona como predicativo pré-posto qualitativo, definindo a natureza e essência plenamente divina da Palavra sem confundi-la ontologicamente com a pessoa do Pai (*o Deus* citado na cláusula anterior)."
+        }
+      ]
+    },
+    {
+      "verse_id": "JHN.1.2",
+      "book_id": "JHN",
+      "chapter": 1,
+      "verse": 2,
+      "greek_text": "οὗτος ἦν ἐν ἀρχῇ πρὸς τὸν θεόν.",
+      "literal_text": "Este estava no princípio com o Deus.",
+      "translation_text": "Ele estava no princípio em íntima comunhão com Deus.",
+      "notes": [
+        {
+          "term": "Ele",
+          "greek_lemma": "οὗτος - *houtos*",
+          "explanation": "Pronome demonstrativo enfático que resume e amarra as três afirmações do v. 1, reforçando a identidade contínua do Logos em Sua comunhão eterna com o Pai antes de qualquer ato da criação."
+        },
+        {
+          "term": "no princípio",
+          "greek_lemma": "ἐν ἀρχῇ - *en archē*",
+          "explanation": "Eco deliberado de Gênesis 1:1 (*Bereshit*). Enquanto Gênesis marca o início temporal da matéria e do cosmos (\"criou Deus\"), o verbo imperfeito grego *ēn* (\"era/já existia\") em João indica existência atemporal e contínua que antecede o próprio início do tempo."
+        }
+      ]
+    },
+    {
+      "verse_id": "JHN.1.3",
+      "book_id": "JHN",
+      "chapter": 1,
+      "verse": 3,
+      "greek_text": "πάντα δι’ αὐτοῦ ἐγένετο, καὶ χωρὶς αὐτοῦ ἐγένετο οὐδὲ ἕν. ὃ γέγονεν",
+      "literal_text": "Todas as coisas por meio dele vieram a ser, e sem ele veio a ser nem uma só coisa que veio a ser.",
+      "translation_text": "Por meio dele todas as coisas vieram a existir, e sem ele absolutamente nada do que existe teria sido criado.",
+      "notes": [
+        {
+          "term": "Por meio dele",
+          "greek_lemma": "δι’ αὐτοῦ - *di’ autou*",
+          "explanation": "A preposição *dia* com genitivo denota o agente intermediário pelo qual a criação opera. Deus Pai cria tudo mediante o Filho (cf. Cl 1:16; Hb 1:2)."
+        },
+        {
+          "term": "vieram a existir",
+          "greek_lemma": "ἐγένετο - *egeneto*",
+          "explanation": "O verbo muda de *ēn* (imperfeito de ser/existir no v. 1-2) para *egeneto* (aoristo de vir a existir / ser criado). O Logos *é*; o universo *veio a ser*."
+        },
+        {
+          "term": "absolutamente nada",
+          "greek_lemma": "οὐδὲ ἕν - *oude hen*",
+          "explanation": "Negação enfática (\"nem sequer uma única coisa\"), ressaltando a totalidade absoluta da soberania criadora do Logos contra concepções gnósticas de emanações intermediárias autônomas."
+        }
+      ]
+    },
+    {
+      "verse_id": "JHN.1.4",
+      "book_id": "JHN",
+      "chapter": 1,
+      "verse": 4,
+      "greek_text": "ἐν αὐτῷ ζωὴ ἦν, καὶ ἡ ζωὴ ἦν τὸ φῶς τῶν ἀνθρώπων·",
+      "literal_text": "Nele vida era, e a vida era a luz dos homens;",
+      "translation_text": "Nele estava a vida, e essa vida era a luz que ilumina a humanidade.",
+      "notes": [
+        {
+          "term": "vida",
+          "greek_lemma": "ζωή - *zōē*",
+          "explanation": "João não emprega *bios* (vida biológica/fisiológica transitória), mas *zōē*, referindo-se ao princípio divino e imperecível da vida incriada, a vida eterna que emana de Deus."
+        },
+        {
+          "term": "luz dos homens",
+          "greek_lemma": "τὸ φῶς τῶν ἀνθρώπων - *to phōs tōn anthrōpōn*",
+          "explanation": "A vida no Logos não é passiva; ela se projeta como revelação, discernimento ético, espiritual e intelectual sobre toda a raça humana (*anthrōpoi*)."
+        }
+      ]
+    },
+    {
+      "verse_id": "JHN.1.5",
+      "book_id": "JHN",
+      "chapter": 1,
+      "verse": 5,
+      "greek_text": "καὶ τὸ φῶς ἐν τῇ σκοτίᾳ φαίνει, καὶ ἡ σκοτία αὐτὸ οὐ κατέλαβεν.",
+      "literal_text": "E a luz na escuridão brilha, e a escuridão ela não apreendeu/compreendeu.",
+      "translation_text": "A luz resplandece nas trevas, e as trevas não conseguiram extingui-la nem prevalecer contra ela.",
+      "notes": [
+        {
+          "term": "resplandece",
+          "greek_lemma": "φαίνει - *phainei*",
+          "explanation": "Verbo no presente do indicativo, enfatizando ação contínua: a luz permanece brilhando ininterruptamente no mundo tenebroso."
+        },
+        {
+          "term": "não conseguiram extingui-la",
+          "greek_lemma": "αὐτὸ οὐ κατέλαβεν - *auto ou katelaben*",
+          "explanation": "O verbo *katalambanō* tem um duplo sentido poético e teológico deliberado: significa tanto \"compreender/apreender cognitivamente\" quanto \"subjugar/vencer/apagar\". As trevas não apenas falharam em entender a luz, como foram incapazes de derrotá-la ou sufocá-la."
+        }
+      ]
+    },
+    {
+      "verse_id": "JHN.1.6",
+      "book_id": "JHN",
+      "chapter": 1,
+      "verse": 6,
+      "greek_text": "Ἐγένετο ἄνθρωπος, ἀπεσταλμένος παρὰ θεοῦ, ὄνομα αὐτῷ Ἰωάννης·",
+      "literal_text": "Veio a haver um homem, enviado da parte de Deus, nome para ele João;",
+      "translation_text": "Surgiu um homem enviado por Deus, cujo nome era João.",
+      "notes": [
+        {
+          "term": "Surgiu",
+          "greek_lemma": "Ἐγένετο - *Egeneto*",
+          "explanation": "Em marcante contraste com o Logos que \"era\" (*ēn*), João Batista \"veio a ser / apareceu no cenário histórico\" (*egeneto*), demonstrando sua condição finita de criatura."
+        },
+        {
+          "term": "enviado por Deus",
+          "greek_lemma": "ἀπεσταλμένος παρὰ θεοῦ - *apestalmenos para theou*",
+          "explanation": "Particípio perfeito passivo do verbo *apostellō*, indicando uma comissão profética divina que confere a João a autoridade permanente de arauto legítimo da revelação."
+        }
+      ]
+    },
+    {
+      "verse_id": "JHN.1.7",
+      "book_id": "JHN",
+      "chapter": 1,
+      "verse": 7,
+      "greek_text": "οὗτος ἦλθεν εἰς μαρτυρίαν ἵνα μαρτυρήσῃ περὶ τοῦ φωτός, ἵνα πάντες πιστεύσωσιν δι’ αὐτοῦ.",
+      "literal_text": "Este veio para testemunho a fim de que testemunhasse acerca da luz, para que todos cressem por meio dele.",
+      "translation_text": "Ele veio como testemunha, com a missão de testemunhar a respeito da luz, para que todos chegassem à fé por meio dele.",
+      "notes": [
+        {
+          "term": "testemunho / testemunhar",
+          "greek_lemma": "μαρτυρίαν / μαρτυρήσῃ - *martyrian / martyrēsē*",
+          "explanation": "A família lexical do termo jurídico *martyria* é um dos temas fundamentais do Quarto Evangelho. O papel de João Batista não era ser a fonte da salvação, mas fornecer um depoimento histórico confiável e fidedigno perante o tribunal do mundo."
+        },
+        {
+          "term": "para que todos cressem",
+          "greek_lemma": "ἵνα πάντες πιστεύσωσιν - *hina pantes pisteusōsin*",
+          "explanation": "Oração subordinada final com conjunção *hina* e verbo no subjuntivo aoristo (*pisteusōsin*), indicando o propósito evangelístico universal do testemunho profético: conduzir pessoas à decisão de fé no Messias."
+        }
+      ]
+    },
+    {
+      "verse_id": "JHN.1.8",
+      "book_id": "JHN",
+      "chapter": 1,
+      "verse": 8,
+      "greek_text": "οὐκ ἦν ἐκεῖνος τὸ φῶς, ἀλλ’ ἵνα μαρτυρήσῃ περὶ τοῦ φωτός.",
+      "literal_text": "Não era aquele a luz, mas para que testemunhasse acerca da luz.",
+      "translation_text": "Ele próprio não era a luz, mas veio expressamente para dar testemunho da luz.",
+      "notes": [
+        {
+          "term": "Ele próprio não era a luz",
+          "greek_lemma": "οὐκ ἦν ἐκεῖνος τὸ φῶς - *ouk ēn ekeinos to phōs*",
+          "explanation": "Esclarecimento de caráter polêmico e apologético contra seitas do primeiro e segundo séculos (como círculos mandeanos ou discípulos remanescentes de João Batista em Éfeso) que superestimavam a figura de João Batista em detrimento de Jesus (cf. At 19:1-7)."
+        }
+      ]
+    },
+    {
+      "verse_id": "JHN.1.9",
+      "book_id": "JHN",
+      "chapter": 1,
+      "verse": 9,
+      "greek_text": "Ἦν τὸ φῶς τὸ ἀληθινόν, ὃ φωτίζει πάντα ἄνθρωπον, ἐρχόμενον εἰς τὸν κόσμον.",
+      "literal_text": "Era a luz a verdadeira, que ilumina todo homem, vindo ao mundo.",
+      "translation_text": "A luz verdadeira, que ilumina toda a humanidade, estava chegando ao mundo.",
+      "notes": [
+        {
+          "term": "a luz verdadeira",
+          "greek_lemma": "τὸ φῶς τὸ ἀληθινόν - *to phōs to alēthinon*",
+          "explanation": "O adjetivo *alēthinos* denota aquilo que é genuíno, real, autêntico e supremo em contraste com representações imperfeitas, tipológicas ou sombras do Antigo Testamento."
+        },
+        {
+          "term": "estava chegando ao mundo",
+          "greek_lemma": "ἦν ... ἐρχόμενον εἰς τὸν κόσμον - *ēn ... erchomenon eis ton kosmon*",
+          "explanation": "Construção perífrástica com o particípio neutro *erchomenon* concordando com *to phōs*, descrevendo o processo histórico da Encarnação como a vinda da luz definitiva ao cosmos."
+        }
+      ]
+    },
+    {
+      "verse_id": "JHN.1.10",
+      "book_id": "JHN",
+      "chapter": 1,
+      "verse": 10,
+      "greek_text": "ἐν τῷ κόσμῳ ἦν, καὶ ὁ κόσμος δι’ αὐτοῦ ἐγένετο, καὶ ὁ κόσμος αὐτὸν οὐκ ἔγνω.",
+      "literal_text": "No mundo estava, e o mundo por meio dele veio a ser, e o mundo a ele não conheceu.",
+      "translation_text": "Ele estava no mundo, e embora o mundo tenha sido criado por meio dele, o mundo não o reconheceu.",
+      "notes": [
+        {
+          "term": "o mundo",
+          "greek_lemma": "ὁ κόσμος - *ho kosmos*",
+          "explanation": "No vocabulário joanino, *kosmos* tem triplo significado: a ordem criada (v. 10b), o teatro da humanidade (v. 9), e o sistema humano em rebelião hostil contra Deus (v. 10c)."
+        },
+        {
+          "term": "não o reconheceu",
+          "greek_lemma": "αὐτὸν οὐκ ἔγνω - *auton ouk egnō*",
+          "explanation": "O verbo *ginōskō* (no aoristo ativo) aponta para um conhecimento íntimo, relacional e de submissão pactual. A tragédia cósmica é que a criação rejeitou seu próprio Arquiteto e Sustentador."
+        }
+      ]
+    },
+    {
+      "verse_id": "JHN.1.11",
+      "book_id": "JHN",
+      "chapter": 1,
+      "verse": 11,
+      "greek_text": "εἰς τὰ ἴδια ἦλθεν, καὶ οἱ ἴδιοι αὐτὸν οὐ παρέλαβον.",
+      "literal_text": "Para as próprias coisas veio, e os próprios a ele não receberam.",
+      "translation_text": "Veio para o que era seu, mas os seus próprios não o acolheram.",
+      "notes": [
+        {
+          "term": "o que era seu",
+          "greek_lemma": "τὰ ἴδια - *ta idia*",
+          "explanation": "O neutro plural refere-se ao território, à terra da promessa, ao Templo e à herança de Israel."
+        },
+        {
+          "term": "os seus próprios",
+          "greek_lemma": "οἱ ἴδιοι - *hoi idioi*",
+          "explanation": "O masculino plural aponta especificamente para o povo da aliança (o povo judeu), que, detendo as profecias e a Lei, falhou em receber e acolher (*parelabon*) o Messias enviado."
+        }
+      ]
+    },
+    {
+      "verse_id": "JHN.1.12",
+      "book_id": "JHN",
+      "chapter": 1,
+      "verse": 12,
+      "greek_text": "ὅσοι δὲ ἔλαβον αὐτόν, ἔδωκεν αὐτοῖς ἐξουσίαν τέκνα θεοῦ γενέσθαι, τοῖς πιστεύουσιν εἰς τὸ ὄνομα αὐτοῦ,",
+      "literal_text": "Quantos porém receberam a ele, deu a eles autoridade/direito filhos de Deus tornarem-se, aos que creem no nome dele,",
+      "translation_text": "Contudo, a todos quantos o receberam e creram em seu nome, ele concedeu o direito e a autoridade de se tornarem filhos de Deus.",
+      "notes": [
+        {
+          "term": "direito e autoridade",
+          "greek_lemma": "ἐξουσίαν - *exousian*",
+          "explanation": "*Exousia* abrange tanto a capacidade legal/direito outorgado quanto o poder e prerrogativa espiritual de ingressar na família de Deus."
+        },
+        {
+          "term": "filhos de Deus",
+          "greek_lemma": "τέκνα θεοῦ - *tekna theou*",
+          "explanation": "João reserva rigorosamente a palavra *huios* (filho em sentido ontológico único) para Jesus Cristo, enquanto emprega *tekna* (filhos gerados por novo nascimento e afeto) para os crentes redimidos."
+        },
+        {
+          "term": "creram em seu nome",
+          "greek_lemma": "τοῖς πιστεύουσιν εἰς τὸ ὄνομα αὐτοῦ - *tois pisteuousin eis to onoma autou*",
+          "explanation": "O particípio com a preposição *eis* denota um movimento de entrega total, confiança e união existencial com a pessoa e autoridade representadas pelo \"Nome\" de Cristo."
+        }
+      ]
+    },
+    {
+      "verse_id": "JHN.1.13",
+      "book_id": "JHN",
+      "chapter": 1,
+      "verse": 13,
+      "greek_text": "οἳ οὐκ ἐξ αἱμάτων οὐδὲ ἐκ θελήματος σαρκὸς οὐδὲ ἐκ θελήματος ἀνδρὸς ἀλλ’ ἐκ θεοῦ ἐγεννήθησαν.",
+      "literal_text": "os quais não de sangues nem da vontade da carne nem da vontade de varão/marido, mas de Deus foram gerados.",
+      "translation_text": "Estes não nasceram da descendência do sangue, nem do impulso da carne, nem da deliberação da vontade humana, mas foram gerados diretamente por Deus.",
+      "notes": [
+        {
+          "term": "não de sangues",
+          "greek_lemma": "οὐκ ἐξ αἱμάτων - *ouk ex haimatōn*",
+          "explanation": "O uso do plural *haimata* ('sangues') alude à linhagem genealógica e herança biológica aristocrática. O pertencimento à família de Deus não é transmitido por hereditariedade étnica."
+        },
+        {
+          "term": "nem da vontade da carne... nem da vontade de varão",
+          "greek_lemma": "οὐδὲ ἐκ θελήματος σαρκὸς οὐδὲ ἐκ θελήματος ἀνδρὸς - *oude ek thelēmatos sarkos oude ek thelēmatos andros*",
+          "explanation": "Exclui qualquer iniciativa hormonal, sexual ou decisão patriarcal humana. O novo nascimento é uma obra monergística originada soberanamente em Deus (*ek theou egennēthēsan*)."
+        }
+      ]
+    },
+    {
+      "verse_id": "JHN.1.14",
+      "book_id": "JHN",
+      "chapter": 1,
+      "verse": 14,
+      "greek_text": "Καὶ ὁ λόγος σὰρξ ἐγένετο καὶ ἐσκήνωσεν ἐν ἡμῖν, καὶ ἐθεασάμεθα τὴν δόξαν αὐτοῦ, δόξαν ὡς μονογενοῦς παρὰ πατρός, πλήρης χάριτος καὶ ἀληθείας.",
+      "literal_text": "E o Verbo carne veio a ser e tabernaculou entre nós, e contemplamos a glória dele, glória como de unigênito da parte do Pai, cheio de graça e verdade.",
+      "translation_text": "E a Palavra se fez carne e habitou entre nós, armada de sua tenda em nosso meio. Contemplamos a sua glória, uma glória singular e incomparável como a do Filho Único vindo do Pai, transbordante de graça e de verdade.",
+      "notes": [
+        {
+          "term": "se fez carne",
+          "greek_lemma": "σὰρξ ἐγένετο - *sarx egeneto*",
+          "explanation": "O clímax do prólogo. O Logos eterno e transcendente assumiu a fragilidade da natureza humana finita e concreta (*sarx*), sem deixar de ser Deus."
+        },
+        {
+          "term": "habitou entre nós",
+          "greek_lemma": "ἐσκήνωσεν ἐν ἡμῖν - *eskēnōsen en hēmin*",
+          "explanation": "Do verbo *skēnoō*, que significa literalmente \"armar tenda\" ou \"tabernacular\". Alusão direta ao Tabernáculo no deserto, onde o Deus invisível habitava visivelmente no meio do Seu povo através da nuvem da *Shekinah*."
+        },
+        {
+          "term": "contemplamos",
+          "greek_lemma": "ἐθεασάμεθα - *etheasametha*",
+          "explanation": "Do verbo *theaomai*, que significa observar com atenção cuidadosa, como testemunhas oculares de um acontecimento histórico factual."
+        },
+        {
+          "term": "Filho Único",
+          "greek_lemma": "μονογενοῦς - *monogenous*",
+          "explanation": "Derivado de *monos* (único) e *genos* (espécie/categoria). O termo enfatiza a singularidade ímpar e a relação única do Filho com o Pai, e não um ato de procriação temporal."
+        },
+        {
+          "term": "graça e verdade",
+          "greek_lemma": "χάριτος καὶ ἀληθείας - *charitos kai alētheias*",
+          "explanation": "Tradução grega direta do binômio hebraico fundamental da aliança de Deus em Êxodo 34:6 (*Hesed ve-Emet* - amor leal e fidelidade inabalável). Jesus é a personificação viva da aliança de Yahweh."
+        }
+      ]
+    },
+    {
+      "verse_id": "JHN.1.15",
+      "book_id": "JHN",
+      "chapter": 1,
+      "verse": 15,
+      "greek_text": "Ἰωάννης μαρτυρεῖ περὶ αὐτοῦ καὶ κέκραγεν λέγων· Οὗτος ἦν ὃν εἶπον· Ὁ ὀπίσω μου ἐρχόμενος ἔμπροσθέν μου γέγονεν, ὅτι πρῶτός μου ἦν.",
+      "literal_text": "João testemunha acerca dele e clamou dizendo: Este era de quem eu disse: O atrás de mim vindo adiante de mim passou a ser, porque primeiro de mim era.",
+      "translation_text": "João deu testemunho público a respeito dele e exclamou: \"Era deste que eu falava quando disse: 'Aquele que vem depois de mim assumiu posição superior à minha, porque já existia antes de mim!'\".",
+      "notes": [
+        {
+          "term": "exclamou",
+          "greek_lemma": "κέκραγεν - *kekragen*",
+          "explanation": "Perfeito grego com força de presente contínuo intensivo, denotando um clamor público vigoroso, solene e com autoridade profética indiscutível."
+        },
+        {
+          "term": "assumiu posição superior... já existia antes",
+          "greek_lemma": "ἔμπροσθέν μου γέγονεν, ὅτι πρῶτός μου ἦν - *emprosthen mou gegonen, hoti prōtos mou ēn*",
+          "explanation": "Jogo de palavras cronológico e hierárquico. Historicamente, João Batista nasceu antes de Jesus de acordo com a carne (Lc 1:36); no entanto, na ordem de dignidade messiânica (*emprosthen*) e de preexistência eterna (*prōtos*), Cristo transcende infinitamente o precursor."
+        }
+      ]
+    },
+    {
+      "verse_id": "JHN.1.16",
+      "book_id": "JHN",
+      "chapter": 1,
+      "verse": 16,
+      "greek_text": "ὅτι ἐκ τοῦ πληρώματος αὐτοῦ ἡμεῖς πάντες ἐλάβομεν, καὶ χάριν ἀντὶ χάριτος·",
+      "literal_text": "Porque da plenitude dele nós todos recebemos, e graça em lugar de graça.",
+      "translation_text": "Pois de sua plenitude todos nós recebemos graça sobre graça, uma bênção acumulada sobre a outra.",
+      "notes": [
+        {
+          "term": "plenitude",
+          "greek_lemma": "πληρώματος - *plērōmatos*",
+          "explanation": "A totalidade inexaurível dos atributos divinos, virtudes e recursos redentivos que habitam corporalmente em Cristo (cf. Cl 2:9)."
+        },
+        {
+          "term": "graça sobre graça",
+          "greek_lemma": "χάριν ἀντὶ χάριτος - *charin anti charitos*",
+          "explanation": "A preposição *anti* aqui indica substituição cumulativa e sucessão ininterrupta (\"uma graça que sucede e amplia outra graça\"), apontando para as ondas infindáveis do favor divino concedidas àqueles que estão em Cristo."
+        }
+      ]
+    },
+    {
+      "verse_id": "JHN.1.17",
+      "book_id": "JHN",
+      "chapter": 1,
+      "verse": 17,
+      "greek_text": "ὅτι ὁ νόμος διὰ Μωϋσέως ἐδόθη, ἡ χάρις καὶ ἡ ἀλήθεια διὰ Ἰησοῦ Χριστοῦ ἐγένετο.",
+      "literal_text": "Porque a lei por meio de Moisés foi dada, a graça e a verdade por meio de Jesus Cristo vieram a ser.",
+      "translation_text": "Porque a Lei foi transmitida por intermédio de Moisés; a graça e a verdade, no entanto, vieram em sua plenitude por meio de Jesus Cristo.",
+      "notes": [
+        {
+          "term": "a Lei foi dada... a graça e a verdade vieram",
+          "greek_lemma": "ὁ νόμος ἐδόθη ... ἡ χάρις καὶ ἡ ἀλήθεια ἐγένετο - *ho nomos edothē ... hē charis kai hē alētheia egeneto*",
+          "explanation": "Contraste teológico entre a promulgação externa da Torá mediante um mediador humano (*edothē dia Mōuseōs*) e a manifestação encarnada e viva do amor pactual de Deus personificado na história (*egeneto dia Iēsou Christou*)."
+        },
+        {
+          "term": "Jesus Cristo",
+          "greek_lemma": "Ἰησοῦ Χριστοῦ - *Iēsou Christou*",
+          "explanation": "Primeira menção expressa do nome histórico e do título messiânico no Evangelho de João, identificando formalmente a 'Palavra' dos vv. 1-14 com Jesus de Nazaré, o Ungido de Deus."
+        }
+      ]
+    },
+    {
+      "verse_id": "JHN.1.18",
+      "book_id": "JHN",
+      "chapter": 1,
+      "verse": 18,
+      "greek_text": "θεὸν οὐδεὶς ἑώρακεν πώποτε· μονογενὴς θεὸς ὁ ὢν εἰς τὸν κόλπον τοῦ πατρὸς ἐκεῖνος ἐξηγήσατο.",
+      "literal_text": "A Deus ninguém viu jamais; o Deus unigênito, aquele que está no seio do Pai, aquele o revelou/explicou.",
+      "translation_text": "Ninguém jamais contemplou a Deus face a face; mas o Filho Único, que é Deus em si mesmo e está no seio amoroso do Pai, foi quem o revelou plenamente.",
+      "notes": [
+        {
+          "term": "o Filho Único, que é Deus",
+          "greek_lemma": "μονογενὴς θεὸς - *monogenēs theos*",
+          "explanation": "A leitura textual mais antiga e fidedigna dos manuscritos papiros gregos (\\(\\mathfrak{P}^{66}\\), \\(\\mathfrak{P}^{75}\\), Códice Sinaítico e Vaticano) traz *monogenēs theos* (\"Deus unigênito\" ou \"o Deus único\"). Isso conclui o prólogo fechando uma inclusão perfeita com João 1:1c (*theos ēn ho logos*), afirmando inequivocamente a divindade plena do Filho."
+        },
+        {
+          "term": "no seio do Pai",
+          "greek_lemma": "εἰς τὸν κόλπον τοῦ πατρὸς - *eis ton kolpon tou patros*",
+          "explanation": "Metáfora hebraico-oriental de carinho supremo, intimidade profunda e comunhão ininterrupta (como no banquete, reclinar-se no peito do anfitrião; cf. Jo 13:23)."
+        },
+        {
+          "term": "o revelou plenamente",
+          "greek_lemma": "ἐξηγήσατο - *exēgēsato*",
+          "explanation": "Aoristo indicativo do verbo *exēgeomai*, de onde provém a palavra moderna \"exegese\". O termo significa \"narrar detalhadamente\", \"tornar conhecido\", \"explicar e desdobrar o sentido\". Jesus Cristo é o intérprete e a exegese viva e definitiva de Deus para a humanidade."
+        }
+      ]
+    }
+  ]
+}
