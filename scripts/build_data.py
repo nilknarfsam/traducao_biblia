@@ -26,6 +26,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 MARKDOWN_DIR = BASE_DIR / "content" / "markdown"
 JSON_DIR = BASE_DIR / "content" / "json"
 SQL_DIR = BASE_DIR / "content" / "sql"
+RELEASE_DIR = BASE_DIR / "release" / "markdown"
+
 
 BOOK_METADATA = {
     "01_mateus": {"id": "MAT", "name": "Mateus", "testament": "NT", "order": 40},
@@ -187,6 +189,7 @@ def main():
     all_books = {}
     all_chapters = []
     all_verses = []
+    all_chapters_data = []
 
     print("🔍 Iniciando leitura dos arquivos Markdown...")
     for root, _, files in os.walk(MARKDOWN_DIR):
@@ -215,13 +218,100 @@ def main():
                 }
                 all_chapters.append(chapter_dict)
                 all_verses.extend(data["verses"])
+                all_chapters_data.append((book_id, data, testament_folder, book_folder))
 
+                # Salva arquivo JSON
                 out_json_dir = JSON_DIR / testament_folder
                 out_json_dir.mkdir(parents=True, exist_ok=True)
                 out_json_file = out_json_dir / f"{book_folder}_{data['chapter']:02d}.json"
                 with open(out_json_file, "w", encoding="utf-8") as f:
                     json.dump(data, f, ensure_ascii=False, indent=2)
                 print(f"   ↳ JSON gerado: {out_json_file.relative_to(BASE_DIR)}")
+
+
+    # Geração dos arquivos de Leitura Corrida (Release)
+    print("\n📚 Gerando versão de leitura corrida em release/markdown/...")
+    RELEASE_DIR.mkdir(parents=True, exist_ok=True)
+    
+    # Agrupa capítulos por livro
+    book_chapters_map = {}
+    for (b_id, c_data, t_folder, b_folder) in all_chapters_data:
+        if b_id not in book_chapters_map:
+            book_chapters_map[b_id] = {
+                "name": c_data["book_name"],
+                "testament_folder": t_folder,
+                "book_folder": b_folder,
+                "chapters": []
+            }
+        book_chapters_map[b_id]["chapters"].append(c_data)
+
+    for b_id, b_info in book_chapters_map.items():
+        rel_testament_dir = RELEASE_DIR / b_info["testament_folder"]
+        rel_testament_dir.mkdir(parents=True, exist_ok=True)
+        rel_book_file = rel_testament_dir / f"{b_info['book_folder']}.md"
+
+        lines = [
+            f"# {b_info['name']}",
+            f"\n> **Tradução Autoral em Português Contemporâneo**",
+            f"> Baseada nos textos críticos em Grego Koiné com rigor exegético e equivalência dinâmico-funcional.\n",
+            "---\n"
+        ]
+
+        # Mapeamento de números para sobrescrito
+        superscript_digits = str.maketrans("0123456789", "⁰¹²³⁴⁵⁶⁷⁸⁹")
+
+        for chap in sorted(b_info["chapters"], key=lambda x: x["chapter"]):
+            lines.append(f"## Capítulo {chap['chapter']}\n")
+            
+            # Monta o parágrafo de texto corrido
+            verse_paragraphs = []
+            current_p = []
+            
+            # Coleta notas do capítulo para rodapé
+            chapter_notes = []
+
+            for v in chap["verses"]:
+                v_num_sup = str(v["verse"]).translate(superscript_digits)
+                
+                # Se o versículo tem notas, anexa marcador
+                note_tags = ""
+                if v["notes"]:
+                    for n in v["notes"]:
+                        chapter_notes.append({
+                            "verse": v["verse"],
+                            "term": n["term"],
+                            "lemma": n["greek_lemma"],
+                            "explanation": n["explanation"]
+                        })
+                
+                v_text = f"**{v_num_sup}** {v['translation_text']}"
+                current_p.append(v_text)
+
+                # Quebra de parágrafo lógica para ritmo de leitura (ex: prólogo 1-5, 6-8, 9-13, 14, 15-18)
+                if v["verse"] in [5, 8, 13, 14, 18, 28, 34, 42, 51]:
+                    verse_paragraphs.append(" ".join(current_p))
+                    current_p = []
+
+            if current_p:
+                verse_paragraphs.append(" ".join(current_p))
+
+            for p in verse_paragraphs:
+                lines.append(p + "\n")
+
+            # Seção de Notas Exegéticas do Capítulo
+            if chapter_notes:
+                lines.append("\n### 📖 Notas Exegéticas e Culturais do Capítulo\n")
+                for n in chapter_notes:
+                    clean_lemma = n["lemma"].replace("*", "").strip()
+                    lemma_str = f" (*{clean_lemma}*)" if clean_lemma else ""
+                    lines.append(f"- **v. {n['verse']} — {n['term']}{lemma_str}:** {n['explanation']}")
+                lines.append("\n---\n")
+
+
+        with open(rel_book_file, "w", encoding="utf-8") as f:
+            f.write("\n".join(lines) + "\n")
+        print(f"   ↳ Arquivo de Leitura Corrida gerado: {rel_book_file.relative_to(BASE_DIR)}")
+
 
     print("\n💾 Gerando schema e sementes SQL...")
     sql_schema = """-- ==============================================================================

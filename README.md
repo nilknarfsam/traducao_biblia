@@ -8,9 +8,10 @@ Tradução 100% autoral do Novo Testamento a partir dos textos críticos origina
 
 ```text
 ├── docs/
-│   └── guia_traducao.md         # Filosofia de tradução, metodologia e glossário exegético
+│   ├── guia_traducao.md         # Filosofia de tradução, metodologia e glossário exegético
+│   └── roadmap.md               # Cronograma, metas e fluxo de revisão multi-IA
 ├── content/
-│   ├── markdown/                # Arquivos primários de leitura, exegese e tradução
+│   ├── markdown/                # Arquivos primários de trabalho com 3 camadas e notas
 │   │   └── nt/
 │   │       └── 04_joao/
 │   │           └── capitulo_01.md  # João 1:1-18 (O Prólogo de João)
@@ -19,8 +20,12 @@ Tradução 100% autoral do Novo Testamento a partir dos textos críticos origina
 │   │       └── 04_joao_01.json
 │   └── sql/                     # DDL e DML para SQLite / PostgreSQL
 │       └── schema_and_seed.sql
+├── release/                     # 🚀 Versão formatada para leitura corrida contínua
+│   └── markdown/
+│       └── nt/
+│           └── 04_joao.md       # Livro em texto corrido fluente com notas no rodapé
 └── scripts/
-    └── build_data.py            # Automação de extração e conversão (MD -> JSON -> SQL)
+    └── build_data.py            # Automação de extração e conversão (MD -> JSON -> SQL -> Release)
 ```
 
 ---
