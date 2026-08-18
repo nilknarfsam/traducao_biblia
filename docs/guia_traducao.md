@@ -88,6 +88,8 @@ O koiné não possui distinção T–V: `σύ`/`ὑμεῖς` são a mesma forma
 - Todos os personagens usam **você / vocês**, inclusive discípulos dirigindo-se a Jesus.
 - A deferência vem do **vocativo**, como no grego: *Ῥαββί* → "Rabi", *διδάσκαλε* → "Mestre", *Κύριε* → "Senhor" (vocativo, substantivo — não é pronome de tratamento e permanece).
 
+**Exceção — segunda pessoa dirigida a Deus.** Em citação de Escritura e em oração, o tratamento é **tu/teu**, não "você". Jo 2:17 cita o Salmo 69:9: "O zelo pela **tua** casa me consumirá". A razão não é reverência genérica, mas registro: a citação vem do saltério e precisa soar como texto citado, destacando-se da fala corrente ao redor. Sem essa exceção escrita, cada citação do AT renegocia o tratamento do zero.
+
 ### R9 — Logos
 `ὁ λόγος` → **"a Palavra"** (substantivo feminino), com **pronomes e concordância no masculino** *ad sensum*, por o referente ser pessoal: "sem **ele** nada veio a existir". Decisão deliberada, priorizando familiaridade e recepção sobre a reprodução do suspense gramatical do grego. Não usar "o Verbo" (calque latino da Vulgata, opaco ao leitor-alvo).
 
@@ -148,6 +150,8 @@ A coluna **Tradução Padrão** admite uma única solução por termo (regra R1)
 | **χάρις** (*charis*) | ἡ χάρις (s.f.) | **graça** | Equivalente ao hebraico *Hesed* (amor pactual constante e leal) quando combinado com *aletheia* (*Hesed ve-Emet* em Êxodo 34:6). |
 | **ἀλήθεια** (*alētheia*) | ἡ ἀλήθεια (s.f.) | **verdade** | A realidade divina genuína e fidedigna revelada em Cristo. |
 | **ἐξηγέομαι** (*exēgeomai*) | ἐξηγέομαι (v.) | **revelou** | Raiz de 'exegese'. O Filho é o exegeta definitivo do Pai invisível (João 1:18). |
+| **οἱ Ἰουδαῖοι** (*hoi Ioudaioi*) | Ἰουδαῖος (s.m. pl.) | **as autoridades judaicas** *ou* **os judeus** | Solução dependente da função: quando são os **interlocutores que interpelam ou se opõem a Jesus**, → 'as autoridades judaicas' (Jo 1:19; 2:18; 2:20), porque João designa a liderança de Jerusalém, não o povo. Quando o termo apenas **qualifica algo como judaico** (rito, festa, costume), → 'judeus' (Jo 2:6 'purificação dos judeus'; 2:13 'a Páscoa dos judeus'). É a única exceção registrada à R6, e ela existe para evitar que o texto sugira que o povo judeu em bloco se opõe ao Messias — leitura que o próprio João, judeu escrevendo sobre judeus, não autoriza. |
+| **γίνομαι** (*ginomai*) | γίνομαι (v.) | **vir a existir / fazer-se / tornar-se** | Verbo-espinha do Evangelho, e o fio precisa ficar visível: o universo *veio a existir* (1:3), a Palavra *se fez* carne (1:14), a graça *veio a existir* por Jesus Cristo (1:17), a água *tornada* vinho (2:9). Não traduzir por 'transformar', 'produzir' ou 'criar', que apagam a ligação. |
 
 ---
 
