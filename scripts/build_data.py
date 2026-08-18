@@ -34,6 +34,15 @@ VERSION_ABBR = "TKC"
 VERSION_LICENSE = "CC BY-SA 4.0"
 VERSION_LICENSE_URL = "https://creativecommons.org/licenses/by-sa/4.0/deed.pt-br"
 
+# Quebras de parágrafo do release, por capítulo: número do último versículo de
+# cada parágrafo. São decisão editorial (perícopes), não dado do manuscrito —
+# o grego não tem parágrafos. Sem entrada aqui, o capítulo sai num bloco só e o
+# build avisa.
+PARAGRAPH_BREAKS = {
+    "JHN.1": [5, 8, 13, 14, 18, 28, 34, 42, 51],
+    "JHN.2": [5, 11, 12, 17, 22, 25],
+}
+
 # Marcadores de locutor na Tradução Fluente Autoral (ver guia_traducao.md, R11).
 # O texto armazenado em translation_text é sempre limpo; os trechos ficam em
 # speech_spans, para que a renderização (cor, itálico, barra) seja decisão do app.
@@ -604,6 +613,11 @@ def main():
         corpo = []
         for chap in capitulos_ord:
             c = chap["chapter"]
+            quebras = PARAGRAPH_BREAKS.get(f"{b_id}.{c}")
+            if quebras is None:
+                quebras = []
+                print(f"   ⚠️  Sem quebras de parágrafo para {b_id}.{c} — "
+                      f"defina PARAGRAPH_BREAKS['{b_id}.{c}'] em build_data.py")
             corpo.append(f'<h2 id="cap-{c}">Capítulo {c}</h2>')
             paragrafos, atual, notas_cap = [], [], []
             for v in chap["verses"]:
@@ -619,7 +633,7 @@ def main():
                 atual.append(f"{numero} {marcado}")
                 for n in v["notes"]:
                     notas_cap.append((v_num, n))
-                if v_num in [5, 8, 13, 14, 18, 28, 34, 42, 51]:
+                if v_num in quebras:
                     paragrafos.append(" ".join(atual))
                     atual = []
             if atual:
