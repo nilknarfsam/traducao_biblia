@@ -1,0 +1,77 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tradução Koiné Contemporânea</title>
+<style>
+  :root {
+    --papel: #fafbfc; --tinta: #1a1d21; --ardosia: #69737f;
+    --regua: #dde2e8; --deus: #1b4f8f;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --papel: #14171a; --tinta: #e6e8ea; --ardosia: #8b949e;
+      --regua: #2a2f35; --deus: #8fb6e8;
+    }
+  }
+  :root[data-theme="dark"] {
+    --papel: #14171a; --tinta: #e6e8ea; --ardosia: #8b949e;
+    --regua: #2a2f35; --deus: #8fb6e8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 3.5rem 1.35rem 5rem;
+    background: var(--papel); color: var(--tinta);
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino,
+                 "Book Antiqua", Georgia, serif;
+    font-size: 1.1rem; line-height: 1.7;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 34rem; margin: 0 auto; }
+  .selo {
+    margin: 0 0 .5rem;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: .74rem; font-weight: 600;
+    text-transform: uppercase; letter-spacing: .14em; color: var(--ardosia);
+  }
+  h1 { font-size: 2.4rem; font-weight: 400; margin: 0 0 .6rem;
+       letter-spacing: -.015em; text-wrap: balance; }
+  .creditos { margin: 0 0 2.5rem; color: var(--ardosia); font-size: .95rem;
+              font-style: italic; line-height: 1.5; text-wrap: pretty; }
+  ul { list-style: none; margin: 0; padding: 0;
+       display: flex; flex-direction: column; }
+  li a {
+    display: flex; align-items: baseline; justify-content: space-between; gap: 1rem;
+    padding: 1rem .25rem; border-bottom: 1px solid var(--regua);
+    color: inherit; text-decoration: none;
+  }
+  li:first-child a { border-top: 1px solid var(--regua); }
+  li a:hover .livro, li a:focus-visible .livro { color: var(--deus); }
+  .livro { font-size: 1.35rem; }
+  .qtd {
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: .8rem; color: var(--ardosia); white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+  footer {
+    margin-top: 3.5rem; padding-top: 1.5rem; border-top: 1px solid var(--regua);
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: .8rem; line-height: 1.6; color: var(--ardosia);
+  }
+  footer a { color: inherit; }
+  a:focus-visible { outline: 2px solid var(--deus); outline-offset: 3px; }
+</style>
+
+<main>
+<p class="selo">TKC</p>
+<h1>Tradução Koiné Contemporânea</h1>
+<p class="creditos">Tradução do Grego Koiné para o português contemporâneo, a partir
+dos textos críticos (SBLGNT / Nestle-Aland), com notas exegéticas e culturais.</p>
+
+<ul>
+<li><a href="nt/04_joao.html"><span class="livro">João</span><span class="qtd">1 capítulo</span></a></li>
+</ul>
+
+<footer>
+Texto da tradução e notas sob licença CC BY-SA 4.0. Livre para copiar, adaptar e usar,
+inclusive comercialmente, desde que atribuído e mantido sob a mesma licença.
+</footer>
+</main>

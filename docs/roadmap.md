@@ -1,4 +1,4 @@
-# Roadmap Geral do Projeto de Tradução Bíblica
+# Roadmap — Tradução Koiné Contemporânea (TKC)
 
 Este documento detalha o planejamento das fases de tradução, o fluxo de trabalho colaborativo (IA Construtora + IA Revisora + Aprovação Humana) e a arquitetura dos dados para o futuro aplicativo móvel.
 
@@ -8,9 +8,9 @@ Este documento detalha o planejamento das fases de tradução, o fluxo de trabal
 
 ### Novo Testamento (Grego Koiné)
 
-1. **Fase 1 — O Evangelho segundo João (Conclusão do Cap. 1 ao 21)**
-   - *Status:* Cap. 1:1-18 concluído.
-   - *Próxima etapa:* João 1:19-51 (O testemunho do Batista, os primeiros discípulos e Natanael).
+1. **Fase 1 — O Evangelho segundo João (Cap. 1 ao 21)**
+   - *Status:* Cap. 1 concluído (vv. 1-51), revisado sob as regras R1-R11 e com marcação de locutor aplicada.
+   - *Próxima etapa:* João 2 (as bodas de Caná e a purificação do Templo).
    - *Destaques:* O Livro dos Sinais (Cap. 2-12) e o Livro da Glória (Cap. 13-21).
 
 2. **Fase 2 — As Grandes Epístolas Teológicas de Paulo**
@@ -38,7 +38,7 @@ Este documento detalha o planejamento das fases de tradução, o fluxo de trabal
 
 ```mermaid
 graph TD
-    A["1. IA Construtora (Antigravity)"] -->|Gera 3 camadas + notas + JSON + Release| B["2. Versão de Leitura Corrida (release/)"]
+    A["1. IA Construtora (Antigravity)"] -->|Gera 3 camadas + notas + marcação de locutor| B["2. Release de leitura (release/)"]
     B --> C["3. Auditoria pela 2ª IA (Prompt de Revisão)"]
     C -->|Feedbacks e ajustes pontuais| A
     C --> D["4. Leitura e Aprovação Final (Você)"]
@@ -66,12 +66,18 @@ O aplicativo será construído apenas após a conclusão e validação dos texto
 
 1. **SQLite (`biblia.db`):**
    - Funciona 100% offline.
-   - Tabelas normalizadas: `books`, `chapters`, `verses`, `verse_notes`.
+   - Tabelas normalizadas: `translation_meta`, `books`, `chapters`, `verses`, `verse_notes`, `verse_speech_spans`.
    - Índices para pesquisa textual instantânea em milissegundos.
 
 2. **JSON Modular (`content/json/`):**
    - Ideal para carregar dinamicamente capítulos sob demanda.
    - Suporte para UI com **Modo Leitura Fluida** (texto limpo) e **Modo Exegese** (toque no versículo para abrir interlinear e notas).
 
-3. **Markdown de Leitura (`release/markdown/`):**
-   - Permite leitura contínua imediata em qualquer leitor Markdown, e-reader ou navegador.
+3. **Release HTML (`release/`):**
+   - Leitura humana apenas — **não é insumo do app**, que consome JSON e SQLite.
+   - Único formato que preserva a marcação de locutor (o Markdown do GitHub descarta estilo inline).
+   - Índice de livros, menu de capítulos e notas ancoradas nos números de versículo.
+
+4. **Metadados da versão (`translation_meta`):**
+   - Nome, sigla, idioma, texto-base e licença.
+   - A CC BY-SA 4.0 exige atribuição e indicação da licença: o app deve exibir ambos.

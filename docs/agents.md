@@ -1,4 +1,4 @@
-# Protocolo e Papéis de Agentes de IA no Projeto de Tradução Bíblica
+# Protocolo e Papéis de Agentes de IA — Tradução Koiné Contemporânea (TKC)
 
 Este documento define o fluxo de trabalho integrado entre a **IA Construtora (Antigravity)**, a **IA Revisora (Auditoria Exegética)** e o **Revisor Humano (Aprovação Final)**.
 
@@ -12,7 +12,7 @@ Este documento define o fluxo de trabalho integrado entre a **IA Construtora (An
   - Extração morfológica e textual dos manuscritos críticos (SBLGNT / NA28 / Macula Greek).
   - Elaboração das 3 camadas de texto: Grego crítico, Tradução literal de apoio e Tradução fluente autoral.
   - Redação de notas exegéticas, gramaticais (casos, vozes, aspectos verbais), contextuais e histórico-culturais (judaísmo do Segundo Templo e helenismo).
-  - Execução dos scripts de compilação para JSON, SQL (SQLite) e Release em texto corrido (`release/markdown/`).
+  - Execução dos scripts de compilação para JSON, SQL (SQLite) e o release de leitura (`release/`).
 
 ### Agente 2: IA Revisora (Auditoria Exegética e Crítica Textual Externa)
 - **Papel:** Professor Doutor em Novo Testamento, Crítica Textual e Tradução Bíblica (ex: Claude 3.7 Sonnet / ChatGPT o3-mini / GPT-4o).
@@ -24,7 +24,7 @@ Este documento define o fluxo de trabalho integrado entre a **IA Construtora (An
 ### Agente 3: Revisor Humano (Você)
 - **Papel:** Curador do Projeto e Leitor Final.
 - **Responsabilidades:**
-  - Leitura fluida dos capítulos compilados na pasta `release/markdown/`.
+  - Leitura fluida dos capítulos compilados em `release/` (HTML, com a marcação de locutor visível).
   - Avaliação da cadência literária e clareza do texto.
   - Decisão final sobre as recomendações da IA Revisora e aprovação para publicação.
 
@@ -72,7 +72,7 @@ Sua missão é realizar uma AUDITORIA CRÍTICA E RIGOROSA da tradução bíblica
 [Tradução do Capítulo / Livro] 
          │
          ▼
-[Geração de Release: release/markdown/]
+[Geração de Release: release/]
          │
          ▼
 [Envio para IA Revisora via Prompt de Auditoria]

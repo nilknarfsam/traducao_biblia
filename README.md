@@ -1,52 +1,117 @@
-# Projeto de Tradução Bíblica Autoral (Novo Testamento)
+# Tradução Koiné Contemporânea (TKC)
 
-Tradução 100% autoral do Novo Testamento a partir dos textos críticos originais em Grego Koiné (SBLGNT / Nestle-Aland / Macula Greek), com foco em **equivalência dinâmico-funcional moderna**, **rigor exegético-histórico** e **notas explicativas aprofundadas**.
+Tradução autoral do Novo Testamento a partir dos textos críticos em Grego Koiné
+(SBLGNT / Nestle-Aland / Macula Greek), em português contemporâneo, com notas
+exegéticas e culturais versículo a versículo.
+
+O projeto persegue duas coisas ao mesmo tempo: **leitura fluida** — um texto ao
+qual o leitor se apegue — e **fidelidade verificável** — cada escolha justificada
+pelo grego e exposta em três camadas.
+
+📖 **Ler:** [`release/index.html`](release/index.html) *(veja
+[Como ler](#-como-ler) — o GitHub não renderiza HTML)*
 
 ---
 
-## 🎯 Estrutura do Projeto
+## 📐 O princípio
+
+> **Explicitação é adição, e adição é infidelidade.**
+
+A tradução fluente não faz o trabalho das outras camadas. Se um termo grego é
+ambíguo, o texto escolhe a leitura primária e a nuance vai para a nota; se João
+repete uma palavra, o português repete; se o grego coordena, o português não
+subordina. As regras operacionais estão em
+[`docs/guia_traducao.md`](docs/guia_traducao.md), seção 1-A (R1 a R11), com
+checklist de aceite por capítulo.
+
+## 📚 As camadas
+
+Cada versículo é registrado em quatro níveis:
+
+1. **Grego Koiné** — texto crítico com acentuação e pontuação.
+2. **Tradução Literal de Apoio** — palavra por palavra, expondo a sintaxe grega.
+3. **Tradução Fluente Autoral** — a versão de leitura.
+4. **Notas Exegéticas e Culturais** — morfologia, lemas, judaísmo do Segundo
+   Templo, contexto helenístico.
+
+## 🎨 Marcação de locutor
+
+O discurso direto é marcado por **quem fala**, nunca por cor — cor é decisão de
+renderização e precisa ser desativável pelo leitor.
+
+| Marcador | Locutor | Renderização padrão |
+|---|---|---|
+| `[[J]]` | Jesus | vermelho |
+| `[[D]]` | Deus / YHWH, inclusive no NT | azul |
+| `[[E]]` | Citação do Antigo Testamento | versalete, sem cor |
+
+No banco, `verses.translation_text` fica **limpo** e os trechos viram offsets de
+caractere em `verse_speech_spans`. Assim o app escolhe entre cor, itálico, barra
+lateral ou nada — cerca de 8% dos homens têm deficiência de visão de cores, e
+vermelho sobre branco é a pior combinação para leitura longa.
+
+## 🗂️ Estrutura
 
 ```text
 ├── docs/
-│   ├── guia_traducao.md         # Filosofia de tradução, metodologia e glossário exegético
-│   └── roadmap.md               # Cronograma, metas e fluxo de revisão multi-IA
-├── content/
-│   ├── markdown/                # Arquivos primários de trabalho com 3 camadas e notas
-│   │   └── nt/
-│   │       └── 04_joao/
-│   │           └── capitulo_01.md  # João 1:1-18 (O Prólogo de João)
-│   ├── json/                    # Dados estruturados para consumo por APIs e apps
-│   │   └── nt/
-│   │       └── 04_joao_01.json
-│   └── sql/                     # DDL e DML para SQLite / PostgreSQL
-│       └── schema_and_seed.sql
-├── release/                     # 🚀 Versão formatada para leitura corrida contínua
-│   └── markdown/
-│       └── nt/
-│           └── 04_joao.md       # Livro em texto corrido fluente com notas no rodapé
+│   ├── guia_traducao.md     # Filosofia, regras R1-R11, glossário, schema
+│   ├── agents.md            # Papéis das IAs e prompt de auditoria
+│   └── roadmap.md           # Fases e fluxo de revisão
+├── content/                 # 🔒 Fonte da verdade + insumo do app
+│   ├── markdown/nt/         # Arquivos primários de trabalho (4 camadas)
+│   ├── json/nt/             # Capítulos estruturados, carga sob demanda
+│   └── sql/                 # schema_and_seed.sql + biblia.db (SQLite offline)
+├── release/                 # 📖 Somente leitura humana — gerado, não editado
+│   ├── index.html           # Índice de livros
+│   └── nt/04_joao.html      # Livro com menu de capítulos e notas
 └── scripts/
-    └── build_data.py            # Automação de extração e conversão (MD -> JSON -> SQL -> Release)
+    └── build_data.py        # markdown → json → sql/sqlite → release
 ```
 
----
+**`content/` é a fonte da verdade.** Toda correção se faz no Markdown de
+`content/markdown/` e se propaga pelo build. Nada em `release/` deve ser editado
+à mão — é sobrescrito a cada execução.
 
-## 📖 As 3 Camadas de Tradução
+## 📱 Como ler
 
-Cada versículo é estruturado em três níveis:
-1. **Grego Koiné:** Texto original com acentuação e pontuação crítica.
-2. **Tradução Literal de Apoio:** Tradução interlinear funcional palavra por palavra para análise da sintaxe grega.
-3. **Tradução Fluente Autoral:** Versão contemporânea, fluente e fiel ao sentido original.
-4. **Notas Exegéticas e Culturais:** Detalhamento léxico (morfologia, lemas, transliterações), contexto judaico do Segundo Templo e nuances histórico-filosóficas.
+O release é HTML porque a marcação de locutor por cor não sobrevive ao Markdown —
+**o GitHub descarta estilo inline**. Isso significa que abrir o `.html` pelo app
+do GitHub mostra o código-fonte, não a página.
 
----
+Duas formas de ler de verdade:
 
-## ⚡ Como Rodar o Pipeline
+1. **GitHub Pages** — com Pages ativado, o release ganha URL pública permanente
+   que abre em qualquer navegador e atualiza sozinha a cada push. Para ativar:
+   *Settings → Pages → Source: Deploy from a branch → Branch: `main` / `(root)`*.
+   O endereço passa a ser
+   `https://nilknarfsam.github.io/traducao_biblia/release/`.
+2. **Local** — clonar o repositório e abrir `release/index.html` no navegador.
 
-Para ler os arquivos em Markdown e regerar automaticamente os arquivos JSON e o banco SQLite:
+## ⚡ Pipeline
 
 ```bash
-# Executar o script de build
 python scripts/build_data.py
-# ou no Windows
-py scripts/build_data.py
 ```
+
+Lê `content/markdown/`, valida a marcação de locutor (falha se houver marcador
+sem par) e regenera JSON, SQL, SQLite e o release HTML.
+
+## 📄 Licença
+
+O projeto tem **duas licenças**, deliberadamente separadas:
+
+| O quê | Licença |
+|---|---|
+| Tradução, notas, glossário, docs, dados derivados | [CC BY-SA 4.0](LICENSE-TEXTO.md) |
+| Código (`scripts/`) | [MIT](LICENSE) |
+
+A maioria das traduções bíblicas modernas em português é fechada. A TKC é aberta
+de propósito: livre para copiar, adaptar e usar — inclusive comercialmente —
+desde que **atribuída** e mantida sob a **mesma licença**, para que ninguém possa
+fechar o que nasceu aberto.
+
+O texto grego base (SBLGNT, Nestle-Aland) permanece sob os termos de seus
+detentores; a TKC licencia apenas o que é criação própria deste projeto.
+
+> Tradução Koiné Contemporânea (TKC), © 2026 Franklin Carvalho, licenciada sob
+> CC BY-SA 4.0.

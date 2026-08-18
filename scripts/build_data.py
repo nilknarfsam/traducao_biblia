@@ -26,8 +26,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 MARKDOWN_DIR = BASE_DIR / "content" / "markdown"
 JSON_DIR = BASE_DIR / "content" / "json"
 SQL_DIR = BASE_DIR / "content" / "sql"
-RELEASE_DIR = BASE_DIR / "release" / "markdown"
-RELEASE_HTML_DIR = BASE_DIR / "release" / "html"
+RELEASE_DIR = BASE_DIR / "release"
+
+# Identidade da versão. Alterar aqui propaga para o release, o índice e o banco.
+VERSION_NAME = "Tradução Koiné Contemporânea"
+VERSION_ABBR = "TKC"
+VERSION_LICENSE = "CC BY-SA 4.0"
+VERSION_LICENSE_URL = "https://creativecommons.org/licenses/by-sa/4.0/deed.pt-br"
 
 # Marcadores de locutor na Tradução Fluente Autoral (ver guia_traducao.md, R11).
 # O texto armazenado em translation_text é sempre limpo; os trechos ficam em
@@ -136,7 +141,7 @@ BOOK_METADATA = {
 # publicável sem reescrita. O <meta charset> vem primeiro para valer nos dois casos.
 HTML_TEMPLATE = """<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{titulo}</title>
+<title>{titulo} · {sigla}</title>
 <style>
   /* Paleta acromática de propósito: as duas únicas cores da página são as do
      próprio texto — a fala de Jesus e a fala de Deus. Nada mais compete. */
@@ -251,6 +256,34 @@ HTML_TEMPLATE = """<meta charset="utf-8">
   }}
   .volta:hover, .volta:focus-visible {{ color: var(--tinta); }}
 
+  .selo, .indice {{
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: .74rem; font-weight: 600;
+    text-transform: uppercase; letter-spacing: .14em; color: var(--ardosia);
+  }}
+  .selo {{ margin: 0; }}
+  .indice {{ display: inline-block; margin-bottom: 2rem; text-decoration: none; }}
+  .indice:hover, .indice:focus-visible {{ color: var(--tinta); }}
+
+  /* Menu de capítulos: aparece só a partir do segundo capítulo traduzido. */
+  .capitulos {{
+    display: flex; flex-wrap: wrap; gap: .4rem;
+    margin: 1.75rem 0 0;
+  }}
+  .capitulos a {{
+    display: inline-flex; align-items: center; justify-content: center;
+    min-width: 2.4rem; height: 2.4rem; padding: 0 .5rem;
+    border: 1px solid var(--regua); border-radius: 3px;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: .9rem; font-variant-numeric: tabular-nums;
+    color: var(--ardosia); text-decoration: none;
+  }}
+  .capitulos a:hover, .capitulos a:focus-visible {{
+    color: var(--tinta); border-color: var(--ardosia);
+  }}
+
+  h2 {{ scroll-margin-top: 1.5rem; }}
+
   :target {{ background: var(--realce); border-radius: 2px; }}
   a:focus-visible, [id]:focus-visible {{
     outline: 2px solid var(--deus); outline-offset: 3px;
@@ -258,12 +291,14 @@ HTML_TEMPLATE = """<meta charset="utf-8">
 </style>
 
 <main>
+{volta_indice}
 <header class="capa">
+  <p class="selo">{versao} · {sigla}</p>
   <h1>{titulo}</h1>
-  <p class="creditos">Tradução autoral em português contemporâneo, feita a partir dos
-  textos críticos em Grego Koiné.</p>
+  <p class="creditos">Tradução do Grego Koiné para o português contemporâneo, a partir
+  dos textos críticos (SBLGNT / Nestle-Aland).</p>
 </header>
-
+{menu}
 <div class="legenda">
   <span><b class="fala-jesus">Vermelho</b> — palavras de Jesus</span>
   <span><b class="fala-deus">Azul</b> — palavras de Deus</span>
@@ -271,6 +306,86 @@ HTML_TEMPLATE = """<meta charset="utf-8">
 </div>
 
 {corpo}
+</main>
+"""
+
+
+INDEX_TEMPLATE = """<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{versao}</title>
+<style>
+  :root {{
+    --papel: #fafbfc; --tinta: #1a1d21; --ardosia: #69737f;
+    --regua: #dde2e8; --deus: #1b4f8f;
+  }}
+  @media (prefers-color-scheme: dark) {{
+    :root:not([data-theme="light"]) {{
+      --papel: #14171a; --tinta: #e6e8ea; --ardosia: #8b949e;
+      --regua: #2a2f35; --deus: #8fb6e8;
+    }}
+  }}
+  :root[data-theme="dark"] {{
+    --papel: #14171a; --tinta: #e6e8ea; --ardosia: #8b949e;
+    --regua: #2a2f35; --deus: #8fb6e8;
+  }}
+  * {{ box-sizing: border-box; }}
+  body {{
+    margin: 0; padding: 3.5rem 1.35rem 5rem;
+    background: var(--papel); color: var(--tinta);
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino,
+                 "Book Antiqua", Georgia, serif;
+    font-size: 1.1rem; line-height: 1.7;
+    -webkit-text-size-adjust: 100%;
+  }}
+  main {{ max-width: 34rem; margin: 0 auto; }}
+  .selo {{
+    margin: 0 0 .5rem;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: .74rem; font-weight: 600;
+    text-transform: uppercase; letter-spacing: .14em; color: var(--ardosia);
+  }}
+  h1 {{ font-size: 2.4rem; font-weight: 400; margin: 0 0 .6rem;
+       letter-spacing: -.015em; text-wrap: balance; }}
+  .creditos {{ margin: 0 0 2.5rem; color: var(--ardosia); font-size: .95rem;
+              font-style: italic; line-height: 1.5; text-wrap: pretty; }}
+  ul {{ list-style: none; margin: 0; padding: 0;
+       display: flex; flex-direction: column; }}
+  li a {{
+    display: flex; align-items: baseline; justify-content: space-between; gap: 1rem;
+    padding: 1rem .25rem; border-bottom: 1px solid var(--regua);
+    color: inherit; text-decoration: none;
+  }}
+  li:first-child a {{ border-top: 1px solid var(--regua); }}
+  li a:hover .livro, li a:focus-visible .livro {{ color: var(--deus); }}
+  .livro {{ font-size: 1.35rem; }}
+  .qtd {{
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: .8rem; color: var(--ardosia); white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }}
+  footer {{
+    margin-top: 3.5rem; padding-top: 1.5rem; border-top: 1px solid var(--regua);
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: .8rem; line-height: 1.6; color: var(--ardosia);
+  }}
+  footer a {{ color: inherit; }}
+  a:focus-visible {{ outline: 2px solid var(--deus); outline-offset: 3px; }}
+</style>
+
+<main>
+<p class="selo">{sigla}</p>
+<h1>{versao}</h1>
+<p class="creditos">Tradução do Grego Koiné para o português contemporâneo, a partir
+dos textos críticos (SBLGNT / Nestle-Aland), com notas exegéticas e culturais.</p>
+
+<ul>
+{itens}
+</ul>
+
+<footer>
+Texto da tradução e notas sob licença {licenca}. Livre para copiar, adaptar e usar,
+inclusive comercialmente, desde que atribuído e mantido sob a mesma licença.
+</footer>
 </main>
 """
 
@@ -450,10 +565,6 @@ def main():
                 print(f"   ↳ JSON gerado: {out_json_file.relative_to(BASE_DIR)}")
 
 
-    # Geração dos arquivos de Leitura Corrida (Release)
-    print("\n📚 Gerando versão de leitura corrida em release/markdown/...")
-    RELEASE_DIR.mkdir(parents=True, exist_ok=True)
-    
     # Agrupa capítulos por livro
     book_chapters_map = {}
     for (b_id, c_data, t_folder, b_folder) in all_chapters_data:
@@ -462,92 +573,38 @@ def main():
                 "name": c_data["book_name"],
                 "testament_folder": t_folder,
                 "book_folder": b_folder,
+                "order_index": c_data["order_index"],
                 "chapters": []
             }
         book_chapters_map[b_id]["chapters"].append(c_data)
 
-    for b_id, b_info in book_chapters_map.items():
-        rel_testament_dir = RELEASE_DIR / b_info["testament_folder"]
-        rel_testament_dir.mkdir(parents=True, exist_ok=True)
-        rel_book_file = rel_testament_dir / f"{b_info['book_folder']}.md"
-
-        lines = [
-            f"# {b_info['name']}",
-            f"\n> **Tradução Autoral em Português Contemporâneo**",
-            f"> Baseada nos textos críticos em Grego Koiné com rigor exegético e equivalência dinâmico-funcional.\n",
-            "---\n"
-        ]
-
-        # Mapeamento de números para sobrescrito
-        superscript_digits = str.maketrans("0123456789", "⁰¹²³⁴⁵⁶⁷⁸⁹")
-
-        for chap in sorted(b_info["chapters"], key=lambda x: x["chapter"]):
-            lines.append(f"## Capítulo {chap['chapter']}\n")
-            
-            # Monta o parágrafo de texto corrido
-            verse_paragraphs = []
-            current_p = []
-            
-            # Coleta notas do capítulo para rodapé
-            chapter_notes = []
-
-            for v in chap["verses"]:
-                v_num_sup = str(v["verse"]).translate(superscript_digits)
-                
-                # Se o versículo tem notas, anexa marcador
-                note_tags = ""
-                if v["notes"]:
-                    for n in v["notes"]:
-                        chapter_notes.append({
-                            "verse": v["verse"],
-                            "term": n["term"],
-                            "lemma": n["greek_lemma"],
-                            "explanation": n["explanation"]
-                        })
-                
-                v_text = f"**{v_num_sup}** {v['translation_text']}"
-                current_p.append(v_text)
-
-                # Quebra de parágrafo lógica para ritmo de leitura (ex: prólogo 1-5, 6-8, 9-13, 14, 15-18)
-                if v["verse"] in [5, 8, 13, 14, 18, 28, 34, 42, 51]:
-                    verse_paragraphs.append(" ".join(current_p))
-                    current_p = []
-
-            if current_p:
-                verse_paragraphs.append(" ".join(current_p))
-
-            for p in verse_paragraphs:
-                lines.append(p + "\n")
-
-            # Seção de Notas Exegéticas do Capítulo
-            if chapter_notes:
-                lines.append("\n### 📖 Notas Exegéticas e Culturais do Capítulo\n")
-                for n in chapter_notes:
-                    clean_lemma = n["lemma"].replace("*", "").strip()
-                    lemma_str = f" (*{clean_lemma}*)" if clean_lemma else ""
-                    lines.append(f"- **v. {n['verse']} — {n['term']}{lemma_str}:** {n['explanation']}")
-                lines.append("\n---\n")
-
-
-        with open(rel_book_file, "w", encoding="utf-8") as f:
-            f.write("\n".join(lines) + "\n")
-        print(f"   ↳ Arquivo de Leitura Corrida gerado: {rel_book_file.relative_to(BASE_DIR)}")
-
-    # Release HTML: o Markdown do GitHub descarta estilo inline, então a
-    # marcação de locutor por cor só é visível nesta saída.
-    print("\n🎨 Gerando versão HTML com marcação de locutor em release/html/...")
+    # Release: HTML é o único formato de leitura. O Markdown foi descontinuado
+    # porque o GitHub descarta estilo inline e a marcação de locutor (R11)
+    # ficava invisível. As fontes de dados para o app seguem em content/.
+    print("\n📖 Gerando release de leitura em release/...")
     import html as _html
     superscript_digits = str.maketrans("0123456789", "⁰¹²³⁴⁵⁶⁷⁸⁹")
 
     for b_id, b_info in book_chapters_map.items():
-        html_testament_dir = RELEASE_HTML_DIR / b_info["testament_folder"]
+        html_testament_dir = RELEASE_DIR / b_info["testament_folder"]
         html_testament_dir.mkdir(parents=True, exist_ok=True)
         html_book_file = html_testament_dir / f"{b_info['book_folder']}.html"
 
+        capitulos_ord = sorted(b_info["chapters"], key=lambda x: x["chapter"])
+
+        # Menu de capítulos: só aparece quando há mais de um capítulo traduzido.
+        menu = ""
+        if len(capitulos_ord) > 1:
+            chips = "".join(
+                f'<a href="#cap-{ch["chapter"]}">{ch["chapter"]}</a>'
+                for ch in capitulos_ord
+            )
+            menu = f'<nav class="capitulos" aria-label="Capítulos">{chips}</nav>'
+
         corpo = []
-        for chap in sorted(b_info["chapters"], key=lambda x: x["chapter"]):
+        for chap in capitulos_ord:
             c = chap["chapter"]
-            corpo.append(f"<h2>Capítulo {c}</h2>")
+            corpo.append(f'<h2 id="cap-{c}">Capítulo {c}</h2>')
             paragrafos, atual, notas_cap = [], [], []
             for v in chap["verses"]:
                 v_num = v["verse"]
@@ -590,10 +647,42 @@ def main():
 
         pagina = HTML_TEMPLATE.format(
             titulo=_html.escape(b_info["name"]),
+            versao=VERSION_NAME,
+            sigla=VERSION_ABBR,
+            menu=menu,
+            # Com um único livro traduzido o índice não tem o que indexar, e o
+            # link quebraria ao ler a página fora da árvore de arquivos.
+            volta_indice=(
+                '<a class="indice" href="../index.html">← todos os livros</a>'
+                if len(book_chapters_map) > 1 else ""
+            ),
             corpo="\n".join(corpo),
         )
         html_book_file.write_text(pagina, encoding="utf-8")
-        print(f"   ↳ HTML gerado: {html_book_file.relative_to(BASE_DIR)}")
+        print(f"   ↳ {html_book_file.relative_to(BASE_DIR)}")
+
+    # Índice de livros: porta de entrada da leitura.
+    livros_ord = sorted(book_chapters_map.items(), key=lambda kv: kv[1]["order_index"])
+    itens = []
+    for b_id, b_info in livros_ord:
+        n_caps = len(b_info["chapters"])
+        caps_txt = "1 capítulo" if n_caps == 1 else f"{n_caps} capítulos"
+        href = f'{b_info["testament_folder"]}/{b_info["book_folder"]}.html'
+        itens.append(
+            f'<li><a href="{href}"><span class="livro">{_html.escape(b_info["name"])}</span>'
+            f'<span class="qtd">{caps_txt}</span></a></li>'
+        )
+    indice_file = RELEASE_DIR / "index.html"
+    indice_file.write_text(
+        INDEX_TEMPLATE.format(
+            versao=VERSION_NAME,
+            sigla=VERSION_ABBR,
+            licenca=VERSION_LICENSE,
+            itens="\n".join(itens),
+        ),
+        encoding="utf-8",
+    )
+    print(f"   ↳ {indice_file.relative_to(BASE_DIR)}")
 
     print("\n💾 Gerando schema e sementes SQL...")
     sql_schema = """-- ==============================================================================
@@ -602,11 +691,19 @@ def main():
 
 PRAGMA foreign_keys = ON;
 
+DROP TABLE IF EXISTS translation_meta;
 DROP TABLE IF EXISTS verse_speech_spans;
 DROP TABLE IF EXISTS verse_notes;
 DROP TABLE IF EXISTS verses;
 DROP TABLE IF EXISTS chapters;
 DROP TABLE IF EXISTS books;
+
+-- Identidade da versão. O app deve exibir nome, sigla e licença ao usuário:
+-- a CC BY-SA 4.0 exige atribuição e indicação da licença em qualquer uso.
+CREATE TABLE translation_meta (
+    key TEXT PRIMARY KEY,
+    value TEXT NOT NULL
+);
 
 CREATE TABLE books (
     id TEXT PRIMARY KEY,
@@ -674,6 +771,18 @@ CREATE INDEX idx_spans_verse ON verse_speech_spans(verse_id);
         return "'" + str(s).replace("'", "''") + "'"
 
     sql_statements = [sql_schema]
+
+    for k, val in [
+        ("name", VERSION_NAME),
+        ("abbreviation", VERSION_ABBR),
+        ("language", "pt-BR"),
+        ("source_text", "SBLGNT / Nestle-Aland / Macula Greek"),
+        ("license", VERSION_LICENSE),
+        ("license_url", VERSION_LICENSE_URL),
+    ]:
+        sql_statements.append(
+            f"INSERT INTO translation_meta (key, value) VALUES ({sql_escape(k)}, {sql_escape(val)});"
+        )
 
     for b in all_books.values():
         stmt = f"INSERT INTO books (id, name, testament, order_index) VALUES ({sql_escape(b['id'])}, {sql_escape(b['name'])}, {sql_escape(b['testament'])}, {b['order_index']});"

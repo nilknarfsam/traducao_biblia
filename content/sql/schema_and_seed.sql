@@ -4,11 +4,19 @@
 
 PRAGMA foreign_keys = ON;
 
+DROP TABLE IF EXISTS translation_meta;
 DROP TABLE IF EXISTS verse_speech_spans;
 DROP TABLE IF EXISTS verse_notes;
 DROP TABLE IF EXISTS verses;
 DROP TABLE IF EXISTS chapters;
 DROP TABLE IF EXISTS books;
+
+-- Identidade da versão. O app deve exibir nome, sigla e licença ao usuário:
+-- a CC BY-SA 4.0 exige atribuição e indicação da licença em qualquer uso.
+CREATE TABLE translation_meta (
+    key TEXT PRIMARY KEY,
+    value TEXT NOT NULL
+);
 
 CREATE TABLE books (
     id TEXT PRIMARY KEY,
@@ -69,6 +77,12 @@ CREATE INDEX idx_spans_verse ON verse_speech_spans(verse_id);
 -- SEED DATA
 -- ==============================================================================
 
+INSERT INTO translation_meta (key, value) VALUES ('name', 'Tradução Koiné Contemporânea');
+INSERT INTO translation_meta (key, value) VALUES ('abbreviation', 'TKC');
+INSERT INTO translation_meta (key, value) VALUES ('language', 'pt-BR');
+INSERT INTO translation_meta (key, value) VALUES ('source_text', 'SBLGNT / Nestle-Aland / Macula Greek');
+INSERT INTO translation_meta (key, value) VALUES ('license', 'CC BY-SA 4.0');
+INSERT INTO translation_meta (key, value) VALUES ('license_url', 'https://creativecommons.org/licenses/by-sa/4.0/deed.pt-br');
 INSERT INTO books (id, name, testament, order_index) VALUES ('JHN', 'João', 'NT', 43);
 INSERT INTO chapters (id, book_id, chapter_number) VALUES ('JHN.1', 'JHN', 1);
 INSERT INTO verses (id, chapter_id, book_id, chapter_number, verse_number, greek_text, literal_text, translation_text) VALUES ('JHN.1.1', 'JHN.1', 'JHN', 1, 1, 'Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος.', 'No princípio era o Verbo/Palavra, e o Verbo/Palavra estava com o Deus, e Deus era o Verbo/Palavra.', 'No princípio era a Palavra, e a Palavra estava face a face com Deus, e a Palavra era Deus.');

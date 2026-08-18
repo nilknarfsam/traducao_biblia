@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>João</title>
+<title>João · TKC</title>
 <style>
   /* Paleta acromática de propósito: as duas únicas cores da página são as do
      próprio texto — a fala de Jesus e a fala de Deus. Nada mais compete. */
@@ -115,6 +115,34 @@
   }
   .volta:hover, .volta:focus-visible { color: var(--tinta); }
 
+  .selo, .indice {
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: .74rem; font-weight: 600;
+    text-transform: uppercase; letter-spacing: .14em; color: var(--ardosia);
+  }
+  .selo { margin: 0; }
+  .indice { display: inline-block; margin-bottom: 2rem; text-decoration: none; }
+  .indice:hover, .indice:focus-visible { color: var(--tinta); }
+
+  /* Menu de capítulos: aparece só a partir do segundo capítulo traduzido. */
+  .capitulos {
+    display: flex; flex-wrap: wrap; gap: .4rem;
+    margin: 1.75rem 0 0;
+  }
+  .capitulos a {
+    display: inline-flex; align-items: center; justify-content: center;
+    min-width: 2.4rem; height: 2.4rem; padding: 0 .5rem;
+    border: 1px solid var(--regua); border-radius: 3px;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: .9rem; font-variant-numeric: tabular-nums;
+    color: var(--ardosia); text-decoration: none;
+  }
+  .capitulos a:hover, .capitulos a:focus-visible {
+    color: var(--tinta); border-color: var(--ardosia);
+  }
+
+  h2 { scroll-margin-top: 1.5rem; }
+
   :target { background: var(--realce); border-radius: 2px; }
   a:focus-visible, [id]:focus-visible {
     outline: 2px solid var(--deus); outline-offset: 3px;
@@ -122,10 +150,12 @@
 </style>
 
 <main>
+
 <header class="capa">
+  <p class="selo">Tradução Koiné Contemporânea · TKC</p>
   <h1>João</h1>
-  <p class="creditos">Tradução autoral em português contemporâneo, feita a partir dos
-  textos críticos em Grego Koiné.</p>
+  <p class="creditos">Tradução do Grego Koiné para o português contemporâneo, a partir
+  dos textos críticos (SBLGNT / Nestle-Aland).</p>
 </header>
 
 <div class="legenda">
@@ -134,7 +164,7 @@
   <span><b class="fala-escritura">Versalete</b> — citação do Antigo Testamento</span>
 </div>
 
-<h2>Capítulo 1</h2>
+<h2 id="cap-1">Capítulo 1</h2>
 <p class="texto"><a class="vn" id="v1-1" href="#n1-1">¹</a> No princípio era a Palavra, e a Palavra estava face a face com Deus, e a Palavra era Deus. <a class="vn" id="v1-2" href="#n1-2">²</a> Ele estava no princípio face a face com Deus. <a class="vn" id="v1-3" href="#n1-3">³</a> Tudo veio a existir por meio dele, e sem ele nada do que existe veio a existir. <a class="vn" id="v1-4" href="#n1-4">⁴</a> Nele estava a vida, e a vida era a luz dos homens. <a class="vn" id="v1-5" href="#n1-5">⁵</a> A luz brilha na escuridão, e a escuridão não a venceu.</p>
 <p class="texto"><a class="vn" id="v1-6" href="#n1-6">⁶</a> Surgiu um homem, enviado por Deus; seu nome era João. <a class="vn" id="v1-7" href="#n1-7">⁷</a> Ele veio como testemunha, para testemunhar a respeito da luz, para que todos cressem por meio dele. <a class="vn" id="v1-8" href="#n1-8">⁸</a> Não era ele a luz, mas veio para testemunhar a respeito da luz.</p>
 <p class="texto"><a class="vn" id="v1-9" href="#n1-9">⁹</a> A luz verdadeira, que ilumina todo ser humano, estava vindo ao mundo. <a class="vn" id="v1-10" href="#n1-10">¹⁰</a> Ele estava no mundo, e o mundo veio a existir por meio dele, e o mundo não o reconheceu. <a class="vn" id="v1-11" href="#n1-11">¹¹</a> Veio para o que era seu, e os seus não o acolheram. <a class="vn" id="v1-12" href="#n1-12">¹²</a> Mas a todos que o receberam ele deu o direito de se tornarem filhos de Deus — aos que creem no seu nome. <a class="vn" id="v1-13" href="#n1-13">¹³</a> Eles não foram gerados de sangue, nem da vontade da carne, nem da vontade de homem, mas de Deus.</p>

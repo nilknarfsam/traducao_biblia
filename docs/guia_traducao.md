@@ -2,6 +2,21 @@
 
 Este documento define os princípios metodológicos, teológicos, linguísticos e técnicos para o projeto de tradução autoral do Novo Testamento a partir do Grego Koiné.
 
+## 0. Identidade da Versão
+
+| Campo | Valor |
+|---|---|
+| **Nome** | Tradução Koiné Contemporânea |
+| **Sigla** | **TKC** |
+| **Idioma** | Português brasileiro contemporâneo |
+| **Texto-base** | SBLGNT / Nestle-Aland / Macula Greek |
+| **Licença do texto** | CC BY-SA 4.0 — ver `LICENSE-TEXTO.md` |
+| **Licença do código** | MIT — ver `LICENSE` |
+
+A sigla **TKC** é a forma de citação (`Jo 1:5 TKC`). O nome e a licença são gravados na tabela `translation_meta` do banco e exibidos no release; alterá-los se faz em um único ponto, nas constantes do topo de `scripts/build_data.py`.
+
+A licença CC BY-SA exige que qualquer uso **atribua** a versão e **indique a licença**. O aplicativo deve exibir ambos.
+
 ---
 
 ## 1. Filosofia de Tradução
@@ -170,4 +185,4 @@ O pipeline transforma os arquivos Markdown em JSON e popula as seguintes tabelas
 - `verse_notes`: id (INTEGER, PK AUTOINCREMENT), verse_id (TEXT, FK), term (TEXT), greek_lemma (TEXT), explanation (TEXT), order_index (INT).
 - `verse_speech_spans`: id (INTEGER, PK AUTOINCREMENT), verse_id (TEXT, FK), speaker (TEXT: JESUS | DEUS | ESCRITURA), start_offset (INT), end_offset (INT), order_index (INT). Offsets de caractere sobre `verses.translation_text`, que é sempre armazenado **limpo**, sem marcadores. Ver R11.
 
-**Saídas do pipeline:** `release/markdown/` (texto corrido, sem marcação — o GitHub descarta estilo inline) e `release/html/` (mesma leitura com a marcação de locutor visível).
+**Saída de leitura:** `release/` — HTML com índice de livros, menu de capítulos e a marcação de locutor visível. É o único formato de leitura: o Markdown foi descontinuado porque o GitHub descarta estilo inline. `release/` é gerado, nunca editado à mão.
