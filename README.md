@@ -8,8 +8,12 @@ O projeto persegue duas coisas ao mesmo tempo: **leitura fluida** — um texto a
 qual o leitor se apegue — e **fidelidade verificável** — cada escolha justificada
 pelo grego e exposta em três camadas.
 
-📖 **Ler:** [`release/index.html`](release/index.html) *(veja
-[Como ler](#-como-ler) — o GitHub não renderiza HTML)*
+## 📖 [→ LER A TRADUÇÃO](https://nilknarfsam.github.io/traducao_biblia/release/)
+
+**https://nilknarfsam.github.io/traducao_biblia/release/**
+
+Abre em qualquer navegador, no celular ou no computador, e atualiza sozinho a
+cada push. Guarde na tela de início do celular para acesso em um toque.
 
 ---
 
@@ -74,18 +78,16 @@ vermelho sobre branco é a pior combinação para leitura longa.
 
 ## 📱 Como ler
 
-O release é HTML porque a marcação de locutor por cor não sobrevive ao Markdown —
-**o GitHub descarta estilo inline**. Isso significa que abrir o `.html` pelo app
-do GitHub mostra o código-fonte, não a página.
+**Publicado em:** <https://nilknarfsam.github.io/traducao_biblia/release/>
 
-Duas formas de ler de verdade:
+Servido por GitHub Pages a partir de `main` / `(root)`, então cada push
+republica automaticamente. Alternativa offline: clonar o repositório e abrir
+`release/index.html` no navegador.
 
-1. **GitHub Pages** — com Pages ativado, o release ganha URL pública permanente
-   que abre em qualquer navegador e atualiza sozinha a cada push. Para ativar:
-   *Settings → Pages → Source: Deploy from a branch → Branch: `main` / `(root)`*.
-   O endereço passa a ser
-   `https://nilknarfsam.github.io/traducao_biblia/release/`.
-2. **Local** — clonar o repositório e abrir `release/index.html` no navegador.
+Uma ressalva que vale saber: **abrir o `.html` pelo app do GitHub não funciona** —
+o GitHub descarta estilo inline e mostra o código-fonte. O release é HTML
+justamente porque a marcação de locutor por cor não sobrevive ao Markdown. Use
+sempre o endereço acima, nunca o arquivo pela interface do repositório.
 
 ## ⚡ Pipeline
 
