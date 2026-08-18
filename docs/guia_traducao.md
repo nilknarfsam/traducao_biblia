@@ -84,6 +84,23 @@ Explicações histórico-culturais vão para a nota, nunca para o texto.
 
 **Exceção única:** conversão de unidades de tempo opacas (`ὥρα δεκάτη` → "por volta das quatro da tarde"), sempre acompanhada de nota.
 
+### R11 — Marcação de locutor
+Na Tradução Fluente Autoral, trechos de fala atribuída recebem marcadores. **Marca-se o locutor, nunca a cor** — cor é decisão da camada de apresentação.
+
+| Marcador | Locutor | Renderização padrão |
+|---|---|---|
+| `[[J]]…[[/J]]` | Jesus | vermelho |
+| `[[D]]…[[/D]]` | Deus / YHWH — inclusive **dentro do NT** (ex.: Jo 1:33) | azul |
+| `[[E]]…[[/E]]` | Citação do Antigo Testamento (ex.: Jo 1:23 = Is 40:3) | versalete, **sem cor** |
+
+Marca-se **apenas o discurso direto**, sem incluir os verbos dicendi nem as aspas. Falas de outros personagens (João Batista, os discípulos, as autoridades) não recebem marcação.
+
+**Fronteiras ambíguas.** Onde termina a fala de Jesus é decisão editorial, não dado do manuscrito — o grego não tem aspas. Os casos disputados em João (3:16-21 e 3:31-36, onde não há consenso se falam Jesus ou o evangelista) devem ser decididos a partir do próprio texto e **registrados em nota exegética**, jamais copiados de outra versão.
+
+**Acessibilidade (vinculante).** Cor não pode ser o único portador de sentido: cerca de 8% dos homens têm deficiência de visão de cores, e vermelho sobre branco é a pior combinação para leitura longa. O app deve oferecer alternativas (cor / itálico / barra lateral / desligado) e permitir desativar a marcação por completo.
+
+**Direitos autorais.** A convenção da letra vermelha (Louis Klopsch, 1899) é domínio público, e convenção tipográfica não é obra protegível (Lei 9.610/98, art. 8º). Livre para uso — desde que as decisões de fronteira sejam próprias, conforme acima.
+
 ### Checklist de aceite por capítulo
 1. Nenhum dupleto glosador (R1).
 2. Nenhum verbo de fala qualificado por advérbio/adjunto ausente no grego (R2).
@@ -92,6 +109,7 @@ Explicações histórico-culturais vão para a nota, nunca para o texto.
 5. Repetições do original mapeadas e preservadas (R5, R6).
 6. Advérbios em -mente ≤ 2 (R7).
 7. Zero ocorrências de "o senhor" como pronome de tratamento (R8).
+8. Todo discurso direto de Jesus, de Deus e toda citação do AT marcados (R11); marcadores balanceados — o `build_data.py` falha se houver marcador sem par.
 
 ---
 
@@ -150,3 +168,6 @@ O pipeline transforma os arquivos Markdown em JSON e popula as seguintes tabelas
 - `chapters`: id (TEXT, PK), book_id (TEXT, FK), chapter_number (INT).
 - `verses`: id (TEXT, PK), chapter_id (TEXT, FK), book_id (TEXT), chapter_number (INT), verse_number (INT), greek_text (TEXT), literal_text (TEXT), translation_text (TEXT).
 - `verse_notes`: id (INTEGER, PK AUTOINCREMENT), verse_id (TEXT, FK), term (TEXT), greek_lemma (TEXT), explanation (TEXT), order_index (INT).
+- `verse_speech_spans`: id (INTEGER, PK AUTOINCREMENT), verse_id (TEXT, FK), speaker (TEXT: JESUS | DEUS | ESCRITURA), start_offset (INT), end_offset (INT), order_index (INT). Offsets de caractere sobre `verses.translation_text`, que é sempre armazenado **limpo**, sem marcadores. Ver R11.
+
+**Saídas do pipeline:** `release/markdown/` (texto corrido, sem marcação — o GitHub descarta estilo inline) e `release/html/` (mesma leitura com a marcação de locutor visível).

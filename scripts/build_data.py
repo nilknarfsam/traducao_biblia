@@ -27,6 +27,78 @@ MARKDOWN_DIR = BASE_DIR / "content" / "markdown"
 JSON_DIR = BASE_DIR / "content" / "json"
 SQL_DIR = BASE_DIR / "content" / "sql"
 RELEASE_DIR = BASE_DIR / "release" / "markdown"
+RELEASE_HTML_DIR = BASE_DIR / "release" / "html"
+
+# Marcadores de locutor na Tradução Fluente Autoral (ver guia_traducao.md, R11).
+# O texto armazenado em translation_text é sempre limpo; os trechos ficam em
+# speech_spans, para que a renderização (cor, itálico, barra) seja decisão do app.
+SPEAKER_CODES = {
+    "J": "JESUS",       # fala de Jesus
+    "D": "DEUS",        # fala de Deus / YHWH
+    "E": "ESCRITURA",   # citação do Antigo Testamento
+}
+SPEAKER_MARKER_RE = re.compile(r"\[\[(/?)([A-Z])\]\]")
+
+
+def extract_speech_spans(text: str):
+    """Remove os marcadores de locutor e devolve (texto_limpo, spans).
+
+    Cada span traz o código do locutor e os offsets de caractere no texto limpo,
+    de modo que qualquer renderizador possa reconstruir a marcação sem depender
+    de HTML embutido no conteúdo.
+    """
+    if not text:
+        return text, []
+
+    limpo = []
+    spans = []
+    abertos = []
+    pos = 0
+    cursor = 0
+
+    for m in SPEAKER_MARKER_RE.finditer(text):
+        limpo.append(text[cursor:m.start()])
+        pos += m.start() - cursor
+        cursor = m.end()
+        fechando, letra = m.group(1) == "/", m.group(2)
+        if letra not in SPEAKER_CODES:
+            raise ValueError(f"Marcador de locutor desconhecido: [[{m.group(1)}{letra}]]")
+        if fechando:
+            if not abertos or abertos[-1][0] != letra:
+                raise ValueError(f"Marcador [[/{letra}]] sem abertura correspondente")
+            _, inicio = abertos.pop()
+            spans.append({
+                "speaker": SPEAKER_CODES[letra],
+                "start": inicio,
+                "end": pos,
+            })
+        else:
+            abertos.append((letra, pos))
+
+    if abertos:
+        raise ValueError(f"Marcador [[{abertos[-1][0]}]] não foi fechado")
+
+    limpo.append(text[cursor:])
+    spans.sort(key=lambda s: s["start"])
+    return "".join(limpo), spans
+
+
+def apply_spans_html(text: str, spans) -> str:
+    """Envolve os trechos marcados em <span class="fala-..."> para o release HTML."""
+    import html as _html
+
+    if not spans:
+        return _html.escape(text)
+
+    pedacos = []
+    cursor = 0
+    for s in spans:
+        pedacos.append(_html.escape(text[cursor:s["start"]]))
+        classe = "fala-" + s["speaker"].lower()
+        pedacos.append(f'<span class="{classe}">{_html.escape(text[s["start"]:s["end"]])}</span>')
+        cursor = s["end"]
+    pedacos.append(_html.escape(text[cursor:]))
+    return "".join(pedacos)
 
 
 BOOK_METADATA = {
@@ -58,6 +130,150 @@ BOOK_METADATA = {
     "26_judas": {"id": "JUD", "name": "Judas", "testament": "NT", "order": 65},
     "27_apocalipse": {"id": "REV", "name": "Apocalipse", "testament": "NT", "order": 66},
 }
+
+# Template sem <html>/<head>/<body> de propósito: o parser HTML5 supre esses
+# elementos ao abrir o arquivo direto, e o mesmo arquivo serve como página
+# publicável sem reescrita. O <meta charset> vem primeiro para valer nos dois casos.
+HTML_TEMPLATE = """<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{titulo}</title>
+<style>
+  /* Paleta acromática de propósito: as duas únicas cores da página são as do
+     próprio texto — a fala de Jesus e a fala de Deus. Nada mais compete. */
+  :root {{
+    --papel: #fafbfc;
+    --tinta: #1a1d21;
+    --ardosia: #69737f;
+    --regua: #dde2e8;
+    --jesus: #9e1b1b;
+    --deus: #1b4f8f;
+    --realce: rgba(27, 79, 143, .10);
+  }}
+  @media (prefers-color-scheme: dark) {{
+    :root:not([data-theme="light"]) {{
+      --papel: #14171a;
+      --tinta: #e6e8ea;
+      --ardosia: #8b949e;
+      --regua: #2a2f35;
+      --jesus: #f09a92;
+      --deus: #8fb6e8;
+      --realce: rgba(143, 182, 232, .14);
+    }}
+  }}
+  :root[data-theme="dark"] {{
+    --papel: #14171a;
+    --tinta: #e6e8ea;
+    --ardosia: #8b949e;
+    --regua: #2a2f35;
+    --jesus: #f09a92;
+    --deus: #8fb6e8;
+    --realce: rgba(143, 182, 232, .14);
+  }}
+
+  * {{ box-sizing: border-box; }}
+
+  body {{
+    margin: 0;
+    padding: 2.5rem 1.35rem 5rem;
+    background: var(--papel);
+    color: var(--tinta);
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino,
+                 "Book Antiqua", Georgia, serif;
+    font-size: 1.15rem;
+    line-height: 1.8;
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }}
+
+  main {{ max-width: 34rem; margin: 0 auto; }}
+
+  .capa {{ display: flex; flex-direction: column; gap: .5rem; }}
+  h1 {{
+    font-size: 2.4rem; font-weight: 400; margin: 0;
+    letter-spacing: -.015em; text-wrap: balance;
+  }}
+  .creditos {{
+    margin: 0; color: var(--ardosia); font-size: .95rem;
+    font-style: italic; line-height: 1.5; text-wrap: pretty;
+  }}
+
+  .legenda {{
+    display: flex; flex-wrap: wrap; gap: .3rem 1.25rem;
+    margin: 1.75rem 0 2.5rem; padding: .75rem 0;
+    border-top: 1px solid var(--regua); border-bottom: 1px solid var(--regua);
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: .78rem; line-height: 1.5; color: var(--ardosia);
+  }}
+  .legenda b {{ font-weight: 600; }}
+
+  h2 {{
+    margin: 3rem 0 1.25rem;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: .74rem; font-weight: 600;
+    text-transform: uppercase; letter-spacing: .16em; color: var(--ardosia);
+  }}
+  h2:first-of-type {{ margin-top: 2rem; }}
+
+  p.texto {{ margin: 0 0 1.4rem; hyphens: auto; }}
+
+  .vn {{
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: .62em; font-weight: 600; vertical-align: super;
+    line-height: 0; margin-right: .15em; color: var(--ardosia);
+    text-decoration: none;
+  }}
+  a.vn:hover, a.vn:focus-visible {{ color: var(--tinta); }}
+
+  .fala-jesus {{ color: var(--jesus); }}
+  .fala-deus {{ color: var(--deus); }}
+  .fala-escritura {{ font-variant: small-caps; letter-spacing: .03em; }}
+
+  h3 {{
+    margin: 3.5rem 0 1.5rem; padding-top: 1.75rem;
+    border-top: 1px solid var(--regua);
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: .74rem; font-weight: 600;
+    text-transform: uppercase; letter-spacing: .16em; color: var(--ardosia);
+  }}
+
+  ol.notas {{
+    margin: 0; padding: 0; list-style: none;
+    display: flex; flex-direction: column; gap: 1.15rem;
+    font-size: .95rem; line-height: 1.65; color: var(--ardosia);
+  }}
+  ol.notas li {{ scroll-margin-top: 1.5rem; }}
+  ol.notas b {{ color: var(--tinta); font-weight: 600; }}
+  ol.notas i {{ font-style: italic; }}
+  .volta {{
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: .72rem; font-weight: 600; text-decoration: none;
+    color: var(--ardosia); border-bottom: 1px solid var(--regua);
+  }}
+  .volta:hover, .volta:focus-visible {{ color: var(--tinta); }}
+
+  :target {{ background: var(--realce); border-radius: 2px; }}
+  a:focus-visible, [id]:focus-visible {{
+    outline: 2px solid var(--deus); outline-offset: 3px;
+  }}
+</style>
+
+<main>
+<header class="capa">
+  <h1>{titulo}</h1>
+  <p class="creditos">Tradução autoral em português contemporâneo, feita a partir dos
+  textos críticos em Grego Koiné.</p>
+</header>
+
+<div class="legenda">
+  <span><b class="fala-jesus">Vermelho</b> — palavras de Jesus</span>
+  <span><b class="fala-deus">Azul</b> — palavras de Deus</span>
+  <span><b class="fala-escritura">Versalete</b> — citação do Antigo Testamento</span>
+</div>
+
+{corpo}
+</main>
+"""
+
 
 def clean_blockquote(text: str) -> str:
     """Limpa marcações de citação em bloco (> ) e quebras de linha extras."""
@@ -119,7 +335,11 @@ def parse_markdown_chapter(file_path: Path, book_folder: str):
 
         greek_text = extract_blockquote_section("**Grego")
         literal_text = extract_blockquote_section("**Tradução Literal")
-        translation_text = extract_blockquote_section("**Tradução Fluente")
+        translation_raw = extract_blockquote_section("**Tradução Fluente")
+        try:
+            translation_text, speech_spans = extract_speech_spans(translation_raw)
+        except ValueError as err:
+            raise ValueError(f"{file_path.name} {c_num}:{v_num} — {err}") from err
 
 
         # Extrai Notas Exegéticas
@@ -169,6 +389,7 @@ def parse_markdown_chapter(file_path: Path, book_folder: str):
             "greek_text": greek_text,
             "literal_text": literal_text,
             "translation_text": translation_text,
+            "speech_spans": speech_spans,
             "notes": notes
         })
 
@@ -312,6 +533,67 @@ def main():
             f.write("\n".join(lines) + "\n")
         print(f"   ↳ Arquivo de Leitura Corrida gerado: {rel_book_file.relative_to(BASE_DIR)}")
 
+    # Release HTML: o Markdown do GitHub descarta estilo inline, então a
+    # marcação de locutor por cor só é visível nesta saída.
+    print("\n🎨 Gerando versão HTML com marcação de locutor em release/html/...")
+    import html as _html
+    superscript_digits = str.maketrans("0123456789", "⁰¹²³⁴⁵⁶⁷⁸⁹")
+
+    for b_id, b_info in book_chapters_map.items():
+        html_testament_dir = RELEASE_HTML_DIR / b_info["testament_folder"]
+        html_testament_dir.mkdir(parents=True, exist_ok=True)
+        html_book_file = html_testament_dir / f"{b_info['book_folder']}.html"
+
+        corpo = []
+        for chap in sorted(b_info["chapters"], key=lambda x: x["chapter"]):
+            c = chap["chapter"]
+            corpo.append(f"<h2>Capítulo {c}</h2>")
+            paragrafos, atual, notas_cap = [], [], []
+            for v in chap["verses"]:
+                v_num = v["verse"]
+                v_sup = str(v_num).translate(superscript_digits)
+                marcado = apply_spans_html(v["translation_text"], v.get("speech_spans", []))
+                # O número do versículo é a âncora do aparato: quem tem nota vira
+                # link para ela, e a nota devolve o leitor ao versículo.
+                if v["notes"]:
+                    numero = f'<a class="vn" id="v{c}-{v_num}" href="#n{c}-{v_num}">{v_sup}</a>'
+                else:
+                    numero = f'<span class="vn" id="v{c}-{v_num}">{v_sup}</span>'
+                atual.append(f"{numero} {marcado}")
+                for n in v["notes"]:
+                    notas_cap.append((v_num, n))
+                if v_num in [5, 8, 13, 14, 18, 28, 34, 42, 51]:
+                    paragrafos.append(" ".join(atual))
+                    atual = []
+            if atual:
+                paragrafos.append(" ".join(atual))
+            corpo.extend(f'<p class="texto">{p}</p>' for p in paragrafos)
+
+            if notas_cap:
+                corpo.append(f"<h3>Notas exegéticas e culturais — capítulo {c}</h3>")
+                corpo.append('<ol class="notas">')
+                vistos = set()
+                for v_num, n in notas_cap:
+                    lemma = n["greek_lemma"].replace("*", "").strip()
+                    lemma_str = f" (<i>{_html.escape(lemma)}</i>)" if lemma else ""
+                    id_attr = ""
+                    if v_num not in vistos:  # âncora na primeira nota de cada versículo
+                        id_attr = f' id="n{c}-{v_num}"'
+                        vistos.add(v_num)
+                    corpo.append(
+                        f"<li{id_attr}>"
+                        f'<a class="volta" href="#v{c}-{v_num}">v. {v_num}</a> '
+                        f'<b>{_html.escape(n["term"])}{lemma_str}:</b> '
+                        f'{_html.escape(n["explanation"])}</li>'
+                    )
+                corpo.append("</ol>")
+
+        pagina = HTML_TEMPLATE.format(
+            titulo=_html.escape(b_info["name"]),
+            corpo="\n".join(corpo),
+        )
+        html_book_file.write_text(pagina, encoding="utf-8")
+        print(f"   ↳ HTML gerado: {html_book_file.relative_to(BASE_DIR)}")
 
     print("\n💾 Gerando schema e sementes SQL...")
     sql_schema = """-- ==============================================================================
@@ -320,6 +602,7 @@ def main():
 
 PRAGMA foreign_keys = ON;
 
+DROP TABLE IF EXISTS verse_speech_spans;
 DROP TABLE IF EXISTS verse_notes;
 DROP TABLE IF EXISTS verses;
 DROP TABLE IF EXISTS chapters;
@@ -362,8 +645,23 @@ CREATE TABLE verse_notes (
     FOREIGN KEY (verse_id) REFERENCES verses(id) ON DELETE CASCADE
 );
 
+-- Trechos de fala atribuída, com offsets de caractere em verses.translation_text.
+-- Guarda o LOCUTOR, não a cor: a renderização (vermelho para Jesus, azul para
+-- Deus, versalete para citação do AT, ou nenhuma) é decisão da camada de
+-- apresentação e deve ser desativável pelo leitor.
+CREATE TABLE verse_speech_spans (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    verse_id TEXT NOT NULL,
+    speaker TEXT NOT NULL CHECK(speaker IN ('JESUS', 'DEUS', 'ESCRITURA')),
+    start_offset INTEGER NOT NULL,
+    end_offset INTEGER NOT NULL,
+    order_index INTEGER NOT NULL,
+    FOREIGN KEY (verse_id) REFERENCES verses(id) ON DELETE CASCADE
+);
+
 CREATE INDEX idx_verses_lookup ON verses(book_id, chapter_number, verse_number);
 CREATE INDEX idx_notes_verse ON verse_notes(verse_id);
+CREATE INDEX idx_spans_verse ON verse_speech_spans(verse_id);
 
 -- ==============================================================================
 -- SEED DATA
@@ -393,6 +691,13 @@ CREATE INDEX idx_notes_verse ON verse_notes(verse_id);
             f"{sql_escape(v['greek_text'])}, {sql_escape(v['literal_text'])}, {sql_escape(v['translation_text'])});"
         )
         sql_statements.append(stmt)
+
+        for idx, s in enumerate(v.get("speech_spans", []), start=1):
+            span_stmt = (
+                f"INSERT INTO verse_speech_spans (verse_id, speaker, start_offset, end_offset, order_index) "
+                f"VALUES ({sql_escape(v['verse_id'])}, {sql_escape(s['speaker'])}, {s['start']}, {s['end']}, {idx});"
+            )
+            sql_statements.append(span_stmt)
 
         for idx, n in enumerate(v["notes"], start=1):
             note_stmt = (

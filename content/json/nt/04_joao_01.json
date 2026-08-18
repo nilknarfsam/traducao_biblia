@@ -14,6 +14,7 @@
       "greek_text": "Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν, καὶ θεὸς ἦν ὁ λόγος.",
       "literal_text": "No princípio era o Verbo/Palavra, e o Verbo/Palavra estava com o Deus, e Deus era o Verbo/Palavra.",
       "translation_text": "No princípio era a Palavra, e a Palavra estava face a face com Deus, e a Palavra era Deus.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "Palavra",
@@ -40,6 +41,7 @@
       "greek_text": "οὗτος ἦν ἐν ἀρχῇ πρὸς τὸν θεόν.",
       "literal_text": "Este estava no princípio com o Deus.",
       "translation_text": "Ele estava no princípio face a face com Deus.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "Ele",
@@ -61,6 +63,7 @@
       "greek_text": "πάντα δι’ αὐτοῦ ἐγένετο, καὶ χωρὶς αὐτοῦ ἐγένετο οὐδὲ ἕν. ὃ γέγονεν",
       "literal_text": "Todas as coisas por meio dele vieram a ser, e sem ele veio a ser nem uma só coisa que veio a ser.",
       "translation_text": "Tudo veio a existir por meio dele, e sem ele nada do que existe veio a existir.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "Por meio dele",
@@ -87,6 +90,7 @@
       "greek_text": "ἐν αὐτῷ ζωὴ ἦν, καὶ ἡ ζωὴ ἦν τὸ φῶς τῶν ἀνθρώπων·",
       "literal_text": "Nele vida era, e a vida era a luz dos homens;",
       "translation_text": "Nele estava a vida, e a vida era a luz dos homens.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "vida",
@@ -108,6 +112,7 @@
       "greek_text": "καὶ τὸ φῶς ἐν τῇ σκοτίᾳ φαίνει, καὶ ἡ σκοτία αὐτὸ οὐ κατέλαβεν.",
       "literal_text": "E a luz na escuridão brilha, e a escuridão ela não apreendeu/compreendeu.",
       "translation_text": "A luz brilha na escuridão, e a escuridão não a venceu.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "brilha",
@@ -129,6 +134,7 @@
       "greek_text": "Ἐγένετο ἄνθρωπος, ἀπεσταλμένος παρὰ θεοῦ, ὄνομα αὐτῷ Ἰωάννης·",
       "literal_text": "Veio a haver um homem, enviado da parte de Deus, nome para ele João;",
       "translation_text": "Surgiu um homem, enviado por Deus; seu nome era João.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "Surgiu",
@@ -150,6 +156,7 @@
       "greek_text": "οὗτος ἦλθεν εἰς μαρτυρίαν ἵνα μαρτυρήσῃ περὶ τοῦ φωτός, ἵνα πάντες πιστεύσωσιν δι’ αὐτοῦ.",
       "literal_text": "Este veio para testemunho a fim de que testemunhasse acerca da luz, para que todos cressem por meio dele.",
       "translation_text": "Ele veio como testemunha, para testemunhar a respeito da luz, para que todos cressem por meio dele.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "testemunho / testemunhar",
@@ -171,6 +178,7 @@
       "greek_text": "οὐκ ἦν ἐκεῖνος τὸ φῶς, ἀλλ’ ἵνα μαρτυρήσῃ περὶ τοῦ φωτός.",
       "literal_text": "Não era aquele a luz, mas para que testemunhasse acerca da luz.",
       "translation_text": "Não era ele a luz, mas veio para testemunhar a respeito da luz.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "Ele próprio não era a luz",
@@ -187,6 +195,7 @@
       "greek_text": "Ἦν τὸ φῶς τὸ ἀληθινόν, ὃ φωτίζει πάντα ἄνθρωπον, ἐρχόμενον εἰς τὸν κόσμον.",
       "literal_text": "Era a luz a verdadeira, que ilumina todo homem, vindo ao mundo.",
       "translation_text": "A luz verdadeira, que ilumina todo ser humano, estava vindo ao mundo.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "a luz verdadeira",
@@ -208,6 +217,7 @@
       "greek_text": "ἐν τῷ κόσμῳ ἦν, καὶ ὁ κόσμος δι’ αὐτοῦ ἐγένετο, καὶ ὁ κόσμος αὐτὸν οὐκ ἔγνω.",
       "literal_text": "No mundo estava, e o mundo por meio dele veio a ser, e o mundo a ele não conheceu.",
       "translation_text": "Ele estava no mundo, e o mundo veio a existir por meio dele, e o mundo não o reconheceu.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "o mundo",
@@ -229,6 +239,7 @@
       "greek_text": "εἰς τὰ ἴδια ἦλθεν, καὶ οἱ ἴδιοι αὐτὸν οὐ παρέλαβον.",
       "literal_text": "Para as próprias coisas veio, e os próprios a ele não receberam.",
       "translation_text": "Veio para o que era seu, e os seus não o acolheram.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "o que era seu",
@@ -250,6 +261,7 @@
       "greek_text": "ὅσοι δὲ ἔλαβον αὐτόν, ἔδωκεν αὐτοῖς ἐξουσίαν τέκνα θεοῦ γενέσθαι, τοῖς πιστεύουσιν εἰς τὸ ὄνομα αὐτοῦ,",
       "literal_text": "Quantos porém receberam a ele, deu a eles autoridade/direito filhos de Deus tornarem-se, aos que creem no nome dele,",
       "translation_text": "Mas a todos que o receberam ele deu o direito de se tornarem filhos de Deus — aos que creem no seu nome.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "o direito",
@@ -276,6 +288,7 @@
       "greek_text": "οἳ οὐκ ἐξ αἱμάτων οὐδὲ ἐκ θελήματος σαρκὸς οὐδὲ ἐκ θελήματος ἀνδρὸς ἀλλ’ ἐκ θεοῦ ἐγεννήθησαν.",
       "literal_text": "os quais não de sangues nem da vontade da carne nem da vontade de varão/marido, mas de Deus foram gerados.",
       "translation_text": "Eles não foram gerados de sangue, nem da vontade da carne, nem da vontade de homem, mas de Deus.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "não de sangues",
@@ -297,6 +310,7 @@
       "greek_text": "Καὶ ὁ λόγος σὰρξ ἐγένετο καὶ ἐσκήνωσεν ἐν ἡμῖν, καὶ ἐθεασάμεθα τὴν δόξαν αὐτοῦ, δόξαν ὡς μονογενοῦς παρὰ πατρός, πλήρης χάριτος καὶ ἀληθείας.",
       "literal_text": "E o Verbo carne veio a ser e tabernaculou entre nós, e contemplamos a glória dele, glória como de unigênito da parte do Pai, cheio de graça e verdade.",
       "translation_text": "E a Palavra se fez carne e armou sua tenda entre nós. E contemplamos a sua glória, glória como a do Filho único, vindo do Pai, cheio de graça e de verdade.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "se fez carne",
@@ -333,6 +347,7 @@
       "greek_text": "Ἰωάννης μαρτυρεῖ περὶ αὐτοῦ καὶ κέκραγεν λέγων· Οὗτος ἦν ὃν εἶπον· Ὁ ὀπίσω μου ἐρχόμενος ἔμπροσθέν μου γέγονεν, ὅτι πρῶτός μου ἦν.",
       "literal_text": "João testemunha acerca dele e clamou dizendo: Este era de quem eu disse: O atrás de mim vindo adiante de mim passou a ser, porque primeiro de mim era.",
       "translation_text": "João testemunha a respeito dele e clama: “Era este que eu dizia: Aquele que vem depois de mim passou à minha frente, porque existia antes de mim”.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "clama",
@@ -354,6 +369,7 @@
       "greek_text": "ὅτι ἐκ τοῦ πληρώματος αὐτοῦ ἡμεῖς πάντες ἐλάβομεν, καὶ χάριν ἀντὶ χάριτος·",
       "literal_text": "Porque da plenitude dele nós todos recebemos, e graça em lugar de graça.",
       "translation_text": "Pois de sua plenitude todos nós recebemos, e graça sobre graça.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "plenitude",
@@ -375,6 +391,7 @@
       "greek_text": "ὅτι ὁ νόμος διὰ Μωϋσέως ἐδόθη, ἡ χάρις καὶ ἡ ἀλήθεια διὰ Ἰησοῦ Χριστοῦ ἐγένετο.",
       "literal_text": "Porque a lei por meio de Moisés foi dada, a graça e a verdade por meio de Jesus Cristo vieram a ser.",
       "translation_text": "Porque a Lei foi dada por meio de Moisés; a graça e a verdade vieram a existir por meio de Jesus Cristo.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "a Lei foi dada... a graça e a verdade vieram",
@@ -396,6 +413,7 @@
       "greek_text": "θεὸν οὐδεὶς ἑώρακεν πώποτε· μονογενὴς θεὸς ὁ ὢν εἰς τὸν κόλπον τοῦ πατρὸς ἐκεῖνος ἐξηγήσατο.",
       "literal_text": "A Deus ninguém viu jamais; o Deus unigênito, aquele que está no seio do Pai, aquele o revelou/explicou.",
       "translation_text": "Ninguém jamais viu a Deus; o Filho único, que é Deus e está no seio do Pai, ele o revelou.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "o Filho único, que é Deus",
@@ -422,6 +440,7 @@
       "greek_text": "Καὶ αὕτη ἐστὶν ἡ μαρτυρία τοῦ Ἰωάννου, ὅτε ἀπέστειλαν πρὸς αὐτὸν οἱ Ἰουδαῖοι ἐξ Ἱεροσολύμων ἱερεῖς καὶ Λευίτας ἵνα ἐρωτήσωσιν αὐτόν· Σὺ τίς εἶ;",
       "literal_text": "E este é o testemunho do João, quando enviaram a ele os judeus de Jerusalém sacerdotes e levitas para que perguntassem a ele: Tu quem és?",
       "translation_text": "Este é o testemunho de João, quando as autoridades judaicas de Jerusalém lhe enviaram sacerdotes e levitas para lhe perguntarem: “Quem é você?”.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "as autoridades judaicas",
@@ -443,6 +462,7 @@
       "greek_text": "καὶ ὡμολόγησεν καὶ οὐκ ἠρνήσατο, καὶ ὡμολόγησεν ὅτι Ἐγὼ οὐκ εἰμὶ ὁ Χριστός.",
       "literal_text": "E confessou e não negou, e confessou que: Eu não sou o Cristo.",
       "translation_text": "Ele confessou e não negou; confessou: “Eu não sou o Cristo”.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "confessou e não negou",
@@ -464,6 +484,7 @@
       "greek_text": "καὶ ἠρώτησαν αὐτόν· Τί οὖν; Σὺ Ἠλίας εἶ; καὶ λέγει· Οὐκ εἰμί. Ὁ προφήτης εἶ σύ; καὶ ἀπεκρίθη· Οὔ.",
       "literal_text": "E perguntaram a ele: O que então? Tu Elias és? E diz: Não sou. O profeta és tu? E respondeu: Não.",
       "translation_text": "Perguntaram-lhe: “O que, então? Você é Elias?”. Ele disse: “Não sou”. “Você é o Profeta?”. E respondeu: “Não”.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "É Elias?",
@@ -485,6 +506,7 @@
       "greek_text": "εἶπαν οὖν αὐτῷ· Τίς εἶ; ἵνα ἀπόκρισιν δῶμεν τοῖς πέμψασιν ἡμᾶς· τί λέγεις περὶ σεαυτοῦ;",
       "literal_text": "Disseram então a ele: Quem és? Para que resposta demos aos que enviaram a nós; que dizes acerca de ti mesmo?",
       "translation_text": "Disseram-lhe então: “Quem é você? Precisamos levar uma resposta aos que nos enviaram. O que você diz de si mesmo?”.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "resposta àqueles que nos enviaram",
@@ -501,6 +523,13 @@
       "greek_text": "ἔφη· Ἐγὼ φωνὴ βοῶντος ἐν τῇ ἐρήμῳ· Εὐθύνατε τὴν ὁδὸν κυρίου, καθὼς εἶπεν Ἡσαΐας ὁ προφήτης.",
       "literal_text": "Disse: Eu voz de um clamando no deserto: Endireitai o caminho do Senhor, como disse Isaías o profeta.",
       "translation_text": "Ele disse: “Eu sou a voz de quem clama no deserto: Endireitem o caminho do Senhor” — como disse o profeta Isaías.",
+      "speech_spans": [
+        {
+          "speaker": "ESCRITURA",
+          "start": 21,
+          "end": 81
+        }
+      ],
       "notes": [
         {
           "term": "voz de quem clama no deserto",
@@ -522,6 +551,7 @@
       "greek_text": "Καὶ ἀπεσταλμένοι ἦσαν ἐκ τῶν Φαρισαίων.",
       "literal_text": "E os enviados eram dentre os fariseus.",
       "translation_text": "Ora, os que haviam sido enviados eram do meio dos fariseus.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "fariseus",
@@ -538,6 +568,7 @@
       "greek_text": "καὶ ἠρώτησαν αὐτὸν καὶ εἶπαν αὐτῷ· Τί οὖν βαπτίζεις εἰ σὺ οὐκ εἶ ὁ Χριστὸς οὐδὲ Ἠλίας οὐδὲ ὁ προφήτης;",
       "literal_text": "E perguntaram a ele e disseram a ele: Por que então batizas se tu não és o Cristo nem Elias nem o profeta?",
       "translation_text": "Perguntaram-lhe: “Então por que você batiza, se não é o Cristo, nem Elias, nem o Profeta?”.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "por que você batiza?",
@@ -554,6 +585,7 @@
       "greek_text": "ἀπεκρίθη αὐτοῖς ὁ Ἰωάννης λέγων· Ἐγὼ βαπτίζω ἐν ὕδατι· μέσος ὑμῶν ἕστηκεν ὃν ὑμεῖς οὐκ οἴδατε,",
       "literal_text": "Respondeu a eles o João dizendo: Eu batizo em água; no meio de vós está em pé a quem vós não conheceis,",
       "translation_text": "João lhes respondeu: “Eu batizo com água. No meio de vocês está alguém que vocês não conhecem,",
+      "speech_spans": [],
       "notes": [
         {
           "term": "batizo com água",
@@ -575,6 +607,7 @@
       "greek_text": "ὁ ὀπίσω μου ἐρχόμενος, οὗ οὐκ εἰμὶ [ἐγὼ] ἄξιος ἵνα λύσω αὐτοῦ τὸν ἱμάντα τοῦ ὑποδήματος.",
       "literal_text": "o atrás de mim vindo, do qual não sou digno para que desate dele a correia da sandália.",
       "translation_text": "aquele que vem depois de mim, de quem não sou digno de desatar a correia da sandália”.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "desatar a correia da sandália",
@@ -591,6 +624,7 @@
       "greek_text": "Ταῦτα ἐν Βηθανίᾳ ἐγένετο πέραν τοῦ Ἰορδάνου, ὅπου ἦν ὁ Ἰωάννης βαπτίζων.",
       "literal_text": "Estas coisas em Betânia aconteceram além do Jordão, onde estava o João batizando.",
       "translation_text": "Isso aconteceu em Betânia, do outro lado do Jordão, onde João estava batizando.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "Betânia além do Jordão",
@@ -607,6 +641,7 @@
       "greek_text": "Τῇ ἐπαύριον βλέπει τὸν Ἰησοῦν ἐρχόμενον πρὸς αὐτόν, καὶ λέγει· Ἴδε ὁ ἀμνὸς τοῦ θεοῦ ὁ αἴρων τὴν ἁμαρτίαν τοῦ κόσμου.",
       "literal_text": "No dia seguinte vê o Jesus vindo para ele, e diz: Eis o cordeiro do Deus, o que tira o pecado do mundo.",
       "translation_text": "No dia seguinte, João viu Jesus vindo em sua direção e disse: “Eis o Cordeiro de Deus, que tira o pecado do mundo!",
+      "speech_spans": [],
       "notes": [
         {
           "term": "No dia seguinte",
@@ -633,6 +668,7 @@
       "greek_text": "οὗτός ἐστιν ὑπὲρ οὗ ἐγὼ εἶπον· Ὀπίσω μου ἔρχεται ἀνὴρ ὃς ἔμπροσθέν μου γέγονεν, ὅτι πρῶτός μου ἦν.",
       "literal_text": "Este é em favor de quem eu disse: Atrás de mim vem um varão que adiante de mim passou a ser, porque primeiro de mim era.",
       "translation_text": "É a respeito dele que eu disse: ‘Depois de mim vem um homem que passou à minha frente, porque existia antes de mim’.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "um homem",
@@ -649,6 +685,7 @@
       "greek_text": "κἀγὼ οὐκ ᾔδειν αὐτόν, ἀλλ’ ἵνα φανερωθῇ τῷ Ἰσραὴλ διὰ τοῦτο ἦλθον ἐγὼ ἐν ὕδατι βαπτίζων.",
       "literal_text": "E eu não o conhecia, mas para que fosse manifestado ao Israel por isso vim eu em água batizando.",
       "translation_text": "Eu não o conhecia; mas foi para que ele fosse manifestado a Israel que eu vim batizando com água”.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "não o conhecia",
@@ -670,6 +707,7 @@
       "greek_text": "Καὶ ἐμαρτύρησεν Ἰωάννης λέγων ὅτι Τεθέαμαι τὸ πνεῦμα καταβαῖνον ὡς περιστερὰν ἐξ οὐρανοῦ, καὶ ἔμεινεν ἐπ’ αὐτόν.",
       "literal_text": "E testemunhou João dizendo que: Tenho contemplado o Espírito descendo como pomba do céu, e permaneceu sobre ele.",
       "translation_text": "E João testemunhou: “Vi o Espírito descer do céu como pomba, e permaneceu sobre ele.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "Vi",
@@ -696,6 +734,13 @@
       "greek_text": "κἀγὼ οὐκ ᾔδειν αὐτόν, ἀλλ’ ὁ πέμψας με βαπτίζειν ἐν ὕδατι ἐκεῖνός μοι εἶπεν· Ἐφ’ ὃν ἂν ἴδῃς τὸ πνεῦμα καταβαῖνον καὶ μένον ἐπ’ αὐτόν, οὗτός ἐστιν ὁ βαπτίζων ἐν πνεύματι ἁγίῳ.",
       "literal_text": "E eu não o conhecia, mas o que me enviou a batizar em água aquele a mim disse: Sobre quem vires o Espírito descendo e permanecendo sobre ele, este é o que batiza em Espírito Santo.",
       "translation_text": "Eu não o conhecia, mas aquele que me enviou a batizar com água me disse: ‘Aquele sobre quem você vir o Espírito descer e permanecer, esse é o que batiza no Espírito Santo’.",
+      "speech_spans": [
+        {
+          "speaker": "DEUS",
+          "start": 74,
+          "end": 170
+        }
+      ],
       "notes": [
         {
           "term": "o que batiza no Espírito Santo",
@@ -712,6 +757,7 @@
       "greek_text": "κἀγὼ ἑώρακα, καὶ μεμαρτύρηκα ὅτι οὗτός ἐστιν ὁ υἱὸς τοῦ θεοῦ.",
       "literal_text": "E eu tenho visto, e tenho testemunhado que este é o Filho do Deus.",
       "translation_text": "E eu vi e testemunhei que este é o Filho de Deus”.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "Eu vi e dou testemunho",
@@ -733,6 +779,7 @@
       "greek_text": "Τῇ ἐπαύριον πάλιν εἱστήκει ὁ Ἰωάννης καὶ ἐκ τῶν μαθητῶν αὐτοῦ δύο,",
       "literal_text": "No dia seguinte outra vez estava em pé o João e dentre os discípulos dele dois,",
       "translation_text": "No dia seguinte, João estava ali outra vez, com dois dos seus discípulos.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "dois dos seus discípulos",
@@ -749,6 +796,7 @@
       "greek_text": "καὶ ἐμβλέψας τῷ Ἰησοῦ περιπατοῦντι λέγει· Ἴδε ὁ ἀμνὸς τοῦ θεοῦ.",
       "literal_text": "E fitando os olhos no Jesus caminhando diz: Eis o cordeiro do Deus.",
       "translation_text": "E, fixando o olhar em Jesus, que passava, disse: “Eis o Cordeiro de Deus!”.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "Fixando o olhar",
@@ -765,6 +813,7 @@
       "greek_text": "καὶ ἤκουσαν οἱ δύο μαθηταὶ αὐτοῦ λαλοῦντος καὶ ἠκολούθησαν τῷ Ἰησοῦ.",
       "literal_text": "E ouviram os dois discípulos a ele falando e seguiram o Jesus.",
       "translation_text": "Os dois discípulos o ouviram falar e seguiram Jesus.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "seguiram Jesus",
@@ -781,6 +830,13 @@
       "greek_text": "στραφεὶς δὲ ὁ Ἰησοῦς καὶ θεασάμενος αὐτοὺς ἀκολουθοῦντας λέγει αὐτοῖς· Τί ζητεῖτε; οἱ δὲ εἶπαν αὐτῷ· Ῥαββί (ὃ λέγεται μεθερμηνευόμενον Διδάσκαλε), ποῦ μένεις;",
       "literal_text": "Voltando-se porém o Jesus e contemplando eles seguindo diz a eles: Que buscais? Eles porém disseram a ele: Rabi (que é dito sendo traduzido Mestre), onde permaneces?",
       "translation_text": "Jesus voltou-se e, vendo que o seguiam, disse-lhes: “O que vocês procuram?”. Eles lhe disseram: “Rabi” — que quer dizer Mestre —, “onde você está hospedado?”.",
+      "speech_spans": [
+        {
+          "speaker": "JESUS",
+          "start": 53,
+          "end": 74
+        }
+      ],
       "notes": [
         {
           "term": "O que vocês procuram?",
@@ -802,6 +858,13 @@
       "greek_text": "λέγει αὐτοῖς· Ἔρχεσθε καὶ ὄψεσθε. ἦλθαν οὖν καὶ εἶδαν ποῦ μένει, καὶ παρ’ αὐτῷ ἔμειναν τὴν ἡμέραν ἐκείνην· ὥρα ἦν ὡς δεκάτη.",
       "literal_text": "Diz a eles: Vinde e vereis. Foram então e viram onde permanece, e junto dele permaneceram o dia aquele; hora era cerca de décima.",
       "translation_text": "Ele lhes disse: “Venham e vejam”. Foram, viram onde ele estava hospedado e ficaram com ele aquele dia. Era por volta das quatro da tarde.",
+      "speech_spans": [
+        {
+          "speaker": "JESUS",
+          "start": 17,
+          "end": 31
+        }
+      ],
       "notes": [
         {
           "term": "Venham e vejam",
@@ -823,6 +886,7 @@
       "greek_text": "Ἦν Ἀνδρέας ὁ ἀδελφὸς Σίμωνος Πέτρου εἷς ἐκ τῶν δύο τῶν ἀκουσάντων παρὰ Ἰωάννου καὶ ἀκολουθησάντων αὐτῷ·",
       "literal_text": "Era André o irmão de Simão Pedro um dentre os dois dos que ouviram da parte de João e seguiram a ele;",
       "translation_text": "André, irmão de Simão Pedro, era um dos dois que tinham ouvido João e seguido Jesus.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "André",
@@ -839,6 +903,7 @@
       "greek_text": "εὑρίσκει οὗτος πρῶτον τὸν ἀδελφὸν τὸν ἴδιον Σίμωνα καὶ λέγει αὐτῷ· Εὑρήκαμεν τὸν Μεσσίαν (ὅ ἐστιν μεθερμηνευόμενον Χριστός)·",
       "literal_text": "Encontra este primeiro o irmão o próprio Simão e diz a ele: Encontramos o Messias (que é sendo traduzido Cristo);",
       "translation_text": "Ele encontrou primeiro o seu irmão Simão e lhe disse: “Encontramos o Messias!” — que quer dizer Cristo.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "Encontramos o Messias",
@@ -855,6 +920,13 @@
       "greek_text": "ἤγαγεν αὐτὸν πρὸς τὸν Ἰησοῦν. ἐμβλέψας αὐτῷ ὁ Ἰησοῦς εἶπεν· Σὺ εἶ Σίμων ὁ υἱὸς Ἰωάννου, σὺ κληθήσῃ Κηφᾶς (ὃ ἑρμηνεύεται Πέτρος).",
       "literal_text": "Conduziu ele para o Jesus. Fitando os olhos nele o Jesus disse: Tu és Simão o filho de João, tu serás chamado Cefas (que é interpretado Pedro).",
       "translation_text": "E o levou a Jesus. Jesus fixou o olhar nele e disse: “Você é Simão, filho de João; você será chamado Cefas” — que quer dizer Pedro.",
+      "speech_spans": [
+        {
+          "speaker": "JESUS",
+          "start": 54,
+          "end": 106
+        }
+      ],
       "notes": [
         {
           "term": "Cefas... Pedro",
@@ -871,6 +943,13 @@
       "greek_text": "Τῇ ἐπαύριον ἠθέλησεν ἐξελθεῖν εἰς τὴν Γαλιλαίαν, καὶ εὑρίσκει Φίλιππον. καὶ λέγει αὐτῷ ὁ Ἰησοῦς· Ἀκολούθει μοι.",
       "literal_text": "No dia seguinte quis sair para a Galileia, e encontra Filipe. E diz a ele o Jesus: Segue-me.",
       "translation_text": "No dia seguinte, Jesus resolveu partir para a Galileia. Encontrou Filipe e lhe disse: “Siga-me”.",
+      "speech_spans": [
+        {
+          "speaker": "JESUS",
+          "start": 87,
+          "end": 94
+        }
+      ],
       "notes": [
         {
           "term": "Siga-me",
@@ -887,6 +966,7 @@
       "greek_text": "ἦν δὲ ὁ Φίλιππος ἀπὸ Βηθσαϊδά, ἐκ τῆς πόλεως Ἀνδρέου καὶ Πέτρου.",
       "literal_text": "Era porém o Filipe de Betsaida, da cidade de André e Pedro.",
       "translation_text": "Filipe era de Betsaida, a cidade de André e de Pedro.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "Betsaida",
@@ -903,6 +983,7 @@
       "greek_text": "εὑρίσκει Φίλιππος τὸν Ναθαναὴλ καὶ λέγει αὐτῷ· Ὃν ἔγραψεν Μωϋσῆς ἐν τῷ νόμῳ καὶ οἱ προφῆται εὑρήκαμεν, Ἰησοῦν υἱὸν τοῦ Ἰωσὴφ τὸν ἀπὸ Ναζαρέτ.",
       "literal_text": "Encontra Filipe o Natanael e diz a ele: Aquele de quem escreveu Moisés na lei e os profetas encontramos, Jesus filho do José o de Nazaré.",
       "translation_text": "Filipe encontrou Natanael e lhe disse: “Encontramos aquele de quem Moisés escreveu na Lei, e também os profetas: Jesus de Nazaré, o filho de José”.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "Natanael",
@@ -924,6 +1005,7 @@
       "greek_text": "καὶ εἶπεν αὐτῷ Ναθαναήλ· Ἐκ Ναζαρὲτ δύναταί τι ἀγαθὸν εἶναι; λέγει αὐτῷ [ὁ] Φίλιππος· Ἔρχου καὶ ἴδε.",
       "literal_text": "E disse a ele Natanael: De Nazaré pode alguma coisa boa ser? Diz a ele o Filipe: Vem e vê.",
       "translation_text": "Natanael lhe disse: “De Nazaré pode sair alguma coisa boa?”. Filipe lhe respondeu: “Venha e veja”.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "De Nazaré pode sair algo de bom?",
@@ -945,6 +1027,13 @@
       "greek_text": "εἶδεν ὁ Ἰησοῦς τὸν Ναθαναὴλ ἐρχόμενον πρὸς αὐτὸν καὶ λέγει περὶ αὐτοῦ· Ἴδε ἀληθῶς Ἰσραηλίτης ἐν ᾧ δόλος οὐκ ἔστιν.",
       "literal_text": "Viu o Jesus o Natanael vindo para ele e diz acerca dele: Eis verdadeiramente um israelita em quem engano não há.",
       "translation_text": "Jesus viu Natanael vindo em sua direção e disse a seu respeito: “Eis um verdadeiro israelita, em quem não há engano!”.",
+      "speech_spans": [
+        {
+          "speaker": "JESUS",
+          "start": 65,
+          "end": 116
+        }
+      ],
       "notes": [
         {
           "term": "um verdadeiro israelita em quem não há engano",
@@ -961,6 +1050,13 @@
       "greek_text": "λέγει αὐτῷ Ναθαναήλ· Πόθεν με γινώσκεις; ἀπεκρίθη Ἰησοῦς καὶ εἶπεν αὐτῷ· Πρὸ τοῦ σε Φίλιππον φωνῆσαι ὄντα ὑπὸ τὴν συκῆν εἶδόν σε.",
       "literal_text": "Diz a ele Natanael: De onde me conheces? Respondeu Jesus e disse a ele: Antes de o Filipe te chamar, estando sob a figueira, vi-te.",
       "translation_text": "Natanael lhe perguntou: “De onde você me conhece?”. Jesus respondeu: “Antes que Filipe o chamasse, quando você estava debaixo da figueira, eu o vi”.",
+      "speech_spans": [
+        {
+          "speaker": "JESUS",
+          "start": 70,
+          "end": 146
+        }
+      ],
       "notes": [
         {
           "term": "debaixo da figueira",
@@ -977,6 +1073,7 @@
       "greek_text": "ἀπεκρίθη αὐτῷ Ναθαναήλ· Ῥαββί, σὺ εἶ ὁ υἱὸς τοῦ θεοῦ, σὺ βασιλεὺς εἶ τοῦ Ἰσραήλ.",
       "literal_text": "Respondeu a ele Natanael: Rabi, tu és o Filho do Deus, tu Rei és do Israel.",
       "translation_text": "Natanael lhe respondeu: “Rabi, você é o Filho de Deus! Você é o Rei de Israel!”.",
+      "speech_spans": [],
       "notes": [
         {
           "term": "Filho de Deus... Rei de Israel",
@@ -993,6 +1090,13 @@
       "greek_text": "ἀπεκρίθη Ἰησοῦς καὶ εἶπεν αὐτῷ· Ὅτι εἶπόν σοι ὅτι εἶδόν σε ὑποκάτω τῆς συκῆς πιστεύεις; μείζω τούτων ὄψῃ.",
       "literal_text": "Respondeu Jesus e disse a ele: Porque te disse que te vi debaixo da figueira crês? Coisas maiores do que estas verás.",
       "translation_text": "Jesus lhe respondeu: “Você crê porque eu lhe disse que o vi debaixo da figueira? Você verá coisas maiores do que estas”.",
+      "speech_spans": [
+        {
+          "speaker": "JESUS",
+          "start": 22,
+          "end": 118
+        }
+      ],
       "notes": [
         {
           "term": "você verá coisas maiores do que estas",
@@ -1009,6 +1113,13 @@
       "greek_text": "καὶ λέγει αὐτῷ· Ἀμὴν ἀμὴν λέγω ὑμῖν, ὄψεσθε τὸν οὐρανὸν ἀνεῳγότα καὶ τοὺς ἀγγέλους τοῦ θεοῦ ἀναβαίνοντας καὶ καταβαίνοντας ἐπὶ τὸν υἱὸν τοῦ ἀνθρώπου.",
       "literal_text": "E diz a ele: Em verdade em verdade vos digo, vereis o céu aberto e os anjos do Deus subindo e descendo sobre o Filho do homem.",
       "translation_text": "E disse-lhe: “Em verdade, em verdade lhes digo: vocês verão o céu aberto e os anjos de Deus subindo e descendo sobre o Filho do Homem”.",
+      "speech_spans": [
+        {
+          "speaker": "JESUS",
+          "start": 14,
+          "end": 133
+        }
+      ],
       "notes": [
         {
           "term": "Em verdade, em verdade lhes digo",

@@ -344,7 +344,7 @@
 > Disse: Eu voz de um clamando no deserto: Endireitai o caminho do Senhor, como disse Isaías o profeta.
 
 **Tradução Fluente Autoral:**
-> Ele disse: “Eu sou a voz de quem clama no deserto: Endireitem o caminho do Senhor” — como disse o profeta Isaías.
+> Ele disse: “Eu sou a [[E]]voz de quem clama no deserto: Endireitem o caminho do Senhor[[/E]]” — como disse o profeta Isaías.
 
 **Notas Exegéticas e Culturais:**
 - **voz de quem clama no deserto (φωνὴ βοῶντος ἐν τῇ ἐρήμῳ - *phōnē boōntos en tē erēmō*):** Citação direta de Isaías 40:3. João se recusa a reivindicar qualquer dignidade pessoal ou título; ele se define meramente como um instrumento sonoro (*phōnē*), o arauto que prepara a rota régia para a chegada iminente do Rei e Senhor (*Kyrios*).
@@ -491,7 +491,7 @@
 > E eu não o conhecia, mas o que me enviou a batizar em água aquele a mim disse: Sobre quem vires o Espírito descendo e permanecendo sobre ele, este é o que batiza em Espírito Santo.
 
 **Tradução Fluente Autoral:**
-> Eu não o conhecia, mas aquele que me enviou a batizar com água me disse: ‘Aquele sobre quem você vir o Espírito descer e permanecer, esse é o que batiza no Espírito Santo’.
+> Eu não o conhecia, mas aquele que me enviou a batizar com água me disse: ‘[[D]]Aquele sobre quem você vir o Espírito descer e permanecer, esse é o que batiza no Espírito Santo[[/D]]’.
 
 **Notas Exegéticas e Culturais:**
 - **o que batiza no Espírito Santo (ὁ βαπτίζων ἐν πνεύματι ἁγίῳ - *ho baptizōn en pneumati hagiō*):** Cumprimento das grandes promessas escatológicas dos profetas de que Deus derramaria o Seu próprio Espírito sobre toda a carne nos dias do Messias (cf. Ez 36:26-27; Jl 2:28). Jesus não apenas possui o Espírito, Ele é o doador soberano do Espírito.
@@ -562,7 +562,7 @@
 > Voltando-se porém o Jesus e contemplando eles seguindo diz a eles: Que buscais? Eles porém disseram a ele: Rabi (que é dito sendo traduzido Mestre), onde permaneces?
 
 **Tradução Fluente Autoral:**
-> Jesus voltou-se e, vendo que o seguiam, disse-lhes: “O que vocês procuram?”. Eles lhe disseram: “Rabi” — que quer dizer Mestre —, “onde você está hospedado?”.
+> Jesus voltou-se e, vendo que o seguiam, disse-lhes: “[[J]]O que vocês procuram?[[/J]]”. Eles lhe disseram: “Rabi” — que quer dizer Mestre —, “onde você está hospedado?”.
 
 **Notas Exegéticas e Culturais:**
 - **O que vocês procuram? (Τί ζητεῖτε - *Ti zēteite*):** As primeiras palavras pronunciadas por Jesus no Evangelho de João constituem uma pergunta existencial profunda que desafia as motivações íntimas do coração de quem busca a Deus.
@@ -577,7 +577,7 @@
 > Diz a eles: Vinde e vereis. Foram então e viram onde permanece, e junto dele permaneceram o dia aquele; hora era cerca de décima.
 
 **Tradução Fluente Autoral:**
-> Ele lhes disse: “Venham e vejam”. Foram, viram onde ele estava hospedado e ficaram com ele aquele dia. Era por volta das quatro da tarde.
+> Ele lhes disse: “[[J]]Venham e vejam[[/J]]”. Foram, viram onde ele estava hospedado e ficaram com ele aquele dia. Era por volta das quatro da tarde.
 
 **Notas Exegéticas e Culturais:**
 - **Venham e vejam (Ἔρχεσθε καὶ ὄψεσθε - *Erchesthe kai opsesthe*):** O convite essencial do cristianismo joanino não é uma adesão a um sistema filosófico abstrato, mas uma experiência direta e relacional com a pessoa de Cristo.
@@ -620,7 +620,7 @@
 > Conduziu ele para o Jesus. Fitando os olhos nele o Jesus disse: Tu és Simão o filho de João, tu serás chamado Cefas (que é interpretado Pedro).
 
 **Tradução Fluente Autoral:**
-> E o levou a Jesus. Jesus fixou o olhar nele e disse: “Você é Simão, filho de João; você será chamado Cefas” — que quer dizer Pedro.
+> E o levou a Jesus. Jesus fixou o olhar nele e disse: “[[J]]Você é Simão, filho de João; você será chamado Cefas[[/J]]” — que quer dizer Pedro.
 
 **Notas Exegéticas e Culturais:**
 - **Cefas... Pedro (Κηφᾶς ... Πέτρος - *Kēphas ... Petros*):** *Kêfâ* é o termo aramaico para "rocha" ou "pedra", traduzido para o grego como *Petros*. A mudança de nome na cultura semítica denota uma transformação de identidade, vocação e destino conferida soberanamente por Deus (como Abrão para Abraão, Jacó para Israel).
@@ -634,7 +634,7 @@
 > No dia seguinte quis sair para a Galileia, e encontra Filipe. E diz a ele o Jesus: Segue-me.
 
 **Tradução Fluente Autoral:**
-> No dia seguinte, Jesus resolveu partir para a Galileia. Encontrou Filipe e lhe disse: “Siga-me”.
+> No dia seguinte, Jesus resolveu partir para a Galileia. Encontrou Filipe e lhe disse: “[[J]]Siga-me[[/J]]”.
 
 **Notas Exegéticas e Culturais:**
 - **Siga-me (Ἀκολούθει μοι - *Akolouthei moi*):** Imperativo presente ativo, demandando uma decisão contínua, ativa e incondicional de lealdade e caminhada em comunhão com o Mestre.
@@ -692,7 +692,7 @@
 > Viu o Jesus o Natanael vindo para ele e diz acerca dele: Eis verdadeiramente um israelita em quem engano não há.
 
 **Tradução Fluente Autoral:**
-> Jesus viu Natanael vindo em sua direção e disse a seu respeito: “Eis um verdadeiro israelita, em quem não há engano!”.
+> Jesus viu Natanael vindo em sua direção e disse a seu respeito: “[[J]]Eis um verdadeiro israelita, em quem não há engano![[/J]]”.
 
 **Notas Exegéticas e Culturais:**
 - **um verdadeiro israelita em quem não há engano (ἀληθῶς Ἰσραηλίτης ἐν ᾧ δόλος οὐκ ἔστιν - *alēthōs Israēlitēs en hō dolos ouk estin*):** Alusão ao patriarca Jacó (que deu origem a Israel), conhecido originalmente por sua astúcia e engano (*dolos*, ao enganar seu pai Isaque para obter a bênção em Gn 27:35). Jesus saúda Natanael como um homem íntegro e sincero que personifica o verdadeiro Israel sem duplicidade de espírito.
@@ -706,7 +706,7 @@
 > Diz a ele Natanael: De onde me conheces? Respondeu Jesus e disse a ele: Antes de o Filipe te chamar, estando sob a figueira, vi-te.
 
 **Tradução Fluente Autoral:**
-> Natanael lhe perguntou: “De onde você me conhece?”. Jesus respondeu: “Antes que Filipe o chamasse, quando você estava debaixo da figueira, eu o vi”.
+> Natanael lhe perguntou: “De onde você me conhece?”. Jesus respondeu: “[[J]]Antes que Filipe o chamasse, quando você estava debaixo da figueira, eu o vi[[/J]]”.
 
 **Notas Exegéticas e Culturais:**
 - **debaixo da figueira (ὑπὸ τὴν συκῆν - *hypo tēn sykēn*):** Na literatura rabínica, estar "debaixo da figueira" era uma expressão idiomática e prática devocional comum para o estudo e a meditação piedosa das Escrituras e da Lei (*Torá*), além de símbolo profético de paz e segurança messiânica (cf. Mq 4:4; Zc 3:10). A onisciência sobrenatural de Jesus penetrou o santuário secreto de oração de Natanael.
@@ -734,7 +734,7 @@
 > Respondeu Jesus e disse a ele: Porque te disse que te vi debaixo da figueira crês? Coisas maiores do que estas verás.
 
 **Tradução Fluente Autoral:**
-> Jesus lhe respondeu: “Você crê porque eu lhe disse que o vi debaixo da figueira? Você verá coisas maiores do que estas”.
+> Jesus lhe respondeu: “[[J]]Você crê porque eu lhe disse que o vi debaixo da figueira? Você verá coisas maiores do que estas[[/J]]”.
 
 **Notas Exegéticas e Culturais:**
 - **você verá coisas maiores do que estas (μείζω τούτων ὄψῃ - *meizō toutōn opsē*):** Promessa que inaugura a progressão de revelações e milagres portentosos (*sēmeia*) que se desenrolarão ao longo do Evangelho.
@@ -748,7 +748,7 @@
 > E diz a ele: Em verdade em verdade vos digo, vereis o céu aberto e os anjos do Deus subindo e descendo sobre o Filho do homem.
 
 **Tradução Fluente Autoral:**
-> E disse-lhe: “Em verdade, em verdade lhes digo: vocês verão o céu aberto e os anjos de Deus subindo e descendo sobre o Filho do Homem”.
+> E disse-lhe: “[[J]]Em verdade, em verdade lhes digo: vocês verão o céu aberto e os anjos de Deus subindo e descendo sobre o Filho do Homem[[/J]]”.
 
 **Notas Exegéticas e Culturais:**
 - **Em verdade, em verdade lhes digo (Ἀμὴν ἀμὴν λέγω ὑμῖν - *Amēn amēn legō hymin*):** A fórmula do duplo *Amém* é exclusiva de Jesus no Evangelho de João (ocorre 25 vezes), introduzindo revelações de máxima solenidade e autoridade divina inquestionável. Note que o pronome passa para o plural (*hymin* - "a todos vocês"), ampliando a promessa a todos os discípulos.

@@ -1,0 +1,242 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>João</title>
+<style>
+  /* Paleta acromática de propósito: as duas únicas cores da página são as do
+     próprio texto — a fala de Jesus e a fala de Deus. Nada mais compete. */
+  :root {
+    --papel: #fafbfc;
+    --tinta: #1a1d21;
+    --ardosia: #69737f;
+    --regua: #dde2e8;
+    --jesus: #9e1b1b;
+    --deus: #1b4f8f;
+    --realce: rgba(27, 79, 143, .10);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --papel: #14171a;
+      --tinta: #e6e8ea;
+      --ardosia: #8b949e;
+      --regua: #2a2f35;
+      --jesus: #f09a92;
+      --deus: #8fb6e8;
+      --realce: rgba(143, 182, 232, .14);
+    }
+  }
+  :root[data-theme="dark"] {
+    --papel: #14171a;
+    --tinta: #e6e8ea;
+    --ardosia: #8b949e;
+    --regua: #2a2f35;
+    --jesus: #f09a92;
+    --deus: #8fb6e8;
+    --realce: rgba(143, 182, 232, .14);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    padding: 2.5rem 1.35rem 5rem;
+    background: var(--papel);
+    color: var(--tinta);
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino,
+                 "Book Antiqua", Georgia, serif;
+    font-size: 1.15rem;
+    line-height: 1.8;
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+
+  main { max-width: 34rem; margin: 0 auto; }
+
+  .capa { display: flex; flex-direction: column; gap: .5rem; }
+  h1 {
+    font-size: 2.4rem; font-weight: 400; margin: 0;
+    letter-spacing: -.015em; text-wrap: balance;
+  }
+  .creditos {
+    margin: 0; color: var(--ardosia); font-size: .95rem;
+    font-style: italic; line-height: 1.5; text-wrap: pretty;
+  }
+
+  .legenda {
+    display: flex; flex-wrap: wrap; gap: .3rem 1.25rem;
+    margin: 1.75rem 0 2.5rem; padding: .75rem 0;
+    border-top: 1px solid var(--regua); border-bottom: 1px solid var(--regua);
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: .78rem; line-height: 1.5; color: var(--ardosia);
+  }
+  .legenda b { font-weight: 600; }
+
+  h2 {
+    margin: 3rem 0 1.25rem;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: .74rem; font-weight: 600;
+    text-transform: uppercase; letter-spacing: .16em; color: var(--ardosia);
+  }
+  h2:first-of-type { margin-top: 2rem; }
+
+  p.texto { margin: 0 0 1.4rem; hyphens: auto; }
+
+  .vn {
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: .62em; font-weight: 600; vertical-align: super;
+    line-height: 0; margin-right: .15em; color: var(--ardosia);
+    text-decoration: none;
+  }
+  a.vn:hover, a.vn:focus-visible { color: var(--tinta); }
+
+  .fala-jesus { color: var(--jesus); }
+  .fala-deus { color: var(--deus); }
+  .fala-escritura { font-variant: small-caps; letter-spacing: .03em; }
+
+  h3 {
+    margin: 3.5rem 0 1.5rem; padding-top: 1.75rem;
+    border-top: 1px solid var(--regua);
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: .74rem; font-weight: 600;
+    text-transform: uppercase; letter-spacing: .16em; color: var(--ardosia);
+  }
+
+  ol.notas {
+    margin: 0; padding: 0; list-style: none;
+    display: flex; flex-direction: column; gap: 1.15rem;
+    font-size: .95rem; line-height: 1.65; color: var(--ardosia);
+  }
+  ol.notas li { scroll-margin-top: 1.5rem; }
+  ol.notas b { color: var(--tinta); font-weight: 600; }
+  ol.notas i { font-style: italic; }
+  .volta {
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: .72rem; font-weight: 600; text-decoration: none;
+    color: var(--ardosia); border-bottom: 1px solid var(--regua);
+  }
+  .volta:hover, .volta:focus-visible { color: var(--tinta); }
+
+  :target { background: var(--realce); border-radius: 2px; }
+  a:focus-visible, [id]:focus-visible {
+    outline: 2px solid var(--deus); outline-offset: 3px;
+  }
+</style>
+
+<main>
+<header class="capa">
+  <h1>João</h1>
+  <p class="creditos">Tradução autoral em português contemporâneo, feita a partir dos
+  textos críticos em Grego Koiné.</p>
+</header>
+
+<div class="legenda">
+  <span><b class="fala-jesus">Vermelho</b> — palavras de Jesus</span>
+  <span><b class="fala-deus">Azul</b> — palavras de Deus</span>
+  <span><b class="fala-escritura">Versalete</b> — citação do Antigo Testamento</span>
+</div>
+
+<h2>Capítulo 1</h2>
+<p class="texto"><a class="vn" id="v1-1" href="#n1-1">¹</a> No princípio era a Palavra, e a Palavra estava face a face com Deus, e a Palavra era Deus. <a class="vn" id="v1-2" href="#n1-2">²</a> Ele estava no princípio face a face com Deus. <a class="vn" id="v1-3" href="#n1-3">³</a> Tudo veio a existir por meio dele, e sem ele nada do que existe veio a existir. <a class="vn" id="v1-4" href="#n1-4">⁴</a> Nele estava a vida, e a vida era a luz dos homens. <a class="vn" id="v1-5" href="#n1-5">⁵</a> A luz brilha na escuridão, e a escuridão não a venceu.</p>
+<p class="texto"><a class="vn" id="v1-6" href="#n1-6">⁶</a> Surgiu um homem, enviado por Deus; seu nome era João. <a class="vn" id="v1-7" href="#n1-7">⁷</a> Ele veio como testemunha, para testemunhar a respeito da luz, para que todos cressem por meio dele. <a class="vn" id="v1-8" href="#n1-8">⁸</a> Não era ele a luz, mas veio para testemunhar a respeito da luz.</p>
+<p class="texto"><a class="vn" id="v1-9" href="#n1-9">⁹</a> A luz verdadeira, que ilumina todo ser humano, estava vindo ao mundo. <a class="vn" id="v1-10" href="#n1-10">¹⁰</a> Ele estava no mundo, e o mundo veio a existir por meio dele, e o mundo não o reconheceu. <a class="vn" id="v1-11" href="#n1-11">¹¹</a> Veio para o que era seu, e os seus não o acolheram. <a class="vn" id="v1-12" href="#n1-12">¹²</a> Mas a todos que o receberam ele deu o direito de se tornarem filhos de Deus — aos que creem no seu nome. <a class="vn" id="v1-13" href="#n1-13">¹³</a> Eles não foram gerados de sangue, nem da vontade da carne, nem da vontade de homem, mas de Deus.</p>
+<p class="texto"><a class="vn" id="v1-14" href="#n1-14">¹⁴</a> E a Palavra se fez carne e armou sua tenda entre nós. E contemplamos a sua glória, glória como a do Filho único, vindo do Pai, cheio de graça e de verdade.</p>
+<p class="texto"><a class="vn" id="v1-15" href="#n1-15">¹⁵</a> João testemunha a respeito dele e clama: “Era este que eu dizia: Aquele que vem depois de mim passou à minha frente, porque existia antes de mim”. <a class="vn" id="v1-16" href="#n1-16">¹⁶</a> Pois de sua plenitude todos nós recebemos, e graça sobre graça. <a class="vn" id="v1-17" href="#n1-17">¹⁷</a> Porque a Lei foi dada por meio de Moisés; a graça e a verdade vieram a existir por meio de Jesus Cristo. <a class="vn" id="v1-18" href="#n1-18">¹⁸</a> Ninguém jamais viu a Deus; o Filho único, que é Deus e está no seio do Pai, ele o revelou.</p>
+<p class="texto"><a class="vn" id="v1-19" href="#n1-19">¹⁹</a> Este é o testemunho de João, quando as autoridades judaicas de Jerusalém lhe enviaram sacerdotes e levitas para lhe perguntarem: “Quem é você?”. <a class="vn" id="v1-20" href="#n1-20">²⁰</a> Ele confessou e não negou; confessou: “Eu não sou o Cristo”. <a class="vn" id="v1-21" href="#n1-21">²¹</a> Perguntaram-lhe: “O que, então? Você é Elias?”. Ele disse: “Não sou”. “Você é o Profeta?”. E respondeu: “Não”. <a class="vn" id="v1-22" href="#n1-22">²²</a> Disseram-lhe então: “Quem é você? Precisamos levar uma resposta aos que nos enviaram. O que você diz de si mesmo?”. <a class="vn" id="v1-23" href="#n1-23">²³</a> Ele disse: “Eu sou a <span class="fala-escritura">voz de quem clama no deserto: Endireitem o caminho do Senhor</span>” — como disse o profeta Isaías. <a class="vn" id="v1-24" href="#n1-24">²⁴</a> Ora, os que haviam sido enviados eram do meio dos fariseus. <a class="vn" id="v1-25" href="#n1-25">²⁵</a> Perguntaram-lhe: “Então por que você batiza, se não é o Cristo, nem Elias, nem o Profeta?”. <a class="vn" id="v1-26" href="#n1-26">²⁶</a> João lhes respondeu: “Eu batizo com água. No meio de vocês está alguém que vocês não conhecem, <a class="vn" id="v1-27" href="#n1-27">²⁷</a> aquele que vem depois de mim, de quem não sou digno de desatar a correia da sandália”. <a class="vn" id="v1-28" href="#n1-28">²⁸</a> Isso aconteceu em Betânia, do outro lado do Jordão, onde João estava batizando.</p>
+<p class="texto"><a class="vn" id="v1-29" href="#n1-29">²⁹</a> No dia seguinte, João viu Jesus vindo em sua direção e disse: “Eis o Cordeiro de Deus, que tira o pecado do mundo! <a class="vn" id="v1-30" href="#n1-30">³⁰</a> É a respeito dele que eu disse: ‘Depois de mim vem um homem que passou à minha frente, porque existia antes de mim’. <a class="vn" id="v1-31" href="#n1-31">³¹</a> Eu não o conhecia; mas foi para que ele fosse manifestado a Israel que eu vim batizando com água”. <a class="vn" id="v1-32" href="#n1-32">³²</a> E João testemunhou: “Vi o Espírito descer do céu como pomba, e permaneceu sobre ele. <a class="vn" id="v1-33" href="#n1-33">³³</a> Eu não o conhecia, mas aquele que me enviou a batizar com água me disse: ‘<span class="fala-deus">Aquele sobre quem você vir o Espírito descer e permanecer, esse é o que batiza no Espírito Santo</span>’. <a class="vn" id="v1-34" href="#n1-34">³⁴</a> E eu vi e testemunhei que este é o Filho de Deus”.</p>
+<p class="texto"><a class="vn" id="v1-35" href="#n1-35">³⁵</a> No dia seguinte, João estava ali outra vez, com dois dos seus discípulos. <a class="vn" id="v1-36" href="#n1-36">³⁶</a> E, fixando o olhar em Jesus, que passava, disse: “Eis o Cordeiro de Deus!”. <a class="vn" id="v1-37" href="#n1-37">³⁷</a> Os dois discípulos o ouviram falar e seguiram Jesus. <a class="vn" id="v1-38" href="#n1-38">³⁸</a> Jesus voltou-se e, vendo que o seguiam, disse-lhes: “<span class="fala-jesus">O que vocês procuram?</span>”. Eles lhe disseram: “Rabi” — que quer dizer Mestre —, “onde você está hospedado?”. <a class="vn" id="v1-39" href="#n1-39">³⁹</a> Ele lhes disse: “<span class="fala-jesus">Venham e vejam</span>”. Foram, viram onde ele estava hospedado e ficaram com ele aquele dia. Era por volta das quatro da tarde. <a class="vn" id="v1-40" href="#n1-40">⁴⁰</a> André, irmão de Simão Pedro, era um dos dois que tinham ouvido João e seguido Jesus. <a class="vn" id="v1-41" href="#n1-41">⁴¹</a> Ele encontrou primeiro o seu irmão Simão e lhe disse: “Encontramos o Messias!” — que quer dizer Cristo. <a class="vn" id="v1-42" href="#n1-42">⁴²</a> E o levou a Jesus. Jesus fixou o olhar nele e disse: “<span class="fala-jesus">Você é Simão, filho de João; você será chamado Cefas</span>” — que quer dizer Pedro.</p>
+<p class="texto"><a class="vn" id="v1-43" href="#n1-43">⁴³</a> No dia seguinte, Jesus resolveu partir para a Galileia. Encontrou Filipe e lhe disse: “<span class="fala-jesus">Siga-me</span>”. <a class="vn" id="v1-44" href="#n1-44">⁴⁴</a> Filipe era de Betsaida, a cidade de André e de Pedro. <a class="vn" id="v1-45" href="#n1-45">⁴⁵</a> Filipe encontrou Natanael e lhe disse: “Encontramos aquele de quem Moisés escreveu na Lei, e também os profetas: Jesus de Nazaré, o filho de José”. <a class="vn" id="v1-46" href="#n1-46">⁴⁶</a> Natanael lhe disse: “De Nazaré pode sair alguma coisa boa?”. Filipe lhe respondeu: “Venha e veja”. <a class="vn" id="v1-47" href="#n1-47">⁴⁷</a> Jesus viu Natanael vindo em sua direção e disse a seu respeito: “<span class="fala-jesus">Eis um verdadeiro israelita, em quem não há engano!</span>”. <a class="vn" id="v1-48" href="#n1-48">⁴⁸</a> Natanael lhe perguntou: “De onde você me conhece?”. Jesus respondeu: “<span class="fala-jesus">Antes que Filipe o chamasse, quando você estava debaixo da figueira, eu o vi</span>”. <a class="vn" id="v1-49" href="#n1-49">⁴⁹</a> Natanael lhe respondeu: “Rabi, você é o Filho de Deus! Você é o Rei de Israel!”. <a class="vn" id="v1-50" href="#n1-50">⁵⁰</a> Jesus lhe respondeu: “<span class="fala-jesus">Você crê porque eu lhe disse que o vi debaixo da figueira? Você verá coisas maiores do que estas</span>”. <a class="vn" id="v1-51" href="#n1-51">⁵¹</a> E disse-lhe: “<span class="fala-jesus">Em verdade, em verdade lhes digo: vocês verão o céu aberto e os anjos de Deus subindo e descendo sobre o Filho do Homem</span>”.</p>
+<h3>Notas exegéticas e culturais — capítulo 1</h3>
+<ol class="notas">
+<li id="n1-1"><a class="volta" href="#v1-1">v. 1</a> <b>Palavra (<i>ὁ λόγος - ho logos</i>):</b> O termo *logos* carrega peso tanto no pensamento judaico (a *Memra* ou Palavra criadora de Yahweh no Antigo Testamento e Targuns) quanto no helênico (a razão ordenadora do cosmos). Em português, mantemos &#x27;a Palavra&#x27; com inicial maiúscula para expressar a pessoalidade pré-encarnada do Filho.</li>
+<li><a class="volta" href="#v1-1">v. 1</a> <b>face a face com (<i>πρὸς τὸν θεόν - pros ton theon</i>):</b> A preposição *pros* com caso acusativo sugere relação íntima, comunhão pessoal e movimento contínuo em direção ao outro, e não mera localização espacial estática.</li>
+<li><a class="volta" href="#v1-1">v. 1</a> <b>era Deus (<i>θεὸς ἦν ὁ λόγος - theos ēn ho logos</i>):</b> *Theos* não possui o artigo definido neste ponto da oração, enquanto *logos* possui (*ho logos*). Gramaticalmente (seguindo a regra de Colwell e a análise de Philip Harner), *theos* funciona como predicativo pré-posto qualitativo, definindo a natureza e essência plenamente divina da Palavra sem confundi-la ontologicamente com a pessoa do Pai (*o Deus* citado na cláusula anterior).</li>
+<li id="n1-2"><a class="volta" href="#v1-2">v. 2</a> <b>Ele (<i>οὗτος - houtos</i>):</b> Pronome demonstrativo enfático que resume e amarra as três afirmações do v. 1, reforçando a identidade contínua do Logos em Sua comunhão eterna com o Pai antes de qualquer ato da criação.</li>
+<li><a class="volta" href="#v1-2">v. 2</a> <b>no princípio (<i>ἐν ἀρχῇ - en archē</i>):</b> Eco deliberado de Gênesis 1:1 (*Bereshit*). Enquanto Gênesis marca o início temporal da matéria e do cosmos (&quot;criou Deus&quot;), o verbo imperfeito grego *ēn* (&quot;era/já existia&quot;) em João indica existência atemporal e contínua que antecede o próprio início do tempo.</li>
+<li id="n1-3"><a class="volta" href="#v1-3">v. 3</a> <b>Por meio dele (<i>δι’ αὐτοῦ - di’ autou</i>):</b> A preposição *dia* com genitivo denota o agente intermediário pelo qual a criação opera. Deus Pai cria tudo mediante o Filho (cf. Cl 1:16; Hb 1:2).</li>
+<li><a class="volta" href="#v1-3">v. 3</a> <b>vieram a existir (<i>ἐγένετο - egeneto</i>):</b> O verbo muda de *ēn* (imperfeito de ser/existir no v. 1-2) para *egeneto* (aoristo de vir a existir / ser criado). O Logos *é*; o universo *veio a ser*.</li>
+<li><a class="volta" href="#v1-3">v. 3</a> <b>absolutamente nada (<i>οὐδὲ ἕν - oude hen</i>):</b> Negação enfática (&quot;nem sequer uma única coisa&quot;), ressaltando a totalidade absoluta da soberania criadora do Logos contra concepções gnósticas de emanações intermediárias autônomas.</li>
+<li id="n1-4"><a class="volta" href="#v1-4">v. 4</a> <b>vida (<i>ζωή - zōē</i>):</b> João não emprega *bios* (vida biológica/fisiológica transitória), mas *zōē*, referindo-se ao princípio divino e imperecível da vida incriada, a vida eterna que emana de Deus.</li>
+<li><a class="volta" href="#v1-4">v. 4</a> <b>luz dos homens (<i>τὸ φῶς τῶν ἀνθρώπων - to phōs tōn anthrōpōn</i>):</b> A vida no Logos não é passiva; ela se projeta como revelação, discernimento ético, espiritual e intelectual sobre toda a raça humana (*anthrōpoi*).</li>
+<li id="n1-5"><a class="volta" href="#v1-5">v. 5</a> <b>brilha (<i>φαίνει - phainei</i>):</b> Verbo no presente do indicativo, enfatizando ação contínua: a luz permanece brilhando ininterruptamente no mundo tenebroso.</li>
+<li><a class="volta" href="#v1-5">v. 5</a> <b>não a venceu (<i>αὐτὸ οὐ κατέλαβεν - auto ou katelaben</i>):</b> O verbo *katalambanō* tem um duplo sentido poético e teológico deliberado: significa tanto &quot;compreender/apreender cognitivamente&quot; quanto &quot;subjugar/vencer/apagar&quot;. As trevas não apenas falharam em entender a luz, como foram incapazes de derrotá-la ou sufocá-la.</li>
+<li id="n1-6"><a class="volta" href="#v1-6">v. 6</a> <b>Surgiu (<i>Ἐγένετο - Egeneto</i>):</b> Em marcante contraste com o Logos que &quot;era&quot; (*ēn*), João Batista &quot;veio a ser / apareceu no cenário histórico&quot; (*egeneto*), demonstrando sua condição finita de criatura.</li>
+<li><a class="volta" href="#v1-6">v. 6</a> <b>enviado por Deus (<i>ἀπεσταλμένος παρὰ θεοῦ - apestalmenos para theou</i>):</b> Particípio perfeito passivo do verbo *apostellō*, indicando uma comissão profética divina que confere a João a autoridade permanente de arauto legítimo da revelação.</li>
+<li id="n1-7"><a class="volta" href="#v1-7">v. 7</a> <b>testemunho / testemunhar (<i>μαρτυρίαν / μαρτυρήσῃ - martyrian / martyrēsē</i>):</b> A família lexical do termo jurídico *martyria* é um dos temas fundamentais do Quarto Evangelho. O papel de João Batista não era ser a fonte da salvação, mas fornecer um depoimento histórico confiável e fidedigno perante o tribunal do mundo.</li>
+<li><a class="volta" href="#v1-7">v. 7</a> <b>para que todos cressem (<i>ἵνα πάντες πιστεύσωσιν - hina pantes pisteusōsin</i>):</b> Oração subordinada final com conjunção *hina* e verbo no subjuntivo aoristo (*pisteusōsin*), indicando o propósito evangelístico universal do testemunho profético: conduzir pessoas à decisão de fé no Messias.</li>
+<li id="n1-8"><a class="volta" href="#v1-8">v. 8</a> <b>Ele próprio não era a luz (<i>οὐκ ἦν ἐκεῖνος τὸ φῶς - ouk ēn ekeinos to phōs</i>):</b> Esclarecimento de caráter polêmico e apologético contra seitas do primeiro e segundo séculos (como círculos mandeanos ou discípulos remanescentes de João Batista em Éfeso) que superestimavam a figura de João Batista em detrimento de Jesus (cf. At 19:1-7).</li>
+<li id="n1-9"><a class="volta" href="#v1-9">v. 9</a> <b>a luz verdadeira (<i>τὸ φῶς τὸ ἀληθινόν - to phōs to alēthinon</i>):</b> O adjetivo *alēthinos* denota aquilo que é genuíno, real, autêntico e supremo em contraste com representações imperfeitas, tipológicas ou sombras do Antigo Testamento.</li>
+<li><a class="volta" href="#v1-9">v. 9</a> <b>estava vindo ao mundo (<i>ἦν ... ἐρχόμενον εἰς τὸν κόσμον - ēn ... erchomenon eis ton kosmon</i>):</b> Construção perífrástica com o particípio neutro *erchomenon* concordando com *to phōs*, descrevendo o processo histórico da Encarnação como a vinda da luz definitiva ao cosmos.</li>
+<li id="n1-10"><a class="volta" href="#v1-10">v. 10</a> <b>o mundo (<i>ὁ κόσμος - ho kosmos</i>):</b> No vocabulário joanino, *kosmos* tem triplo significado: a ordem criada (v. 10b), o teatro da humanidade (v. 9), e o sistema humano em rebelião hostil contra Deus (v. 10c).</li>
+<li><a class="volta" href="#v1-10">v. 10</a> <b>não o reconheceu (<i>αὐτὸν οὐκ ἔγνω - auton ouk egnō</i>):</b> O verbo *ginōskō* (no aoristo ativo) aponta para um conhecimento íntimo, relacional e de submissão pactual. A tragédia cósmica é que a criação rejeitou seu próprio Arquiteto e Sustentador.</li>
+<li id="n1-11"><a class="volta" href="#v1-11">v. 11</a> <b>o que era seu (<i>τὰ ἴδια - ta idia</i>):</b> O neutro plural refere-se ao território, à terra da promessa, ao Templo e à herança de Israel.</li>
+<li><a class="volta" href="#v1-11">v. 11</a> <b>os seus (<i>οἱ ἴδιοι - hoi idioi</i>):</b> O masculino plural aponta especificamente para o povo da aliança (o povo judeu), que, detendo as profecias e a Lei, falhou em receber e acolher (*parelabon*) o Messias enviado.</li>
+<li id="n1-12"><a class="volta" href="#v1-12">v. 12</a> <b>o direito (<i>ἐξουσίαν - exousian</i>):</b> *Exousia* abrange tanto a capacidade legal/direito outorgado quanto o poder e prerrogativa espiritual de ingressar na família de Deus.</li>
+<li><a class="volta" href="#v1-12">v. 12</a> <b>filhos de Deus (<i>τέκνα θεοῦ - tekna theou</i>):</b> João reserva rigorosamente a palavra *huios* (filho em sentido ontológico único) para Jesus Cristo, enquanto emprega *tekna* (filhos gerados por novo nascimento e afeto) para os crentes redimidos.</li>
+<li><a class="volta" href="#v1-12">v. 12</a> <b>creem no seu nome (<i>τοῖς πιστεύουσιν εἰς τὸ ὄνομα αὐτοῦ - tois pisteuousin eis to onoma autou</i>):</b> O particípio com a preposição *eis* denota um movimento de entrega total, confiança e união existencial com a pessoa e autoridade representadas pelo &quot;Nome&quot; de Cristo.</li>
+<li id="n1-13"><a class="volta" href="#v1-13">v. 13</a> <b>não de sangues (<i>οὐκ ἐξ αἱμάτων - ouk ex haimatōn</i>):</b> O uso do plural *haimata* (&#x27;sangues&#x27;) alude à linhagem genealógica e herança biológica aristocrática. O pertencimento à família de Deus não é transmitido por hereditariedade étnica.</li>
+<li><a class="volta" href="#v1-13">v. 13</a> <b>nem da vontade da carne... nem da vontade de varão (<i>οὐδὲ ἐκ θελήματος σαρκὸς οὐδὲ ἐκ θελήματος ἀνδρὸς - oude ek thelēmatos sarkos oude ek thelēmatos andros</i>):</b> Exclui qualquer iniciativa hormonal, sexual ou decisão patriarcal humana. O novo nascimento é uma obra monergística originada soberanamente em Deus (*ek theou egennēthēsan*).</li>
+<li id="n1-14"><a class="volta" href="#v1-14">v. 14</a> <b>se fez carne (<i>σὰρξ ἐγένετο - sarx egeneto</i>):</b> O clímax do prólogo. O Logos eterno e transcendente assumiu a fragilidade da natureza humana finita e concreta (*sarx*), sem deixar de ser Deus.</li>
+<li><a class="volta" href="#v1-14">v. 14</a> <b>armou sua tenda entre nós (<i>ἐσκήνωσεν ἐν ἡμῖν - eskēnōsen en hēmin</i>):</b> Do verbo *skēnoō*, que significa literalmente &quot;armar tenda&quot; ou &quot;tabernacular&quot;. Alusão direta ao Tabernáculo no deserto, onde o Deus invisível habitava visivelmente no meio do Seu povo através da nuvem da *Shekinah*.</li>
+<li><a class="volta" href="#v1-14">v. 14</a> <b>contemplamos (<i>ἐθεασάμεθα - etheasametha</i>):</b> Do verbo *theaomai*, que significa observar com atenção cuidadosa, como testemunhas oculares de um acontecimento histórico factual.</li>
+<li><a class="volta" href="#v1-14">v. 14</a> <b>Filho único (<i>μονογενοῦς - monogenous</i>):</b> Derivado de *monos* (único) e *genos* (espécie/categoria). O termo enfatiza a singularidade ímpar e a relação única do Filho com o Pai, e não um ato de procriação temporal.</li>
+<li><a class="volta" href="#v1-14">v. 14</a> <b>graça e verdade (<i>χάριτος καὶ ἀληθείας - charitos kai alētheias</i>):</b> Tradução grega direta do binômio hebraico fundamental da aliança de Deus em Êxodo 34:6 (*Hesed ve-Emet* - amor leal e fidelidade inabalável). Jesus é a personificação viva da aliança de Yahweh.</li>
+<li id="n1-15"><a class="volta" href="#v1-15">v. 15</a> <b>clama (<i>κέκραγεν - kekragen</i>):</b> Perfeito grego com força de presente contínuo intensivo, denotando um clamor público vigoroso, solene e com autoridade profética indiscutível.</li>
+<li><a class="volta" href="#v1-15">v. 15</a> <b>passou à minha frente... existia antes de mim (<i>ἔμπροσθέν μου γέγονεν, ὅτι πρῶτός μου ἦν - emprosthen mou gegonen, hoti prōtos mou ēn</i>):</b> Jogo de palavras cronológico e hierárquico. Historicamente, João Batista nasceu antes de Jesus de acordo com a carne (Lc 1:36); no entanto, na ordem de dignidade messiânica (*emprosthen*) e de preexistência eterna (*prōtos*), Cristo transcende infinitamente o precursor.</li>
+<li id="n1-16"><a class="volta" href="#v1-16">v. 16</a> <b>plenitude (<i>πληρώματος - plērōmatos</i>):</b> A totalidade inexaurível dos atributos divinos, virtudes e recursos redentivos que habitam corporalmente em Cristo (cf. Cl 2:9).</li>
+<li><a class="volta" href="#v1-16">v. 16</a> <b>graça sobre graça (<i>χάριν ἀντὶ χάριτος - charin anti charitos</i>):</b> A preposição *anti* aqui indica substituição cumulativa e sucessão ininterrupta (&quot;uma graça que sucede e amplia outra graça&quot;), apontando para as ondas infindáveis do favor divino concedidas àqueles que estão em Cristo.</li>
+<li id="n1-17"><a class="volta" href="#v1-17">v. 17</a> <b>a Lei foi dada... a graça e a verdade vieram (<i>ὁ νόμος ἐδόθη ... ἡ χάρις καὶ ἡ ἀλήθεια ἐγένετο - ho nomos edothē ... hē charis kai hē alētheia egeneto</i>):</b> Contraste teológico entre a promulgação externa da Torá mediante um mediador humano (*edothē dia Mōuseōs*) e a manifestação encarnada e viva do amor pactual de Deus personificado na história (*egeneto dia Iēsou Christou*).</li>
+<li><a class="volta" href="#v1-17">v. 17</a> <b>Jesus Cristo (<i>Ἰησοῦ Χριστοῦ - Iēsou Christou</i>):</b> Primeira menção expressa do nome histórico e do título messiânico no Evangelho de João, identificando formalmente a &#x27;Palavra&#x27; dos vv. 1-14 com Jesus de Nazaré, o Ungido de Deus.</li>
+<li id="n1-18"><a class="volta" href="#v1-18">v. 18</a> <b>o Filho único, que é Deus (<i>μονογενὴς θεὸς - monogenēs theos</i>):</b> A leitura textual mais antiga e fidedigna dos manuscritos papiros gregos (\(\mathfrak{P}^{66}\), \(\mathfrak{P}^{75}\), Códice Sinaítico e Vaticano) traz *monogenēs theos* (&quot;Deus unigênito&quot; ou &quot;o Deus único&quot;). Isso conclui o prólogo fechando uma inclusão perfeita com João 1:1c (*theos ēn ho logos*), afirmando inequivocamente a divindade plena do Filho.</li>
+<li><a class="volta" href="#v1-18">v. 18</a> <b>no seio do Pai (<i>εἰς τὸν κόλπον τοῦ πατρὸς - eis ton kolpon tou patros</i>):</b> Metáfora hebraico-oriental de carinho supremo, intimidade profunda e comunhão ininterrupta (como no banquete, reclinar-se no peito do anfitrião; cf. Jo 13:23).</li>
+<li><a class="volta" href="#v1-18">v. 18</a> <b>o revelou (<i>ἐξηγήσατο - exēgēsato</i>):</b> Aoristo indicativo do verbo *exēgeomai*, de onde provém a palavra moderna &quot;exegese&quot;. O termo significa &quot;narrar detalhadamente&quot;, &quot;tornar conhecido&quot;, &quot;explicar e desdobrar o sentido&quot;. Jesus Cristo é o intérprete e a exegese viva e definitiva de Deus para a humanidade.</li>
+<li id="n1-19"><a class="volta" href="#v1-19">v. 19</a> <b>as autoridades judaicas (<i>οἱ Ἰουδαῖοι - hoi Ioudaioi</i>):</b> No Quarto Evangelho, o termo refere-se frequentemente não ao povo judeu em geral, mas à liderança religiosa, aristocrática e sacerdotal sediada em Jerusalém (o Sinédrio).</li>
+<li><a class="volta" href="#v1-19">v. 19</a> <b>sacerdotes e levitas (<i>ἱερεῖς καὶ Λευίτας - hiereis kai Leuitas</i>):</b> Funcionários encarregados do culto e da guarda do Templo. Sua delegação oficial demonstra a enorme comoção pública que o ministério de João Batista causava na Judeia.</li>
+<li id="n1-20"><a class="volta" href="#v1-20">v. 20</a> <b>confessou e não negou (<i>ὡμολόγησεν καὶ οὐκ ἠρνήσατο - hōmologēsen kai ouk ērnēsato</i>):</b> Construção enfática hebraica por paralelismo antitético (afirmação positiva seguida de negação do oposto), sublinhando a total recusa de João em aceitar títulos messiânicos indevidos.</li>
+<li><a class="volta" href="#v1-20">v. 20</a> <b>Eu não sou o Cristo (<i>Ἐγὼ οὐκ εἰμὶ ὁ Χριστός - Egō ouk eimi ho Christos</i>):</b> O pronome *Egō* é colocado em posição de destaque na oração, preparando o contraste com o &quot;Eu Sou&quot; (*Egō eimi*) divino que Jesus proferirá ao longo do Evangelho.</li>
+<li id="n1-21"><a class="volta" href="#v1-21">v. 21</a> <b>É Elias? (<i>Ἠλίας εἶ - Ēlias ei</i>):</b> Baseado na profecia de Malaquias 4:5, os judeus esperavam o retorno literal do profeta Elias antes do &quot;Dia do Senhor&quot;. Embora João ministrasse no espírito e poder de Elias (Lc 1:17; Mt 11:14), ele não era a reencarnação física literal de Elias.</li>
+<li><a class="volta" href="#v1-21">v. 21</a> <b>o Profeta (<i>Ὁ προφήτης - Ho prophētēs</i>):</b> Alusão ao &quot;profeta semelhante a Moisés&quot; prometido em Deuteronômio 18:15-18, uma figura escatológica proeminente nas expectativas messiânicas do Segundo Templo.</li>
+<li id="n1-22"><a class="volta" href="#v1-22">v. 22</a> <b>resposta àqueles que nos enviaram (<i>ἀπόκρισιν δῶμεν τοῖς πέμψασιν ἡμᾶς - apokrisin dōmen tois pempsasin hēmas</i>):</b> Os emissários operavam sob mandato institucional rígido do Sinédrio de Jerusalém, exigindo uma autodefinição formal e pública.</li>
+<li id="n1-23"><a class="volta" href="#v1-23">v. 23</a> <b>voz de quem clama no deserto (<i>φωνὴ βοῶντος ἐν τῇ ἐρήμῳ - phōnē boōntos en tē erēmō</i>):</b> Citação direta de Isaías 40:3. João se recusa a reivindicar qualquer dignidade pessoal ou título; ele se define meramente como um instrumento sonoro (*phōnē*), o arauto que prepara a rota régia para a chegada iminente do Rei e Senhor (*Kyrios*).</li>
+<li><a class="volta" href="#v1-23">v. 23</a> <b>no deserto (<i>ἐν τῇ ἐρήμῳ - en tē erēmō</i>):</b> No imaginário judaico, o deserto era o lugar da aliança originária, do novo êxodo profético e da restauração messiânica.</li>
+<li id="n1-24"><a class="volta" href="#v1-24">v. 24</a> <b>fariseus (<i>ἐκ τῶν Φαρισαίων - ek tōn Pharisaiōn</i>):</b> Grupo rigorista dedicado à observância minuciosa da pureza ritual e das tradições orais (*Halakha*). Como guardiões das normas de purificação, a prática do batismo por João despertava profundo escrutínio teológico entre eles.</li>
+<li id="n1-25"><a class="volta" href="#v1-25">v. 25</a> <b>por que você batiza? (<i>Τί οὖν βαπτίζεις - Ti oun baptizeis</i>):</b> Na tradição judaica, o batismo por imersão (*tevilah*) era comum para a conversão de gentios (prosélitos). O fato de João exigir batismo de arrependimento dos próprios judeus nascidos implicava que toda a nação necessitava de renovação espiritual radical diante da era messiânica.</li>
+<li id="n1-26"><a class="volta" href="#v1-26">v. 26</a> <b>batizo com água (<i>βαπτίζω ἐν ὕδατι - baptizō en hydati</i>):</b> Estabelece o caráter preparatório e exterior do seu ministério, que aponta para o batismo no Espírito Santo a ser efetuado pelo Messias (cf. v. 33).</li>
+<li><a class="volta" href="#v1-26">v. 26</a> <b>no meio de vocês está (<i>μέσος ὑμῶν ἕστηκεν - mesos hymōn hestēken</i>):</b> Perfeito indicativo *hestēken*, indicando que o Messias já se encontra fisicamente presente no seio da sociedade judaica, de forma anônima e despercebida pela liderança religiosa.</li>
+<li id="n1-27"><a class="volta" href="#v1-27">v. 27</a> <b>desatar a correia da sandália (<i>λύσω αὐτοῦ τὸν ἱμάντα τοῦ ὑποδήματος - lysō autou ton himanta tou hypodēmatos</i>):</b> De acordo com a tradição rabínica (Talmude Babilônico, *Ketubot* 96a), um discípulo devia prestar todos os serviços ao seu mestre, exceto desatar suas sandálias, tarefa considerada excessivamente humilhante e reservada aos escravos gentios não-judeus. João declara que sua dignidade diante de Cristo é inferior à do mais humilde escravo.</li>
+<li id="n1-28"><a class="volta" href="#v1-28">v. 28</a> <b>Betânia além do Jordão (<i>Βηθανίᾳ πέραν τοῦ Ἰορδάνου - Bēthania peran tou Iordanou</i>):</b> Diferente da Betânia próxima a Jerusalém (lar de Lázaro, Marta e Maria), este local ficava na região da Pereia, no lado leste do Jordão, local seguro fora da jurisdição direta da Judeia.</li>
+<li id="n1-29"><a class="volta" href="#v1-29">v. 29</a> <b>No dia seguinte (<i>Τῇ ἐπαύριον - Tē epaurion</i>):</b> João estrutura o capítulo 1 em uma sequência de dias consecutivos (vv. 19, 29, 35, 43 e 2:1), ecoando a semana inaugural da criação em Gênesis para inaugurar a Nova Criação em Cristo.</li>
+<li><a class="volta" href="#v1-29">v. 29</a> <b>o Cordeiro de Deus (<i>ὁ ἀμνὸς τοῦ θεοῦ - ho amnos tou theou</i>):</b> Síntese teológica profunda que evoca: 1) o Cordeiro Pascal (*Pesach* - Êx 12) cuja aspersão liberta da morte; 2) o Servo Sofredor conduzido como cordeiro ao matadouro pelos nossos pecados (Is 53:7); 3) o sacrifício diário contínuo do Templo (*Tamid*).</li>
+<li><a class="volta" href="#v1-29">v. 29</a> <b>que tira o pecado do mundo (<i>ὁ αἴρων τὴν ἁμαρτίαν τοῦ κόσμου - ho airōn tēn hamartian tou kosmou</i>):</b> O particípio presente *airōn* expressa uma ação contínua e eficaz de expiar, carregar sobre si e remover a culpa cósmica da humanidade (*kosmos*). O substantivo *hamartia* está no singular (&quot;o pecado&quot;), referindo-se ao princípio e à raiz de toda rebelião contra Deus.</li>
+<li id="n1-30"><a class="volta" href="#v1-30">v. 30</a> <b>um homem (<i>ἀνὴρ - anēr</i>):</b> Diferente de *anthrōpos* (ser humano genérico), *anēr* designa especificamente um homem adulto e distinto, enfatizando a plena humanidade e identidade histórica de Jesus.</li>
+<li id="n1-31"><a class="volta" href="#v1-31">v. 31</a> <b>não o conhecia (<i>οὐκ ᾔδειν αὐτόν - ouk ēdein auton</i>):</b> João e Jesus eram parentes biológicos (Lc 1:36), mas João não compreendia de antemão a plenitude do chamado messiânico e divino de Jesus até a confirmação sobrenatural do sinal celestial (v. 33).</li>
+<li><a class="volta" href="#v1-31">v. 31</a> <b>manifestado a Israel (<i>φανερωθῇ τῷ Ἰσραὴλ - phanerōthē tō Israēl</i>):</b> O propósito primordial do ministério de João Batista era servir de palco público para a epifania de Cristo diante do povo da aliança.</li>
+<li id="n1-32"><a class="volta" href="#v1-32">v. 32</a> <b>Vi (<i>Τεθέαμαι - Tetheamai</i>):</b> Verbo *theaomai* no perfeito do indicativo, indicando uma visão consciente, marcante e cujos efeitos continuam vivos e permanentes na memória da testemunha ocular.</li>
+<li><a class="volta" href="#v1-32">v. 32</a> <b>como pomba (<i>ὡς περιστερὰν - hōs peristeran</i>):</b> Símbolo da ternura, pureza e da nova criação (ecoando o Espírito de Deus pairando sobre as águas em Gn 1:2 e a pomba de Noé trazendo o renovo da vida em Gn 8:11).</li>
+<li><a class="volta" href="#v1-32">v. 32</a> <b>permaneceu sobre ele (<i>ἔμεινεν ἐπ’ αὐτόν - emeinen ep’ auton</i>):</b> O verbo *menō* (&quot;permanecer&quot;, &quot;habitar&quot;) é um conceito teológico basilar no Evangelho de João. Diferente dos profetas do AT sobre os quais o Espírito vinha transitoriamente para uma tarefa específica, sobre Jesus o Espírito Santo repousa de modo pleno, ininterrupto e eterno (cf. Is 11:2).</li>
+<li id="n1-33"><a class="volta" href="#v1-33">v. 33</a> <b>o que batiza no Espírito Santo (<i>ὁ βαπτίζων ἐν πνεύματι ἁγίῳ - ho baptizōn en pneumati hagiō</i>):</b> Cumprimento das grandes promessas escatológicas dos profetas de que Deus derramaria o Seu próprio Espírito sobre toda a carne nos dias do Messias (cf. Ez 36:26-27; Jl 2:28). Jesus não apenas possui o Espírito, Ele é o doador soberano do Espírito.</li>
+<li id="n1-34"><a class="volta" href="#v1-34">v. 34</a> <b>Eu vi e dou testemunho (<i>ἑώρακα καὶ μεμαρτύρηκα - heōraka kai memartyrēka</i>):</b> Ambos os verbos estão no tempo perfeito grego (*perfectum*), destacando uma experiência ocular consumada no passado com validade e autoridade jurídica perpétua no presente.</li>
+<li><a class="volta" href="#v1-34">v. 34</a> <b>o Filho de Deus (<i>ὁ υἱὸς τοῦ θεοῦ - ho huios tou theou</i>):</b> O clímax do testemunho de João Batista, afirmando a filiação divina singular, messiânica e ontológica de Jesus.</li>
+<li id="n1-35"><a class="volta" href="#v1-35">v. 35</a> <b>dois dos seus discípulos (<i>ἐκ τῶν μαθητῶν αὐτοῦ δύο - ek tōn mathētōn autou dyo</i>):</b> Um deles é explicitamente identificado no v. 40 como André, irmão de Pedro; o outro discípulo não nomeado é tradicionalmente entendido como o próprio apóstolo João, o autor do Evangelho.</li>
+<li id="n1-36"><a class="volta" href="#v1-36">v. 36</a> <b>Fixando o olhar (<i>ἐμβλέψας - emblepsas</i>):</b> Particípio aoristo do verbo *emblepō*, que denota um olhar penetrante, focado, contemplativo e intencional.</li>
+<li id="n1-37"><a class="volta" href="#v1-37">v. 37</a> <b>seguiram Jesus (<i>ἠκολούθησαν τῷ Ἰησοῦ - ēkolouthēsan tō Iēsou</i>):</b> O verbo *akoloutheō* (&quot;seguir&quot;) tem peso de discipulado comprometido e dedicação de vida, e não mera locomoção física atrás de alguém. O objetivo máximo de João Batista é cumprido: transferir seus próprios discípulos para o Mestre Supremo.</li>
+<li id="n1-38"><a class="volta" href="#v1-38">v. 38</a> <b>O que vocês procuram? (<i>Τί ζητεῖτε - Ti zēteite</i>):</b> As primeiras palavras pronunciadas por Jesus no Evangelho de João constituem uma pergunta existencial profunda que desafia as motivações íntimas do coração de quem busca a Deus.</li>
+<li><a class="volta" href="#v1-38">v. 38</a> <b>Rabi... onde você está hospedado? (<i>Ῥαββί ... ποῦ μένεις - Rhabbi ... pou meneis</i>):</b> *Rhabbi* (termo hebraico/aramaico de honra para mestres da Torá). A pergunta pelo &quot;permanecer&quot; (*menō*) vai além da curiosidade sobre endereço físico; revela o anseio de convívio contínuo e intimidade com o Mestre.</li>
+<li id="n1-39"><a class="volta" href="#v1-39">v. 39</a> <b>Venham e vejam (<i>Ἔρχεσθε καὶ ὄψεσθε - Erchesthe kai opsesthe</i>):</b> O convite essencial do cristianismo joanino não é uma adesão a um sistema filosófico abstrato, mas uma experiência direta e relacional com a pessoa de Cristo.</li>
+<li><a class="volta" href="#v1-39">v. 39</a> <b>hora décima (<i>ὥρα ἦν ὡς δεκάτη - hōra ēn hōs dekatē</i>):</b> Pelo cômputo judaico (que contava as 12 horas do dia a partir do nascer do sol, por volta das 6h da manhã), a hora décima correspondia às 16h (quatro da tarde). A precisão do detalhe temporal reforça a lembrança vívida do autor como testemunha ocular daquele encontro inesquecível.</li>
+<li id="n1-40"><a class="volta" href="#v1-40">v. 40</a> <b>André (<i>Ἀνδρέας - Andreas</i>):</b> Nome de origem grega (significando &quot;varonil&quot; ou &quot;corajoso&quot;), refletindo o ambiente cultural bilingue da Galileia gentílica. Em todas as suas aparições no Quarto Evangelho, André se destaca por conduzir outras pessoas a Jesus (cf. Jo 6:8-9; 12:20-22).</li>
+<li id="n1-41"><a class="volta" href="#v1-41">v. 41</a> <b>Encontramos o Messias (<i>Εὑρήκαμεν τὸν Μεσσίαν - Heurēkamen ton Messian</i>):</b> *Messias* é a transliteração grega direta do hebraico *Mashiach* (&quot;o Ungido&quot;), ocorrendo apenas aqui e em João 4:25 em todo o Novo Testamento. O narrador traduz para seus leitores de fala grega como *Christos*.</li>
+<li id="n1-42"><a class="volta" href="#v1-42">v. 42</a> <b>Cefas... Pedro (<i>Κηφᾶς ... Πέτρος - Kēphas ... Petros</i>):</b> *Kêfâ* é o termo aramaico para &quot;rocha&quot; ou &quot;pedra&quot;, traduzido para o grego como *Petros*. A mudança de nome na cultura semítica denota uma transformação de identidade, vocação e destino conferida soberanamente por Deus (como Abrão para Abraão, Jacó para Israel).</li>
+<li id="n1-43"><a class="volta" href="#v1-43">v. 43</a> <b>Siga-me (<i>Ἀκολούθει μοι - Akolouthei moi</i>):</b> Imperativo presente ativo, demandando uma decisão contínua, ativa e incondicional de lealdade e caminhada em comunhão com o Mestre.</li>
+<li id="n1-44"><a class="volta" href="#v1-44">v. 44</a> <b>Betsaida (<i>Βηθσαϊδά - Bēthsaida</i>):</b> Do aramaico *Bet-Tsaida* (&quot;Casa da Pesca&quot;), vila de pescadores situada na margem norte do Mar da Galileia.</li>
+<li id="n1-45"><a class="volta" href="#v1-45">v. 45</a> <b>Natanael (<i>Ναθαναὴλ - Nathanaēl</i>):</b> Significa em hebraico &quot;Presente de Deus&quot; ou &quot;Deus deu&quot;. Identificado comumente com o apóstolo Bartolomeu (&quot;filho de Tolmai&quot;) nos evangelhos sinóticos.</li>
+<li><a class="volta" href="#v1-45">v. 45</a> <b>Moisés na Lei e os profetas (<i>Μωϋσῆς ἐν τῷ νόμῳ καὶ οἱ προφῆται - Mōusēs en tō nomō kai hoi prophētai</i>):</b> A designação judaica clássica das Escrituras Hebraicas (o *Tanakh*), enfatizando que Jesus é a consumação de todo o cânon sagrado.</li>
+<li id="n1-46"><a class="volta" href="#v1-46">v. 46</a> <b>De Nazaré pode sair algo de bom? (<i>Ἐκ Ναζαρὲτ δύναταί τι ἀγαθὸν εἶναι - Ek Nazaret dynatai ti agathon einai</i>):</b> Nazaré era uma pequena e humilde aldeia galileia sem menção no Antigo Testamento nem no Talmude, e Natanael (sendo de Caná da Galileia, cf. Jo 21:2) expressava a rivalidade e o desdém regional comum da época.</li>
+<li><a class="volta" href="#v1-46">v. 46</a> <b>Venha e veja (<i>Ἔρχου καὶ ἴδε - Erchou kai ide</i>):</b> Filipe repete o método de Jesus (v. 39), demonstrando que o ceticismo intelectual é superado pelo encontro existencial com Cristo.</li>
+<li id="n1-47"><a class="volta" href="#v1-47">v. 47</a> <b>um verdadeiro israelita em quem não há engano (<i>ἀληθῶς Ἰσραηλίτης ἐν ᾧ δόλος οὐκ ἔστιν - alēthōs Israēlitēs en hō dolos ouk estin</i>):</b> Alusão ao patriarca Jacó (que deu origem a Israel), conhecido originalmente por sua astúcia e engano (*dolos*, ao enganar seu pai Isaque para obter a bênção em Gn 27:35). Jesus saúda Natanael como um homem íntegro e sincero que personifica o verdadeiro Israel sem duplicidade de espírito.</li>
+<li id="n1-48"><a class="volta" href="#v1-48">v. 48</a> <b>debaixo da figueira (<i>ὑπὸ τὴν συκῆν - hypo tēn sykēn</i>):</b> Na literatura rabínica, estar &quot;debaixo da figueira&quot; era uma expressão idiomática e prática devocional comum para o estudo e a meditação piedosa das Escrituras e da Lei (*Torá*), além de símbolo profético de paz e segurança messiânica (cf. Mq 4:4; Zc 3:10). A onisciência sobrenatural de Jesus penetrou o santuário secreto de oração de Natanael.</li>
+<li id="n1-49"><a class="volta" href="#v1-49">v. 49</a> <b>Filho de Deus... Rei de Israel (<i>ὁ υἱὸς τοῦ θεοῦ ... βασιλεὺς τοῦ Ἰσραήλ - ho huios tou theou ... basileus tou Israēl</i>):</b> Confissão messiânica pactual baseada no Salmo 2:6-7 (&quot;Tu és meu Filho... ungir o meu Rei sobre Sião&quot;). Natanael reconhece instantaneamente a dignidade régia e divina de Jesus.</li>
+<li id="n1-50"><a class="volta" href="#v1-50">v. 50</a> <b>você verá coisas maiores do que estas (<i>μείζω τούτων ὄψῃ - meizō toutōn opsē</i>):</b> Promessa que inaugura a progressão de revelações e milagres portentosos (*sēmeia*) que se desenrolarão ao longo do Evangelho.</li>
+<li id="n1-51"><a class="volta" href="#v1-51">v. 51</a> <b>Em verdade, em verdade lhes digo (<i>Ἀμὴν ἀμὴν λέγω ὑμῖν - Amēn amēn legō hymin</i>):</b> A fórmula do duplo *Amém* é exclusiva de Jesus no Evangelho de João (ocorre 25 vezes), introduzindo revelações de máxima solenidade e autoridade divina inquestionável. Note que o pronome passa para o plural (*hymin* - &quot;a todos vocês&quot;), ampliando a promessa a todos os discípulos.</li>
+<li><a class="volta" href="#v1-51">v. 51</a> <b>os anjos de Deus subindo e descendo (<i>τοὺς ἀγγέλους τοῦ θεοῦ ἀναβαίνοντας καὶ καταβαίνοντας - tous angelous tou theou anabainontas kai katabainontas</i>):</b> Alusão direta à visão do patriarca Jacó em Betel (Gn 28:12 — a &quot;Escada de Jacó&quot;). Jesus declara que Ele próprio é a ponte viva e a escada cósmica que conecta definitivamente a Terra ao Céu, reconciliando a humanidade com Deus.</li>
+<li><a class="volta" href="#v1-51">v. 51</a> <b>o Filho do Homem (<i>τὸν υἱὸν τοῦ ἀνθρώπου - ton huion tou anthrōpou</i>):</b> O título predileto de Jesus para Si mesmo, derivado da visão messiânica celestial de Daniel 7:13-14, associando Sua identidade à figura gloriosa, celestial e investida de autoridade eterna sobre todas as nações.</li>
+</ol>
+</main>
