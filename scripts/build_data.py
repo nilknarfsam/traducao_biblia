@@ -41,6 +41,7 @@ VERSION_LICENSE_URL = "https://creativecommons.org/licenses/by-sa/4.0/deed.pt-br
 PARAGRAPH_BREAKS = {
     "JHN.1": [5, 8, 13, 14, 18, 28, 34, 42, 51],
     "JHN.2": [5, 11, 12, 17, 22, 25],
+    "JHN.3": [2, 8, 15, 21, 24, 30, 36],
 }
 
 # Marcadores de locutor na Tradução Fluente Autoral (ver guia_traducao.md, R11).
