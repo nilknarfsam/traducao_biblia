@@ -1,3 +1,12 @@
+<!-- organizacao-github:inicio -->
+> [!NOTE]
+> **📌 Organização do GitHub (22/10/2026): ✅ MANTER (vitrine)**
+>
+> TKC, projeto autoral forte. Fixar no perfil.
+>
+> _Nota temporária do Claude. Some quando a organização terminar._
+<!-- organizacao-github:fim -->
+
 # Tradução Koiné Contemporânea (TKC)
 
 Tradução autoral do Novo Testamento a partir dos textos críticos em Grego Koiné
